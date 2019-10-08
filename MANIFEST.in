@@ -1,0 +1,4 @@
+include *.rst *.txt
+recursive-include tests *.txt *.py *.edf
+recursive-include examples *.py 
+

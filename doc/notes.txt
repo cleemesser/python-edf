@@ -1,0 +1,18 @@
+So far
+------
+- edflib.[ch] compile. Thank you Teunis!
+- start doing tests from cpython, can open sample 
+- create list of constants in edf.pxi
+- use gccxml and xml2cython to get an initial template for _edflib.pxd
+  * looks like most functions and structs are wrapped
+- got compilation going with direct linkage of edflib.o under windows 7 + VC9
+  (see setup-win64.py)
+
+
+- it is possible to build python 2.7 extensions with setupegg.py develop and MS compiler free release for python2.7  on windows (autodetected!) 2016-05
+To do
+-----
+- start on low-level interface to functions
+- probably will start with a single buffer, allocated and reallocated as needed to pass the data in as physical measurements via numpy array
+- will leave open lower level interface to underlying data
+- accessors for patient information

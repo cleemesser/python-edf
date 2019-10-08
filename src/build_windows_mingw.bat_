@@ -1,0 +1,8 @@
+gcc main.c edflib.c -Wall -s -o2 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -o test_edflib.exe
+
+gcc sweep.c edflib.c -Wall -s -o2 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -o sweep.exe
+
+gcc sine.c edflib.c -Wall -s -o2 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -lm -o sine.exe
+
+gcc test_generator.c edflib.c -Wall -s -o2 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -lm -o testgenerator.exe
+

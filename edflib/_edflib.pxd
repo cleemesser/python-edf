@@ -4,6 +4,7 @@ include "edf.pxi"
 cdef extern from "edflib.h":
     int edf_set_patientcode(int, char *)
     int edfwrite_annotation_latin1(int, long long int, long long int, char *)
+    int edfwrite_annotation_utf8(int handle, long long onset, long long duration, const char *description)
     int edflib_version()
     cdef struct edf_annotation_struct:
         long long int onset
@@ -68,6 +69,7 @@ cdef extern from "edflib.h":
     int edf_set_birthdate(int, int, int, int)
     int edf_set_digital_minimum(int, int, int)
     int edfwrite_digital_samples(int, int *)
+    int edfwrite_digital_short_samples(int handle, short *buf)
     int edf_set_equipment(int, char *)
     int edf_set_samplefrequency(int, int, int)
     int edf_set_admincode(int, char *)
@@ -82,11 +84,12 @@ cdef extern from "edflib.h":
     long long int edfseek(int, int, long long int, int)
     int edf_set_startdatetime(int, int, int, int, int, int, int)
     int edf_set_datarecord_duration(int, int)
-
+    int edf_set_number_of_annotation_signals(int handle, int annot_signals)
+    
     # new functions in 1.10
     int edflib_is_file_used(const char *)
     int edflib_get_number_of_open_files()
     int edflib_get_handle(int)
-    int edfwrite_digital_short_samples(int , short *)
+    int edf_write_digital_short_samples(int , short *)
     int edf_blockwrite_digital_short_samples(int, short *)
     int edf_blockwrite_digital_3byte_samples(int , void *)

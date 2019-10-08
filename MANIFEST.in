@@ -1,4 +1,4 @@
 include *.rst *.txt
 recursive-include tests *.txt *.py *.edf
 recursive-include examples *.py 
-
+recursive-include src *.c *.h *.sh LICENSE Makefile

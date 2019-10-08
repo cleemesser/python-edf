@@ -10,6 +10,24 @@ So far
 
 
 - it is possible to build python 2.7 extensions with setupegg.py develop and MS compiler free release for python2.7  on windows (autodetected!) 2016-05
+
+How to distribute
+-----------------
+- see https://packaging.python.org/
+# binary wheels build
+python setup.py bdist_wheel
+
+# upload using twine
+- first setup ~/.pypirc correctly
+
+# as of 2018-09-30 still using legacy upload
+
+# test upload
+twine upload -r legacypypitest dist/*
+
+# if looks ok then upload to real pypi
+twine upload -r legacypypi dist/*
+
 To do
 -----
 - start on low-level interface to functions

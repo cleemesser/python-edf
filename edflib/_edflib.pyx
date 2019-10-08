@@ -36,25 +36,25 @@ open_errors = {
     EDFLIB_NUMBER_OF_SIGNALS_INVALID   : "The number of signals is invalid",
     EDFLIB_FILE_IS_DISCONTINUOUS       : "The file is discontinous and cannot be read",
     EDFLIB_INVALID_READ_ANNOTS_VALUE   : "an annotation value could not be read",
-    EDFLIB_FILE_ERRORS_STARTDATE      : "the file is not EDF(+) or BDF(+) compliant (startdate)",
-    EDFLIB_FILE_ERRORS_STARTTIME      : "the file is not EDF(+) or BDF(+) compliant (starttime)",
-    EDFLIB_FILE_ERRORS_NUMBER_SIGNALS : "the file is not EDF(+) or BDF(+) compliant (number of signals)",
-    EDFLIB_FILE_ERRORS_BYTES_HEADER   : "the file is not EDF(+) or BDF(+) compliant (Bytes Header)",
-    EDFLIB_FILE_ERRORS_RESERVED_FIELD : "the file is not EDF(+) or BDF(+) compliant (Reserved field)",
-    EDFLIB_FILE_ERRORS_NUMBER_DATARECORDS : "the file is not EDF(+) or BDF(+) compliant (Number of Datarecords)",
-    EDFLIB_FILE_ERRORS_DURATION : "the file is not EDF(+) or BDF(+) compliant (Duration)",
-    EDFLIB_FILE_ERRORS_LABEL : "the file is not EDF(+) or BDF(+) compliant (Label)",
-    EDFLIB_FILE_ERRORS_TRANSDUCER : "the file is not EDF(+) or BDF(+) compliant (Transducer)",
-    EDFLIB_FILE_ERRORS_PHYS_DIMENSION : "the file is not EDF(+) or BDF(+) compliant (Physical Dimension)",
-    EDFLIB_FILE_ERRORS_PHYS_MAX : "the file is not EDF(+) or BDF(+) compliant (Physical Maximum)",
-    EDFLIB_FILE_ERRORS_PHYS_MIN : "the file is not EDF(+) or BDF(+) compliant (Physical Minimum)",
-    EDFLIB_FILE_ERRORS_DIG_MAX : "the file is not EDF(+) or BDF(+) compliant (Digital Maximum)",
-    EDFLIB_FILE_ERRORS_DIG_MIN : "the file is not EDF(+) or BDF(+) compliant (Digital Minimum)",
-    EDFLIB_FILE_ERRORS_PREFILTER : "the file is not EDF(+) or BDF(+) compliant (Prefilter)",
-    EDFLIB_FILE_ERRORS_SAMPLES_DATARECORD : "the file is not EDF(+) or BDF(+) compliant (Sample in Datarecord)",
-    EDFLIB_FILE_ERRORS_FILESIZE : "the file is not EDF(+) or BDF(+) compliant (Filesize)",
-    EDFLIB_FILE_ERRORS_RECORDINGFIELD : "the file is not EDF(+) or BDF(+) compliant (EDF+ Recordingfield)",
-    EDFLIB_FILE_ERRORS_PATIENTNAME : "the file is not EDF(+) or BDF(+) compliant (EDF+ Patientname)",
+#    EDFLIB_FILE_ERRORS_STARTDATE      : "the file is not EDF(+) or BDF(+) compliant (startdate)",
+#    EDFLIB_FILE_ERRORS_STARTTIME      : "the file is not EDF(+) or BDF(+) compliant (starttime)",
+#    EDFLIB_FILE_ERRORS_NUMBER_SIGNALS : "the file is not EDF(+) or BDF(+) compliant (number of signals)",
+#    EDFLIB_FILE_ERRORS_BYTES_HEADER   : "the file is not EDF(+) or BDF(+) compliant (Bytes Header)",
+#    EDFLIB_FILE_ERRORS_RESERVED_FIELD : "the file is not EDF(+) or BDF(+) compliant (Reserved field)",
+#    EDFLIB_FILE_ERRORS_NUMBER_DATARECORDS : "the file is not EDF(+) or BDF(+) compliant (Number of Datarecords)",
+#    EDFLIB_FILE_ERRORS_DURATION : "the file is not EDF(+) or BDF(+) compliant (Duration)",
+#    EDFLIB_FILE_ERRORS_LABEL : "the file is not EDF(+) or BDF(+) compliant (Label)",
+#    EDFLIB_FILE_ERRORS_TRANSDUCER : "the file is not EDF(+) or BDF(+) compliant (Transducer)",
+#    EDFLIB_FILE_ERRORS_PHYS_DIMENSION : "the file is not EDF(+) or BDF(+) compliant (Physical Dimension)",
+#    EDFLIB_FILE_ERRORS_PHYS_MAX : "the file is not EDF(+) or BDF(+) compliant (Physical Maximum)",
+#    EDFLIB_FILE_ERRORS_PHYS_MIN : "the file is not EDF(+) or BDF(+) compliant (Physical Minimum)",
+#    EDFLIB_FILE_ERRORS_DIG_MAX : "the file is not EDF(+) or BDF(+) compliant (Digital Maximum)",
+#    EDFLIB_FILE_ERRORS_DIG_MIN : "the file is not EDF(+) or BDF(+) compliant (Digital Minimum)",
+#    EDFLIB_FILE_ERRORS_PREFILTER : "the file is not EDF(+) or BDF(+) compliant (Prefilter)",
+#    EDFLIB_FILE_ERRORS_SAMPLES_DATARECORD : "the file is not EDF(+) or BDF(+) compliant (Sample in Datarecord)",
+#    EDFLIB_FILE_ERRORS_FILESIZE : "the file is not EDF(+) or BDF(+) compliant (Filesize)",
+#    EDFLIB_FILE_ERRORS_RECORDINGFIELD : "the file is not EDF(+) or BDF(+) compliant (EDF+ Recordingfield)",
+#    EDFLIB_FILE_ERRORS_PATIENTNAME : "the file is not EDF(+) or BDF(+) compliant (EDF+ Patientname)",
     'default' : "unknown error"
     }
 
@@ -455,6 +455,10 @@ cpdef set_patientcode(int handle, char *patientcode):
 cpdef int write_annotation_latin1(int handle, long long onset, long long duration, char *description):
         return edfwrite_annotation_latin1(handle, onset, duration, description)
 
+cpdef int write_annotation_utf8(int handle, long long onset, long long duration, char *description):
+    """int edfwrite_annotation_utf8(int handle, long long onset, long long duration, const char *description)"""
+    return edfwrite_annotation_utf8(handle, onset, duration, description)
+
 
 cpdef int set_technician(int handle, char *technician):
     return edf_set_technician(handle, technician)
@@ -486,8 +490,13 @@ cpdef read_int_samples(int handle, int edfsignal, int n, np.ndarray[np.int32_t,n
     return edfread_digital_samples(handle, edfsignal, n,<int*>buf.data)
 
 
-cpdef int blockwrite_digital_samples(int handle, np.ndarray[np.int16_t,ndim=1] buf):
+cpdef int blockwrite_digital_samples(int handle, np.ndarray[np.int32_t,ndim=1] buf):
+    """int edf_blockwrite_digital_samples(int handle, int *buf)"""
     return edf_blockwrite_digital_samples(handle, <int*>buf.data)
+
+cpdef int blockwrite_digital_short_samples(int handle, np.ndarray[np.int16_t,ndim=1] buf):
+    """int edf_blockwrite_digital_short_samples(int handle, short *buf)"""
+    return edf_blockwrite_digital_short_samples(handle, <short*>buf.data)
 
 cpdef int blockwrite_physical_samples(int handle, np.ndarray[np.float64_t,ndim=1] buf):
     return edf_blockwrite_physical_samples(handle, <double*>buf.data)
@@ -542,8 +551,14 @@ def set_digital_minimum(handle, edfsignal, dig_min):
     return edf_set_digital_minimum(handle,  edfsignal, dig_min)
 
 def write_digital_samples(handle, np.ndarray[np.int32_t] buf):
-    """write_digital_samples(int handle, np.ndarray[np.int32_t] buf)"""
+    """write_digital_samples(int handle, np.ndarray[np.int32_t] buf)
+    call to 
+    int edfwrite_digital_samples(int handle, int *buf)"""
     return edfwrite_digital_samples(handle, <int*>buf.data)
+
+def write_digital_short_samples(handle, np.ndarray[np.int16_t] buf):
+    """int edfwrite_digital_short_samples(int handle, short *buf)"""
+    return edfwrite_digital_short_samples(handle, <short*>buf.data)
 
 def set_equipment(handle, equipment):
     """int edf_set_equipment(int handle, const char *equipment)"""
@@ -561,7 +576,10 @@ def set_label(handle, edfsignal, label):
     """int edf_set_label(int handle, int edfsignal, const char *label)"""
     return edf_set_label(handle, edfsignal, label)
 
-
+def set_number_of_annotation_signals(handle, annot_signals):
+    """int edf_set_number_of_annotation_signals(int handle, int annot_signals)"""
+    return edf_set_number_of_annotation_signals(handle, annot_signals)
+    
 #FIXME need to make sure this gives the proper values for large values
 def tell(handle, edfsignal):
     """long long edftell(int handle, int edfsignal)"""

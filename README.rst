@@ -20,7 +20,7 @@ Authors/Contributors
 --------------------
  * Chris Lee-Messer
  * Sharif Olorin <sio@tesser.org>
-
+ * backports from https://github.com/holgern/pyedflib
 
 Status
 ------
@@ -42,6 +42,8 @@ I continue to make it available in the hopes that it may be useful for others. A
 I need to use it, I may continue to improve and update it, but I can make no
 promises.
 
+
+
 python 3 compatibility
 ----------------------
 The package is now compatible with python 3. The distinction between bytes and strings is now clear. For clarity all the cython and C code uses bytes only. The python code deals with decoding and encoding to either ascii or UTF-8 (for annotations) as described in the spec. In addition, I will accept UTF-8 on reading though it is outside of spec.
@@ -50,8 +52,15 @@ Functions and properties with an 'underscore b' (_b) deal with bytes representat
 
 The goal is such that one can always get full access to the raw C functions and bytes from python, but provide pleasant to use python interfaces via the reader and writer classes.
 
+Related Projects
+----------------
+* `pyedf is a fork of this project with some nice work and documentation <https://github.com/holgern/pyedflib>`_.
+* Robert Oostenveld wrote `bids-standard/pyedf <https://github.com/bids-standard/pyedf>`_, which is a pure python implementation of the standard.
+
 Change list
 -----------
+2018-10-08 created mirror of code on github at https://github.com/cleemesser/python-edf
+2018-10-08 added wraps for writing shorts, bump edflib version to 116
 2018-02-15 noted that edflib.h not included in source package added to extension file list for 0.74
 2017-03-22 added bitbucket-piplines.yml and got integration tests running 
 2017-03-22 update properties to modern (python 3) syntax in _edflib. Make distinction clear. Add tests.
@@ -74,3 +83,5 @@ Todo:
    - [ ] add new functions from version 1.10 of edflibX
    - [ ] update cython interface to use typed memory views(???)
    - [x] set up continuous build/integration if possible - done on bitbucket for py 3.5
+   - [ ] incorporate edflib code for utf-8 and short (int16) vs int (int32) digital writes
+   - [x] create mirror on github 

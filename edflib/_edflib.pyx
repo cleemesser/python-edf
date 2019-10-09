@@ -106,10 +106,11 @@ cdef class CyEdfReader:
     from here unless I add a raw interface or something
 
     EDF/BDF+ files are arranged into N signals sampled at rate Fs. The data is 
-    actually stored in chunks called  "datarecords" which have a file specific size.
+    actually stored in chunks called  "datarecords" which have a file specific size
+    (often 1 second chunks).
 
     A typical way to use this to read an EEG file would be to choose a certain
-    number of seconds per page to display. Then figureout how many data records
+    number of seconds per page to display. Then figure out how many data records
     that is. Then read in that many data records at a time. Transform the data as
     needed according the montage and filter settings, then display the data.
 
@@ -839,7 +840,7 @@ class EdfWriter(object):
             set_gender(self.handle, 1)
 
         set_datarecord_duration(self.handle, self.duration)
-        # need to define this
+        
         set_number_of_annotation_signals(self.handle, self.number_of_annotations)
         set_startdatetime(self.handle, self.recording_start_time.year, self.recording_start_time.month,
                           self.recording_start_time.day, self.recording_start_time.hour,
@@ -863,7 +864,7 @@ class EdfWriter(object):
 
     def setHeader(self, fileHeader):
         """
-        Sets the file header
+        Sets the file header based upon dictionary-like paramters in @fileHeader
         """
         self.technician = fileHeader["technician"]
         self.recording_additional = fileHeader["recording_additional"]
@@ -1290,9 +1291,12 @@ class EdfWriter(object):
         return write_physical_samples(self.handle, data)
 
     def writeDigitalSamples(self, data):
+        """writes int32 data to the file
+        need to determine how this is set"""
         return write_digital_samples(self.handle, data)
 
     def writeDigitalShortSamples(self, data):
+        """write int16 data"""
         return write_digital_short_samples(self.handle, data)
 
     def blockWritePhysicalSamples(self, data):
@@ -1301,11 +1305,13 @@ class EdfWriter(object):
         must be filled with samples from all signals
         where each signal has n samples which is the samplefrequency of the signal.
 
+        @data must be be an float64 array with shape (nchan, samples_per_datarecord)
+
         data_vec belonging to one signal. The size must be the samplefrequency of the signal.
 
         Notes
         -----
-        buf must be filled with samples from all signals, starting with signal 0, 1, 2, etc.
+        data buf must be filled with samples from all signals, starting with signal 0, 1, 2, etc.
         one block equals one second
         The physical samples will be converted to digital samples using the
         values of physical maximum, physical minimum, digital maximum and digital minimum
@@ -1318,9 +1324,14 @@ class EdfWriter(object):
         return blockwrite_physical_samples(self.handle, data)
 
     def blockWriteDigitalSamples(self, data):
+        """@data is int32 array 
+        I think with shape (nchan, num_samples_per_datarecord)"""
         return blockwrite_digital_samples(self.handle, data)
 
     def blockWriteDigitalShortSamples(self, data):
+        """@data is int16 array 
+        I think with shape (nchan, num_samples_per_datarecord)"""
+
         return blockwrite_digital_short_samples(self.handle, data)
 
     def writeSamples(self, data_list, digital = False):

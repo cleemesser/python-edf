@@ -3,6 +3,7 @@ import setuptools
 from distutils.core import setup
 from distutils.extension import Extension
 from Cython.Distutils import build_ext
+from Cython.Build import cythonize
 
 import sys
 import numpy
@@ -41,6 +42,8 @@ ext_modules_edflib = Extension(
     # depends =
 )
 
+
+
 setup(
     name='edflib',
     version='0.8',
@@ -48,8 +51,8 @@ setup(
     author="""Chris Lee-Messer""",
     url="http://bitbucket.org/cleemesser/python-edf",
     download_url="http://bitbucket.org/cleemesser/python-edf/downloads",
-    cmdclass={'build_ext': build_ext},
-    ext_modules=[ext_modules_edflib],
+    # cmdclass={'build_ext': build_ext},
+    ext_modules=cythonize([ext_modules_edflib]),
     packages=["edflib"],
     classifiers=[
         'Intended Audience :: Science/Research',

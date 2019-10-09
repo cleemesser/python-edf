@@ -1,4 +1,7 @@
 include *.rst *.txt
-recursive-include tests *.txt *.py *.edf
 recursive-include examples *.py 
 recursive-include src *.c *.h *.sh LICENSE Makefile
+recursive-include tests *.txt *.py 
+prune tests/files
+exclude tests/*.edf
+

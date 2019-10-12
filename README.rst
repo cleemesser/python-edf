@@ -83,5 +83,6 @@ Todo:
    - [ ] add new functions from version 1.10 of edflibX
    - [ ] update cython interface to use typed memory views(???)
    - [x] set up continuous build/integration if possible - done on bitbucket for py 3.5
-   - [ ] incorporate edflib code for utf-8 and short (int16) vs int (int32) digital writes
+   - [x] incorporate edflib code for utf-8 and short (int16) vs int (int32) digital writes
+   - [ ] test edflib code for utf-8 and short (int16) vs int (int32) digital writes
    - [x] create mirror on github 

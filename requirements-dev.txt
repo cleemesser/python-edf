@@ -1,3 +1,6 @@
-cython
+# packages required for doing development
+cython >= 0.29
 setuptools
 pytest
+future
+numpy

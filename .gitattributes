@@ -1,3 +1,6 @@
-*.edf filter=lfs diff=lfs merge=lfs -binary
-*.gif filter=lfs diff=lfs merge=lfs -binary
-*.bdf filter=lfs diff=lfs merge=lfs -binary
+#*.edf filter=lfs diff=lfs merge=lfs -binary
+#*.gif filter=lfs diff=lfs merge=lfs -binary
+#*.bdf filter=lfs diff=lfs merge=lfs -binary
+*.edf -binary
+*.gif -binary
+*.bdf -binary

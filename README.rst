@@ -33,7 +33,7 @@ through tens of thousands of edf files.
 It still more needs tests, more refractoring to make a
 real pythonic api before heading to towards a polished package. 
 
-I am currently updating edfwriter for 0.7 as I will be needing to use this functionality again.
+I am currently updating edfwriter for 0.8 as I will be needing to use this functionality again.
 
 edfreader - now has tests - needs more
 edfwriter likely needs re-writing

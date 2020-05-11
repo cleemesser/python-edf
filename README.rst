@@ -59,6 +59,7 @@ Related Projects
 
 Change list
 -----------
+2020-05-11 0.81 transition to github given sunsetting of mercurial support on bithbucket
 2018-10-08 created mirror of code on github at https://github.com/cleemesser/python-edf
 2018-10-08 added wraps for writing shorts, bump edflib version to 116
 2018-02-15 noted that edflib.h not included in source package added to extension file list for 0.74

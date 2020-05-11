@@ -46,14 +46,14 @@ ext_modules_edflib = Extension(
 
 setup(
     name='edflib',
-    version='0.8',
+    version='0.81',
     description="""python edflib is a python package ot allow access to European Data Format files (EDF for short). This is a standard for biological signals such as EEG, evoked potentials and EMG.  This module wraps Teunis van Beelen's edflib.""",
     author="""Chris Lee-Messer""",
-    url="http://bitbucket.org/cleemesser/python-edf",
-    download_url="http://bitbucket.org/cleemesser/python-edf/downloads",
+    url=r"https://github.com/cleemesser/python-edf",
+    download_url=r"https://github.com/cleemesser/python-edf/releases",
     # cmdclass={'build_ext': build_ext},
     ext_modules=cythonize([ext_modules_edflib]),
-    packages=["edflib"],
+    packages=["edflib"],   # setuptools.find_packages()
     classifiers=[
         'Intended Audience :: Science/Research',
         'License :: OSI Approved :: BSD License',
@@ -61,5 +61,5 @@ setup(
         'Development Status :: 4 - Beta'],
     # package_data={}
     # data_files=[],
-    # scripts = [],
+    # scripts = [],  # python_requires='>=3.5' or include  2.7?
 )

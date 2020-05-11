@@ -59,6 +59,7 @@ Related Projects
 
 Change list
 -----------
+2020-05-11 0.82 fix missing edf.pxi file in MANIFEST.in
 2020-05-11 0.81 transition to github given sunsetting of mercurial support on bithbucket
 2018-10-08 created mirror of code on github at https://github.com/cleemesser/python-edf
 2018-10-08 added wraps for writing shorts, bump edflib version to 116
@@ -87,3 +88,4 @@ Todo:
    - [x] incorporate edflib code for utf-8 and short (int16) vs int (int32) digital writes
    - [ ] test edflib code for utf-8 and short (int16) vs int (int32) digital writes
    - [x] create mirror on github 
+   - [ ] investigate manylinux solution to wheels. [PEP 513](https://www.python.org/dev/peps/pep-0513/) and 

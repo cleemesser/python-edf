@@ -46,7 +46,7 @@ ext_modules_edflib = Extension(
 
 setup(
     name='edflib',
-    version='0.81',
+    version='0.82',
     description="""python edflib is a python package ot allow access to European Data Format files (EDF for short). This is a standard for biological signals such as EEG, evoked potentials and EMG.  This module wraps Teunis van Beelen's edflib.""",
     author="""Chris Lee-Messer""",
     url=r"https://github.com/cleemesser/python-edf",

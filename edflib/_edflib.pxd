@@ -1,3 +1,4 @@
+#cython: language_level=3
 # get constants
 include "edf.pxi"
 

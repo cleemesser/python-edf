@@ -1,12 +1,9 @@
+#cython: language_level=3
 """currently everything defined in this cython file uses bytes for characters
 (these are the str type in python 2.7)
 
 EDF requires 7-bit ascii 
 EDF+ allows only us-ascii in the header (values 32..126), the TAL annotions may contain unicode in UTF-8
-
- 
-
-
 
 see http://www.edfplus.info/specs/edfplus.html
 

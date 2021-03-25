@@ -42,15 +42,38 @@ I continue to make it available in the hopes that it may be useful for others. A
 I need to use it, I may continue to improve and update it, but I can make no
 promises.
 
+installation
+------------
+the most reliable way to install edflib currently is to download the source (or git clone it).
+After unpacking the source, from the command line change to the directory::
 
+  python setup.py install
+
+Or, if you are doing development, you can do::
+
+  python setup.py develop
+
+This requires a working C compiler on your machine.
+
+Previously, I had made wheels to allow for simple pip installs, but changes in packaging seems to have broken these.
+  
 
 python 3 compatibility
 ----------------------
-The package is now compatible with python 3. The distinction between bytes and strings is now clear. For clarity all the cython and C code uses bytes only. The python code deals with decoding and encoding to either ascii or UTF-8 (for annotations) as described in the spec. In addition, I will accept UTF-8 on reading though it is outside of spec.
 
-Functions and properties with an 'underscore b' (_b) deal with bytes representation, while unadorned python functions return native python strings or numbers.
+The package is now compatible with python 3. The distinction between bytes and
+strings is now clear. For clarity all the cython and C code uses bytes only. The
+python code deals with decoding and encoding to either ascii or UTF-8 (for
+annotations) as described in the spec. In addition, I will accept UTF-8 on
+reading though it is outside of spec.
 
-The goal is such that one can always get full access to the raw C functions and bytes from python, but provide pleasant to use python interfaces via the reader and writer classes.
+Functions and properties with an 'underscore b' (_b) deal with bytes
+representation, while unadorned python functions return native python strings or
+numbers.
+
+The goal is such that one can always get full access to the raw C functions and
+bytes from python, but provide pleasant to use python interfaces via the reader
+and writer classes.
 
 Related Projects
 ----------------
@@ -71,6 +94,12 @@ Change list
 
 packaging
 ---------
+Some combination of updates to numpy, pip, and cython seem to have broken the packaging such that::
+  pip install edflib
+
+Is no longer working. This is a TODO.
+
+
 To upload to pypi::
     python setup.py sdist upload -r pypi
 
@@ -83,9 +112,11 @@ Todo:
    - [/] test, tests, tests !!!
    - [x] inital port to python 3 (tested with 3.5)
    - [ ] add new functions from version 1.10 of edflibX
-   - [ ] update cython interface to use typed memory views(???)
-   - [x] set up continuous build/integration if possible - done on bitbucket for py 3.5
+   - [ ] update cython interface to use typed memory views. This will be required for cython 3.0
+   - [x] set up continuous build/integration if possible - done on bitbucket for py 3.5 but not yet for github
    - [x] incorporate edflib code for utf-8 and short (int16) vs int (int32) digital writes
    - [ ] test edflib code for utf-8 and short (int16) vs int (int32) digital writes
    - [x] create mirror on github 
-   - [ ] investigate manylinux solution to wheels. [PEP 513](https://www.python.org/dev/peps/pep-0513/) and 
+   - [ ] investigate manylinux solution to wheels. [PEP 513](https://www.python.org/dev/peps/pep-0513/) and
+   - [ ] fix python packaging problems so that pip installs work again
+  

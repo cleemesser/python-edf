@@ -2,4 +2,5 @@
 setuptools
 future
 numpy>=1.20.0
-
+arrow
+python-dateutil

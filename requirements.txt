@@ -1,5 +1,5 @@
 # cython # >= 0.29
 setuptools
 future
-numpy
+numpy>=1.20.0
 

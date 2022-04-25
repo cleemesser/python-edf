@@ -1,6 +1,26 @@
-This directory contains code to wrap Teunis van Beelen's edflib for python.
+This directory contains work on libraries to access European Data Format files (EDF, EDF+, maybe ?BDF+)
+which are commonly use to hold EEG, EMG and sleep PSG recordings
+
+The original work focused on code to wrap Teunis van Beelen's edflib for python.
+This is useful and has been further developed in the pyedflib library.
+
+I am now working on versions in the "mmap" branch which focus on using mmap to make it so the files can be opened quickly and accessed from disk using virtual memory wihtout reading the whole thing into memory.
+- I am doing this slowly in the edfmm directory
+
+Older text:
 
 It provides access to EDF files, the european data format---commonly used for EEG and other biosignal recordings.
+
+basic install from source
+------------------------
+- in your desired python environemnt run
+...
+    python setup.py install
+
+OR if you are getting the "numpy.ndarray size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject" error do 
+...
+    pip install . --no-build-isolation
+
 
 python-edf/
    src/  -> holds the a version of edflib from Teunis's web site

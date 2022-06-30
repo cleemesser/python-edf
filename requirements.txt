@@ -1,4 +1,4 @@
-# cython # >= 0.29
+# cython>=0.29.30,<3.0 # needed for build  # >= 0.29 #
 setuptools
 future
 numpy

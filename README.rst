@@ -106,8 +106,9 @@ On ubuntu 20.04 with gcc installed:
   pip install edflib  # works to install edflib 0.84.0 from source distribution
 
 To upload to pypi::
-    python setup.py sdist
-    twine upload -r legacypypi dist/*
+  
+  python setup.py sdist
+  twine upload -r legacypypi dist/*
 
 Todo:
 -----

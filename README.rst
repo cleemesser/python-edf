@@ -50,6 +50,7 @@ After unpacking the source, from the command line change to the directory::
   python setup.py install
 
 Or, if you are doing development, you can do::
+
   pip install -r requirements-dev.txt
   python setup.py develop
 

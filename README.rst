@@ -55,19 +55,7 @@ Or, if you are doing development, you can do::
 
 This requires a working C compiler on your machine as well as the other build requirements such as cython, setuptools and numpy.
 
-Previously, I had made wheels to allow for simple pip installs, but changes in packaging seems to have broken these. I will see if the manylinux ppa project can help with this.
 
-I am currently working on using setuptools and the pyproject.toml file to make it so that you can at least do a pip install of the source distribution.
-
-Install/Packing Status:
-
-On ubuntu 20.04 with gcc installed:
-- pip install <path-to-cloned-git-repo>   # works with setuptools branch 
-
-- with pip 21.2.2  python=3.7; pip 21.2.4 python=3.8, python=3.9, python=3.10
-
-  pip install edflib  # works to install edflib 0.84.0 from source distribution
-  
 
 python 3 compatibility
 ----------------------
@@ -90,6 +78,7 @@ Related Projects
 ----------------
 * `pyedf is a fork of this project with some nice work and documentation <https://github.com/holgern/pyedflib>`_.
 * Robert Oostenveld wrote `bids-standard/pyedf <https://github.com/bids-standard/pyedf>`_, which is a pure python implementation of the standard.
+* Teuniz wrote his own python library as well at https://gitlab.com/Teuniz/EDFlib-Python
 
 Change list
 -----------
@@ -105,14 +94,20 @@ Change list
 
 packaging
 ---------
-Some combination of updates to numpy, pip, and cython seem to have broken the packaging such that::
-  pip install edflib
+I am currently working on using setuptools and the pyproject.toml file to make it so that you can at least do a pip install of the source distribution.
 
-Is no longer working. This is a TODO.
+Install/Packing Status:
 
+On ubuntu 20.04 with gcc installed:
+- pip install <path-to-cloned-git-repo>   # works with setuptools branch 
+
+- with pip 21.2.2  python=3.7; pip 21.2.4 python=3.8, python=3.9, python=3.10
+
+  pip install edflib  # works to install edflib 0.84.0 from source distribution
 
 To upload to pypi::
-    python setup.py sdist upload -r pypi
+    python setup.py sdist
+    twine upload -r legacypypi dist/*
 
 Todo:
 -----
@@ -129,5 +124,6 @@ Todo:
    - [ ] test edflib code for utf-8 and short (int16) vs int (int32) digital writes
    - [x] create mirror on github 
    - [ ] investigate manylinux solution to wheels. [PEP 513](https://www.python.org/dev/peps/pep-0513/) and
-   - [ ] fix python packaging problems so that pip installs work again
+   - [/] fix python packaging problems so that pip installs work again
+         - progress: as of 0.84 have sdist installs working on linux
   

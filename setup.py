@@ -32,6 +32,7 @@ else:  # 'linux' or 'darwin'
     defines = [("_LARGEFILE64_SOURCE", None), ("_LARGEFILE_SOURCE", None)]
     include_dirs = ["src", "edflib"] #, numpy.get_include()]
 
+# trying doing this without re-cythoning things
 # ext_modules_edf = [Extension("edf", ["edf.pyx", "edflib.c"],
 #                          library_dirs=['.'],
 #                          include_dirs=include_dirs,
@@ -55,8 +56,8 @@ ext_modules_edflib = Extension(
 setup(
     name="edflib",
     version="0.84.1",
-    setup_requires=["setuptools>=18.0", 'numpy'],
-    install_requires=["numpy"],
+    setup_requires=["setuptools>=18.0", 'numpy'] # developmnet requires: 'cython>=0.29.30,<3.0'],
+    install_requires=["numpy", "future"],
     description="""python edflib is a python package ot allow access to European Data Format files (EDF for short). This is a standard for biological signals such as EEG, evoked potentials and EMG.  This module wraps Teunis van Beelen's edflib.""",
     author="""Chris Lee-Messer""",
     url=r"https://github.com/cleemesser/python-edf",

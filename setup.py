@@ -11,7 +11,7 @@ from setuptools import Extension
 
 import sys
 
-if sys.platform == "win32":
+if sys.platform in ["win32", "win64"]:
     # could just import numpy and use that as base library
     include_dirs = ["src"] #, numpy.get_include()]
     # defines = ['_CRT_SECURE_NO_WARNINGS', '_LARGEFILE64_SOURCE', '_LARGEFILE_SOURCE']
@@ -20,15 +20,7 @@ if sys.platform == "win32":
         ("_LARGEFILE64_SOURCE", None),
         ("_LARGEFILE_SOURCE", None),
     ]
-elif sys.platform == "win64":
-    # could just import numpy and use that as base library
-    include_dirs = ["src"] #, numpy.get_include()]
-    defines = [
-        ("_CRT_SECURE_NO_WARNINGS", None),
-        ("_LARGEFILE64_SOURCE", None),
-        ("_LARGEFILE_SOURCE", None),
-    ]
-else:  # 'linux' or 'darwin'
+else:
     defines = [("_LARGEFILE64_SOURCE", None), ("_LARGEFILE_SOURCE", None)]
     include_dirs = ["src", "edflib"] #, numpy.get_include()]
 

@@ -23,7 +23,7 @@ python setup.py bdist_wheel
 # as of 2018-09-30 still using legacy upload
 
 # test upload
-twine upload -r legacypypitest dist/*
+twine upload -r testpypi dist/*
 
 # if looks ok then upload to real pypi
 twine upload -r legacypypi dist/*

@@ -1,5 +1,5 @@
 # packages required for doing development
-cython >= 0.29
+cython >= 0.29,<3.0
 setuptools
 pytest
 future

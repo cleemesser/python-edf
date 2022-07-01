@@ -50,12 +50,23 @@ After unpacking the source, from the command line change to the directory::
   python setup.py install
 
 Or, if you are doing development, you can do::
-
+  pip install -r requirements-dev.txt
   python setup.py develop
 
-This requires a working C compiler on your machine.
+This requires a working C compiler on your machine as well as the other build requirements such as cython, setuptools and numpy.
 
-Previously, I had made wheels to allow for simple pip installs, but changes in packaging seems to have broken these.
+Previously, I had made wheels to allow for simple pip installs, but changes in packaging seems to have broken these. I will see if the manylinux ppa project can help with this.
+
+I am currently working on using setuptools and the pyproject.toml file to make it so that you can at least do a pip install of the source distribution.
+
+Install/Packing Status:
+
+On ubuntu 20.04 with gcc installed:
+- pip install <path-to-cloned-git-repo>   # works with setuptools branch 
+
+- with pip 21.2.2  python=3.7; pip 21.2.4 python=3.8, python=3.9, python=3.10
+
+  pip install edflib  # works to install edflib 0.84.0 from source distribution
   
 
 python 3 compatibility

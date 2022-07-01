@@ -87,9 +87,10 @@ podman pull quay.io/pypa/manylinux_2_24_x86_64
 podman run -it --rm -v `pwd`:/io quay.io/pypa/manylinux_2_24_x86_64:latest
 
 # now inside container, get rid of python 3.6 and 3.11 and install libffi-dev
-rm -rf cp36-cp36m; rm -rf cp311-cp311; apt-get update; apt-get install libffi-dev
-# success!
+# rm -rf cp36-cp36m; rm -rf cp311-cp311; apt-get update; apt-get install libffi-dev
+rm -rf /opt/python/cp36-cp36m; rm -rf /opt/python/cp311-cp311; apt-get update; apt-get install libffi-dev; /io/etc/build_wheels.sh
 
+# success!
 /io/etc/build_wheels.sh
 ...
 No module named 'Cython'

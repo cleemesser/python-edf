@@ -104,8 +104,10 @@ On ubuntu 20.04 with gcc installed:
 
 - with pip 21.2.2  python=3.7; pip 21.2.4 python=3.8, python=3.9, python=3.10
 
-  pip install edflib  # works to install edflib 0.84.0 from source distribution
+  pip install edflib  # works to install edflib 0.84.1 from source distribution
 
+- windows install worked
+  
 To upload to pypi::
   
   python setup.py sdist

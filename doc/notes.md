@@ -28,6 +28,24 @@ twine upload -r testpypi dist/*
 # if looks ok then upload to real pypi
 twine upload -r legacypypi dist/*
 
+Then to test (example for 0.84.1.alpha9 version uploaded to test.pypi.org)
+```
+pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/pypi edflib==0.84.1a9
+```
+0.84.0
+- does not work on windows, can't find numpy includes (my ubuntu has system numpy instaled?)
+
+
+### Newer versions of how to distribute source dist. sdist
+
+2022
+https://stackoverflow.com/questions/19919905/how-to-bootstrap-numpy-installation-in-setup-py
+
+```
+from setuptools import dist
+dist.Distribution().fetch_build_eggs(['Cython>=0.15.1', 'numpy>=1.10'])
+```
+
 To do
 -----
 - start on low-level interface to functions

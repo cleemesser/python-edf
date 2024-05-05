@@ -1,0 +1,32 @@
+Dear colleagues,
+
+I spent some time converting EDFBrowser/Biosig's C functions for reading 
+Nihon Kohden recordings in Matlab,
+and then doing some reverse engineering to understand why this function 
+was not reading correctly the files saved by the newer NK systems 
+(EEG-1200A V01.00).
+
+I found out the information about the channel number and order is now 
+saved in an additional block at the end of the header.
+The pointer for this new block can be found at address 0x03EE, and it 
+has a similar structure as the other control blocks.
+I didn't have enough data examples to explore the case with multiple 
+data segments correctly, so I will probably have to fix this in the future.
+
+If you are interested in adding support for the new NK systems in your 
+respective projects, you can get the information you need from these 
+functions:
+https://github.com/brainstorm-tools/brainstorm3/blob/master/toolbox/io/in_fopen_nk.m 
+(reads the headers of the .EEG, .LOG and .PNT files)
+https://github.com/brainstorm-tools/brainstorm3/blob/master/toolbox/io/in_fread_nk.m 
+(reads a block of recordings from the .EEG)
+https://github.com/brainstorm-tools/brainstorm3/blob/master/toolbox/io/in_channel_nk.m 
+(reads the channel names from the .21E file)
+
+I hope you'll find this work useful, and please let me know if you find 
+additional issues to fix.
+
+Cheers,
+Francois
+
+ref url=https://sourceforge.net/p/biosig/mailman/biosig-general/thread/94db3df0-b0e3-e055-2fbf-01cda664d084%40univ-grenoble-alpes.fr/#msg35746530

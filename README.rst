@@ -120,7 +120,7 @@ Todo:
    - [x] basic tests with py.test
    - [ ] test opening two files at once
    - [/] test, tests, tests !!!
-   - [x] inital port to python 3 (tested with 3.5)
+   - [x] inital port to python 3 (tested with 3.5+)
    - [ ] add new functions from version 1.10 of edflibX
    - [ ] update cython interface to use typed memory views. This will be required for cython 3.0
    - [x] set up continuous build/integration if possible - done on bitbucket for py 3.5 but not yet for github
@@ -130,4 +130,4 @@ Todo:
    - [ ] investigate manylinux solution to wheels. [PEP 513](https://www.python.org/dev/peps/pep-0513/) and
    - [/] fix python packaging problems so that pip installs work again
          - progress: as of 0.84 have sdist installs working on linux
-  
+   - [ ] now restricted to using numpy < 2, add changes so it will work with numpy 2.x

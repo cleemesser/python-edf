@@ -20,6 +20,7 @@ Authors/Contributors
 --------------------
  * Chris Lee-Messer
  * Sharif Olorin <sio@tesser.org>
+ * simondub
  * backports from https://github.com/holgern/pyedflib
 
 Status

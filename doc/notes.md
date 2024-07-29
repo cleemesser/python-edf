@@ -17,6 +17,10 @@ How to distribute
 # binary wheels build
 python setup.py bdist_wheel
 
+### new pep 517 to create builds of sdist and wheel 
+pip install build
+python -m build
+
 # upload using twine
 - first setup ~/.pypirc correctly
 
@@ -52,3 +56,55 @@ To do
 - probably will start with a single buffer, allocated and reallocated as needed to pass the data in as physical measurements via numpy array
 - will leave open lower level interface to underlying data
 - accessors for patient information
+
+
+
+### Poetry thoughts
+
+https://stackoverflow.com/questions/63679315/how-to-use-cython-with-poetry
+
+[tool.poetry]
+...
+build = 'build.py'
+
+[build-system]
+requires = ["poetry>=0.12", "cython"]
+build-backend = "poetry.masonry.api"
+
+```
+import os
+
+# See if Cython is installed
+try:
+    from Cython.Build import cythonize
+# Do nothing if Cython is not available
+except ImportError:
+    # Got to provide this function. Otherwise, poetry will fail
+    def build(setup_kwargs):
+        pass
+# Cython is installed. Compile
+else:
+    from setuptools import Extension
+    from setuptools.dist import Distribution
+    from distutils.command.build_ext import build_ext
+
+    # This function will be executed in setup.py:
+    def build(setup_kwargs):
+        # The file you want to compile
+        extensions = [
+            "mylibrary/myfile.py"
+        ]
+
+        # gcc arguments hack: enable optimizations
+        os.environ['CFLAGS'] = '-O3'
+
+        # Build
+        setup_kwargs.update({
+            'ext_modules': cythonize(
+                extensions,
+                language_level=3,
+                compiler_directives={'linetrace': True},
+            ),
+            'cmdclass': {'build_ext': build_ext}
+        })
+```

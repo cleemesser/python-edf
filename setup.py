@@ -7,7 +7,7 @@ from setuptools import Extension
 from setuptools import dist
 
 # preload numpy to find headers
-import numpy 
+import numpy
 # try to rely upon pyproject.toml to specify these requirements
 # try:
 #     import numpy
@@ -57,15 +57,15 @@ ext_modules_edflib = Extension(
 setup(
     name="edflib",
     version="0.85.0",
-    # setup_requires=["setuptools", 'numpy<2'], # development requires: 'cython>=0.29.30,<3.0'],
-    install_requires=["numpy", "future"],
+    setup_requires=["setuptools", 'numpy<2', 'future', 'wheel'], # development requires: 'cython>=0.29.30,<3.0'],
+    install_requires=["numpy<2", "future"],
     description="""python edflib is a python package ot allow access to European Data Format files (EDF for short). This is a standard for biological signals such as EEG, evoked potentials and EMG.  This module wraps Teunis van Beelen's edflib.""",
     author="""Chris Lee-Messer""",
     url=r"https://github.com/cleemesser/python-edf",
     download_url=r"https://github.com/cleemesser/python-edf/releases",
     # cmdclass={'build_ext': build_ext},
     # ext_modules=cythonize([ext_modules_edflib]), # removed cythonize
-    ext_modules=[ext_modules_edflib], 
+    ext_modules=[ext_modules_edflib],
     #packages=["edflib"],  # setuptools.find_packages()
     packages=setuptools.find_packages(exclude=['test']),
     classifiers=[

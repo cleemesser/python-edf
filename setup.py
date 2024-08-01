@@ -7,10 +7,12 @@ from setuptools import Extension
 from setuptools import dist
 
 # preload numpy to find headers
-try:
-    import numpy
-except:
-    dist.Distribution().fetch_build_eggs(["numpy"])
+import numpy 
+# try to rely upon pyproject.toml to specify these requirements
+# try:
+#     import numpy
+# except:
+#     dist.Distribution().fetch_build_eggs(["numpy"])
 
 # can remove the dependency here since setuptools 18.0
 # from Cython.Distutils import build_ext
@@ -54,8 +56,8 @@ ext_modules_edflib = Extension(
 
 setup(
     name="edflib",
-    version="0.84.2",
-    setup_requires=["setuptools", 'numpy<2'], # development requires: 'cython>=0.29.30,<3.0'],
+    version="0.85.0",
+    # setup_requires=["setuptools", 'numpy<2'], # development requires: 'cython>=0.29.30,<3.0'],
     install_requires=["numpy", "future"],
     description="""python edflib is a python package ot allow access to European Data Format files (EDF for short). This is a standard for biological signals such as EEG, evoked potentials and EMG.  This module wraps Teunis van Beelen's edflib.""",
     author="""Chris Lee-Messer""",

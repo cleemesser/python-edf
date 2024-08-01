@@ -48,12 +48,11 @@ installation
 the most reliable way to install edflib currently is to download the source (or git clone it).
 After unpacking the source, from the command line change to the directory::
 
-  python setup.py install
+  python -m pip install .
 
 Or, if you are doing development, you can do::
 
-  pip install -r requirements-dev.txt
-  python setup.py develop
+  python -m pip install --editable .
 
 This requires a working C compiler on your machine as well as the other build requirements such as cython, setuptools and numpy.
 
@@ -110,9 +109,9 @@ On ubuntu 20.04 with gcc installed:
 - windows install worked
   
 To upload to pypi::
-  
-  python setup.py sdist
-  twine upload -r legacypypi dist/*
+  python -m build
+ 
+  twine upload -r legacypypi dist/*   <- fix this>
 
 Todo:
 -----

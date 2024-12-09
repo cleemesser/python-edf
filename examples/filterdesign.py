@@ -23,11 +23,11 @@ import scipy.signal as signal
 # Designing a lowpass FIR filter is very simple to do with SciPy, all you need to do is to define the window length, cut off frequency and the window:
 
 n = 61
-a = signal.firwin(n, cutoff = 0.3, window = "hamming")
-#Frequency and phase response
+a = signal.firwin(n, cutoff=0.3, window="hamming")
+# Frequency and phase response
 mfreqz(a)
 show()
-#Impulse and step response
+# Impulse and step response
 figure(2)
 impz(a)
 show()
@@ -43,10 +43,10 @@ show()
 # theory, the last page has an example code.
 
 n = 101
-a = signal.firwin(n, cutoff = 0.3, window = "hanning")
-#Spectral inversion
+a = signal.firwin(n, cutoff=0.3, window="hanning")
+# Spectral inversion
 a = -a
-a[n/2] = a[n/2] + 1
+a[n / 2] = a[n / 2] + 1
 mfreqz(a)
 show()
 

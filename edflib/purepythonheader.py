@@ -32,16 +32,15 @@ nr of samples[2] * integer : second signal
 nr of samples[ns] * integer : last signal 
 """
 
+
 class EdfHeader:
-    EDF_FILE_MAGIC = b'0       '  # 8 byte start of valid edf file
-    
-    def __init__(self, file_name_or_obj, mode='rb'):
+    EDF_FILE_MAGIC = b"0       "  # 8 byte start of valid edf file
+
+    def __init__(self, file_name_or_obj, mode="rb"):
         if isinstance(file_name_or_obj, str):
             self.fp = open(file_name_or_obj, mode=mode)
         else:
             self.fp = file_name_or_obj
-
-
 
     def has_edf_file_magic(self):
         self.fp.seek(0)
@@ -50,19 +49,22 @@ class EdfHeader:
     def read_raw_header_b(self):
         fp = self.fp
         rawh = {}
-        fp.seek(8,0) # go past first 8 bytes 
+        fp.seek(8, 0)  # go past first 8 bytes
 
-        rawh['local_patient_identification'] = fp.read(80)
-        rawh['local_recording_identification'] = fp.read(80)
-        rawh['startdate_of_recording'] = fp.read(8) # dd.mm.yy (1985 is clipping date) ug!
-        rawh['starttime_of_recording'] = fp.read(8)
-        rawh['number_of_bytes_in_header_record'] = fp.read(8)
-        rawh['reserved'] = fp.read(44)
-        rawh['number_of_data_records'] = fp.read(8)
-        rawh['duration_of_dta_record_sec'] = fp.read(8)
-        rawh['number_of_signals_in_data_record'] = fp.read(4) # 4 ascii
+        rawh["local_patient_identification"] = fp.read(80)
+        rawh["local_recording_identification"] = fp.read(80)
+        rawh["startdate_of_recording"] = fp.read(
+            8
+        )  # dd.mm.yy (1985 is clipping date) ug!
+        rawh["starttime_of_recording"] = fp.read(8)
+        rawh["number_of_bytes_in_header_record"] = fp.read(8)
+        rawh["reserved"] = fp.read(44)
+        rawh["number_of_data_records"] = fp.read(8)
+        rawh["duration_of_dta_record_sec"] = fp.read(8)
+        rawh["number_of_signals_in_data_record"] = fp.read(4)  # 4 ascii
 
         return rawh
+
 
 if __name__:
     import sys
@@ -70,4 +72,3 @@ if __name__:
     if len(sys.argv) == 2:
         eh = EdfHeader(sys.argv[1])
         raw = eh.read_raw_header_b()
-        

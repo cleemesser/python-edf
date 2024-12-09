@@ -1,3 +1,6 @@
 [build-system]
-requires = ["setuptools", "cython>=0.29.30,<3.0", "wheel", "numpy<2", "future"]
+requires = ["setuptools", "cython>=0.29.30,<3.1", "wheel", "numpy", "future"]
 build-backend = "setuptools.build_meta"
+
+[tool.ruff.lint]
+select = ["NPY201"]

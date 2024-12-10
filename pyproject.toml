@@ -1,5 +1,15 @@
+[project]
+name = "edflib"
+version = "0.86.0"  # until get dynamic working need to update __init__.py to match
+#dynamic = ["version"]
+
+# have not gotten this working yet
+# [tool.setuptools.dynamic]
+# version = {attr = "edflib.__init__.__version__"}
+
 [build-system]
-requires = ["setuptools", "cython>=0.29.30,<3.1", "wheel", "numpy", "future"]
+#"setuptools-scm",
+requires = ["setuptools",   "cython>=0.29.30,<3.1", "wheel", "numpy", "future"]
 build-backend = "setuptools.build_meta"
 
 [tool.ruff.lint]

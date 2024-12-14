@@ -1,3 +1,36 @@
+
 [build-system]
-requires = ["setuptools", "cython>=0.29.30,<3.0", "wheel", "numpy<2", "future"]
+#"setuptools-scm",
+requires = ["setuptools>45",  "wheel", "numpy>1.15", "future"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "edflib"
+version = "0.86.0"  # until get dynamic working need to update __init__.py to match
+#dynamic = ["version"]
+
+# have not gotten this working yet
+# [tool.setuptools.dynamic]
+# version = {attr = "edflib.__init__.__version__"}
+authors = [
+  { name = "Chris Lee-Messer"}
+]
+description = "python edflib is a python package ot allow access to European Data Format files (EDF for short). This is a standard for biological signals such as EEG, evoked potentials and EMG.  This module wraps Teunis van Beelen's edflib."
+
+readme = "README.rst"
+dependencies = [
+  "future",
+  "numpy>1.15",
+]
+# url="https://github.com/cleemesser/python-edf"
+# download_url="https://github.com/cleemesser/python-edf/releases"
+requires-python = ">=2.7"
+
+[tool.setuptools.packages.find]
+include = ["edflib*"]
+
+# [tool.setuptools.extension] # use setup.py for dependent compilation
+
+
+[tool.ruff.lint]
+select = ["NPY201"]

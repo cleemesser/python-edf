@@ -6,8 +6,9 @@ import numpy as np
 import edflib
 
 
-if __name__=='__main__':
+if __name__ == "__main__":
     import sys
+
     if len(sys.argv) == 2:
         fn = sys.argv[1]
         e = edflib.Edfinfo(fn)

@@ -1,8 +1,11 @@
 #cython: language_level=3
+# note may want to use arr[::1] approach for proper continuguity/striding
+# when passing data pointers to c function libraries
+
 """currently everything defined in this cython file uses bytes for characters
 (these are the str type in python 2.7)
 
-EDF requires 7-bit ascii 
+EDF requires 7-bit ascii
 EDF+ allows only us-ascii in the header (values 32..126), the TAL annotions may contain unicode in UTF-8
 
 see http://www.edfplus.info/specs/edfplus.html
@@ -22,7 +25,7 @@ include "edf.pxi"
 DEFAULT_ENCODING = 'UTF-8'
 
 open_errors = {
-    EDFLIB_MALLOC_ERROR : "malloc error",                                                
+    EDFLIB_MALLOC_ERROR : "malloc error",
     EDFLIB_NO_SUCH_FILE_OR_DIRECTORY   : "can not open file, no such file or directory",
     EDFLIB_FILE_CONTAINS_FORMAT_ERRORS : "the file is not EDF(+) or BDF(+) compliant (it contains format errors)",
     EDFLIB_MAXFILES_REACHED            : "to many files opened",
@@ -57,7 +60,7 @@ open_errors = {
 
 
 write_errors = {
-    EDFLIB_MALLOC_ERROR : "malloc error",                                                
+    EDFLIB_MALLOC_ERROR : "malloc error",
     EDFLIB_NO_SUCH_FILE_OR_DIRECTORY   : "can not open file, no such file or directory",
     EDFLIB_FILE_CONTAINS_FORMAT_ERRORS : "the file is not EDF(+) or BDF(+) compliant (it contains format errors)",
     EDFLIB_MAXFILES_REACHED            : "to many files opened",
@@ -82,7 +85,7 @@ FILETYPE_EDF = EDFLIB_FILETYPE_EDF
 FILETYPE_EDFPLUS = EDFLIB_FILETYPE_EDFPLUS
 FILETYPE_BDF = EDFLIB_FILETYPE_BDF
 FILETYPE_BDFPLUS = EDFLIB_FILETYPE_BDFPLUS
-                                                
+
 def check_open_ok(result, error_type):
     """error_type should usually be hdr.filetype"""
     if result == 0:
@@ -102,7 +105,7 @@ cdef class CyEdfReader:
     Note that edflib.c is encapsulated so there is no direct access to the file
     from here unless I add a raw interface or something
 
-    EDF/BDF+ files are arranged into N signals sampled at rate Fs. The data is 
+    EDF/BDF+ files are arranged into N signals sampled at rate Fs. The data is
     actually stored in chunks called  "datarecords" which have a file specific size
     (often 1 second chunks).
 
@@ -115,7 +118,7 @@ cdef class CyEdfReader:
 
 
     cdef edf_hdr_struct hdr
-    cpdef size_t nsamples_per_record
+    cdef size_t nsamples_per_record
     #I think it is ok not to do this in __cinit__(*,**)
 
     def __init__(self, file_name, annotations_mode='all'):
@@ -132,7 +135,7 @@ cdef class CyEdfReader:
 
     def __enter__(self):
         return self
-    
+
     def __exit__(self, exc_type, exc_val, ex_tb):
         self._close()  # cleanup the file
 
@@ -149,10 +152,10 @@ cdef class CyEdfReader:
         tmp = 0
         for ii in range(self.signals_in_file):
             tmp += self.samples_in_datarecord(ii)
-        self.nsamples_per_record = tmp 
+        self.nsamples_per_record = tmp
         dbuffer = np.zeros(tmp, dtype='float64') # will get physical samples, not the orignal digital samples
         return dbuffer
-    
+
     def open(self, file_name, mode='r', annotations_mode='all'):
         # bytes_file_name = file_name.encode(DEFAULT_ENCODING) # this encoding returns a byte string and this works in py2.7 and py3.5
         # print("bytes_file_name:", bytes_file_name, "type of this: ", type(bytes_file_name))
@@ -175,7 +178,7 @@ cdef class CyEdfReader:
             edf_get_annotation(self.hdr.handle, ii, &(annot))
             #get_annotation(self.hdr.handle, ii, &annotation)
             annotlist[ii][0] = annot.onset*0.0000001 # annot.onset is units multiplied by 10000000 (10^7)
-	    #  100ns resolution 
+	    #  100ns resolution
             annotlist[ii][1] = annot.duration # or float(annot.duration)
             annotlist[ii][2] = annot.annotation
         return annotlist
@@ -193,12 +196,12 @@ cdef class CyEdfReader:
             edf_get_annotation(self.hdr.handle, ii, &(annot))
             #get_annotation(self.hdr.handle, ii, &annotation)
             annotlist[ii][0] = annot.onset # annot.onset is units multiplied by 10000000 (10^7)
-	    #  100ns resolution 
+	    #  100ns resolution
             annotlist[ii][1] = annot.duration
             annotlist[ii][2] = annot.annotation
         return annotlist
 
-    # properties and functions which return "raw" bytes have "_b" at end 
+    # properties and functions which return "raw" bytes have "_b" at end
 
     @property
     def handle(self):
@@ -209,14 +212,14 @@ cdef class CyEdfReader:
     def filetype(self):
          "0: EDF, 1: EDFplus, 2: BDF, 3: BDFplus, a negative number means an error"
          return self.hdr.filetype
-        
-    @property 
+
+    @property
     def signals_in_file(self):
         """number of EDF signals in the file, annotation channels not included
         self.hdr.edfsignals """
         return self.hdr.edfsignals
 
-    @property 
+    @property
     def datarecords_in_file(self):
         """number of data records type (long long int) """
         return self.hdr.datarecords_in_file
@@ -258,17 +261,17 @@ cdef class CyEdfReader:
     def starttime_second(self):
         return self.hdr.starttime_second
 
-    @property 
+    @property
     def starttime_minute(self):
         return self.hdr.starttime_minute
 
-    @property 
+    @property
     def starttime_hour(self):
         return self.hdr.starttime_hour
 
 
 
-    @property 
+    @property
     def patient_b(self):
         """patient field char[81] null term string. Is always empty when filetype is EDF+/BDF+"""
         return self.hdr.patient
@@ -278,7 +281,7 @@ cdef class CyEdfReader:
         """
         recording field char[81] null terminated string, is always empty when filetype
         is EDF+/BDF+"""
-        return self.hdr.recording 
+        return self.hdr.recording
 
 
     @property
@@ -293,19 +296,19 @@ cdef class CyEdfReader:
         """null-terminated string, is always empty when filetype is EDF or BDF"""
         return self.hdr.gender
 
-    
+
 
     @property
     def annotations_in_file(self):
         return self.hdr.annotations_in_file
 
 
-    @property 
+    @property
     def birthdate_b(self):
         """null-terminated string, is always empty when filetype is EDF or BDF"""
         return self.hdr.birthdate
 
-    @property 
+    @property
     def patient_name_b(self):
         return self.hdr.patient_name
 
@@ -314,11 +317,11 @@ cdef class CyEdfReader:
         return self.hdr.patient_additional
 
 
-    @property 
+    @property
     def admincode_b(self):
         return self.hdr.admincode
 
-    @property 
+    @property
     def technician_b(self):
         return self.hdr.technician
 
@@ -361,7 +364,7 @@ cdef class CyEdfReader:
         return self.hdr.signalparam[channel].phys_min
 
     def digital_max(self, channel):
-        return self.hdr.signalparam[channel].dig_max    
+        return self.hdr.signalparam[channel].dig_max
 
     def digital_min(self, channel):
         return self.hdr.signalparam[channel].dig_min
@@ -386,16 +389,16 @@ cdef class CyEdfReader:
     #     return 1,2
     #     # return offset, nrecords
     #     # print("offset via edftell:",  edftell(self.hdr.handle, 0))
-        
+
 
     def _close(self):   # should not be closed from python
         if self.hdr.handle >= 0:
             edfclose_file(self.hdr.handle)
-        self.hdr.handle = -1 
-    
-    def read_digital_signal(self, signalnum, start, n, np.ndarray[np.int32_t, ndim=1] sigbuf):
+        self.hdr.handle = -1
+
+    def read_digital_signal(self, signalnum, start, n, np.int32_t[:] sigbuf):
        """
-       read_digital_signal(self, signalnum, start, n, np.ndarray[np.int32_t, ndim=1] sigbuf)
+       read_digital_signal(self, signalnum, start, n, np.int32_t[:] sigbuf)
        read @n number of samples from signal number @signum starting at @start
           into numpy int32 array @sigbuf sigbuf must be at least n long
        """
@@ -404,28 +407,28 @@ cdef class CyEdfReader:
        if readn != n:
            print("read %d, less than %d requested!!!" % (readn, n))
 
-    def read_phys_signal(self, signalnum, start, n, np.ndarray[np.float64_t, ndim=1] sigbuf):
-
+    def read_phys_signal(self, signalnum, start, n, np.float64_t[:] sigbuf):
         """
-        read_phys_signal(self, signalnum, start, n, np.ndarray[np.float64_t, ndim=1] sigbuf)
+        read_phys_signal(self, signalnum, start, n, np.float64_t[:] sigbuf)
         read @n number of samples from signal number @signum starting at
         @start into numpy float64 array @sigbuf sigbuf must be at least n long
-        the signal is converted to a physical real value from its digitally sampled form 
+        the signal is converted to a physical real value from its digitally sampled form
         """
-        
+
         edfseek(self.hdr.handle, signalnum, start, EDFSEEK_SET)
-        readn = edfread_physical_samples(self.hdr.handle, signalnum, n, <double*>sigbuf.data)
+        readn = edfread_physical_samples(self.hdr.handle, signalnum, n, &sigbuf[0])
         # print("read %d samples" % readn)
         if readn != n:
             print("read %d, less than %d requested!!!" % (readn, n) )
-        
-    def load_phys_datarecord(self, np.ndarray[np.float64_t, ndim=1] db, n=0):
-        """
-        every edf file has a block size called a data record 
-        I think this is block of data that can be reshaped into a (often) rectangular
-        (though possibly ragged) array of the N channels of samples_in_datarecord(n) 
 
-        this function is supposed to make reading a datarecord easier assumming you provide 
+
+    def load_phys_datarecord(self, np.float64_t[:] db, n=0):
+        """
+        every edf file has a block size called a data record
+        I think this is block of data that can be reshaped into a (often) rectangular
+        (though possibly ragged) array of the N channels of samples_in_datarecord(n)
+
+        this function is supposed to make reading a datarecord easier assumming you provide
         a block of the correct size = $\sum_n samples_in_datarecord(n)$
 
         it is not yet clear to be me if this is a useful function to keep around
@@ -436,48 +439,48 @@ cdef class CyEdfReader:
             for ii in range(self.signals_in_file):
                 edfseek(self.hdr.handle, ii, n*self.samples_in_datarecord(ii), EDFSEEK_SET) # just a guess
                 readn = edfread_physical_samples(self.hdr.handle, ii, self.samples_in_datarecord(ii),
-                                                 (<double*>db.data)+offset)
+                                                 &db[offset])
                 # print("readn this many samples", readn)
                 offset += self.samples_in_datarecord(ii)
 
 
-###############################    
+###############################
 # low level functions
 
-cpdef set_patientcode(int handle, char *patientcode):
+cdef set_patientcode(int handle, char *patientcode):
     # check if rw?
     return edf_set_patientcode(handle, patientcode)
 
-    
 
-cpdef int write_annotation_latin1(int handle, long long onset, long long duration, char *description):
+
+cdef int write_annotation_latin1(int handle, long long onset, long long duration, char *description):
         return edfwrite_annotation_latin1(handle, onset, duration, description)
 
-cpdef int write_annotation_utf8(int handle, long long onset, long long duration, char *description):
+cdef int write_annotation_utf8(int handle, long long onset, long long duration, char *description):
     """int edfwrite_annotation_utf8(int handle, long long onset, long long duration, const char *description)"""
     return edfwrite_annotation_utf8(handle, onset, duration, description)
 
 
-cpdef int set_technician(int handle, char *technician):
+cpdef set_technician(int handle, char *technician):
     return edf_set_technician(handle, technician)
 
 cdef class EdfAnnotation:
     cdef edf_annotation_struct annotation
 
 
-cpdef int get_annotation(int handle, int n, EdfAnnotation edf_annotation):
+cdef int get_annotation(int handle, int n, EdfAnnotation edf_annotation):
     return edf_get_annotation(handle, n, &(edf_annotation.annotation))
 
 # need to use npbuffers
 
-cpdef read_int_samples(int handle, int edfsignal, int n, np.ndarray[np.int32_t,ndim=1] buf):
+def read_int_samples(int handle, int edfsignal, int n, np.int32_t[:] buf):
     """
-    reads n samples from edfsignal, starting from the current sample position indicator, into buf (edfsignal starts at 0) 
-    the values are the "raw" digital values 
-    bufsize should be equal to or bigger than sizeof(int[n]) 
-    the sample position indicator will be increased with the amount of samples read 
-    returns the amount of samples read (this can be less than n or zero!) 
-    or -1 in case of an error 
+    reads n samples from edfsignal, starting from the current sample position indicator, into buf (edfsignal starts at 0)
+    the values are the "raw" digital values
+    bufsize should be equal to or bigger than sizeof(int[n])
+    the sample position indicator will be increased with the amount of samples read
+    returns the amount of samples read (this can be less than n or zero!)
+    or -1 in case of an error
 
 
     ToDO!!!
@@ -485,37 +488,41 @@ cpdef read_int_samples(int handle, int edfsignal, int n, np.ndarray[np.int32_t,n
     returns how many were actually read
     doesn't currently check that buf can hold all the data
     """
-    return edfread_digital_samples(handle, edfsignal, n,<int*>buf.data)
+    return edfread_digital_samples(handle, edfsignal, n,<int*> &buf[0]) # try this with int* cast
 
 
-cpdef int blockwrite_digital_samples(int handle, np.ndarray[np.int32_t,ndim=1] buf):
+cdef int blockwrite_digital_samples(int handle, np.int32_t[:] buf):
     """int edf_blockwrite_digital_samples(int handle, int *buf)"""
-    return edf_blockwrite_digital_samples(handle, <int*>buf.data)
+    return edf_blockwrite_digital_samples(handle,<int*> &buf[0])
 
-cpdef int blockwrite_digital_short_samples(int handle, np.ndarray[np.int16_t,ndim=1] buf):
+cdef int blockwrite_digital_short_samples(int handle, np.int16_t[:] buf):
     """int edf_blockwrite_digital_short_samples(int handle, short *buf)"""
-    return edf_blockwrite_digital_short_samples(handle, <short*>buf.data)
+    return edf_blockwrite_digital_short_samples(handle,<short*> &buf[0])
 
-cpdef int blockwrite_physical_samples(int handle, np.ndarray[np.float64_t,ndim=1] buf):
-    return edf_blockwrite_physical_samples(handle, <double*>buf.data)
+cdef int blockwrite_physical_samples(int handle, np.float64_t[:] buf):
+    return edf_blockwrite_physical_samples(handle, &buf[0])
 
-cpdef int set_recording_additional(int handle, char *recording_additional):
+def set_recording_additional(int handle, char *recording_additional):
     return edf_set_recording_additional(handle,recording_additional)
 
-cpdef int write_physical_samples(int handle, np.ndarray[np.float64_t] buf):
-    return edfwrite_physical_samples(handle, <double *>buf.data)
+# return int
+def write_physical_samples(int handle, np.float64_t[:] buf):
+    return edfwrite_physical_samples(handle, &buf[0])
 
     # int edfwrite_annotation_utf8(int, long long int, long long int, char *)
 
-cpdef int set_patientname(int handle, char *name):
+# returns int
+def set_patientname(int handle, char *name):
     return edf_set_patientname(handle, name)
 
-cpdef int set_physical_minimum(int handle, int edfsignal, double phys_min):
+# returns int
+def set_physical_minimum(int handle, int edfsignal, double phys_min):
     edf_set_physical_minimum(handle, edfsignal, phys_min)
 
-cpdef int read_physical_samples(int handle, int edfsignal, int n,
+# returns int
+def read_physical_samples(int handle, int edfsignal, int n,
                                 np.ndarray[np.float64_t] buf):
-    return edfread_physical_samples(handle, edfsignal, n, <double *>buf.data)
+    return edfread_physical_samples(handle, edfsignal, n, &buf[0])
 
 def close_file(handle):
     return edfclose_file(handle)
@@ -527,7 +534,7 @@ def set_physical_maximum(handle, edfsignal, phys_max):
 def open_file_writeonly(path, filetype, number_of_signals):
     """int edfopen_file_writeonly(char *path, int filetype, int number_of_signals)"""
     return edfopen_file_writeonly(path, filetype, number_of_signals)
-    
+
 def set_patient_additional(handle, patient_additional):
     """int edf_set_patient_additional(int handle, const char *patient_additional)"""
     return edf_set_patient_additional(handle, patient_additional)
@@ -536,7 +543,7 @@ def set_digital_maximum(handle, edfsignal, dig_max):
     "int edf_set_digital_maximum(int handle, int edfsignal, int dig_max)"
     return edf_set_digital_maximum(handle, edfsignal, dig_max)
 
-        
+
 # see CyEdfreader() class
 # int edfopen_file_readonly(const char *path, struct edf_hdr_struct *edfhdr, int read_annotations)
 
@@ -550,13 +557,13 @@ def set_digital_minimum(handle, edfsignal, dig_min):
 
 def write_digital_samples(handle, np.ndarray[np.int32_t] buf):
     """write_digital_samples(int handle, np.ndarray[np.int32_t] buf)
-    call to 
+    call to
     int edfwrite_digital_samples(int handle, int *buf)"""
-    return edfwrite_digital_samples(handle, <int*>buf.data)
+    return edfwrite_digital_samples(handle,<int*> &buf[0])
 
 def write_digital_short_samples(handle, np.ndarray[np.int16_t] buf):
     """int edfwrite_digital_short_samples(int handle, short *buf)"""
-    return edfwrite_digital_short_samples(handle, <short*>buf.data)
+    return edfwrite_digital_short_samples(handle,<short*> &buf[0])
 
 def set_equipment(handle, equipment):
     """int edf_set_equipment(int handle, const char *equipment)"""
@@ -577,7 +584,7 @@ def set_label(handle, edfsignal, label):
 def set_number_of_annotation_signals(handle, annot_signals):
     """int edf_set_number_of_annotation_signals(int handle, int annot_signals)"""
     return edf_set_number_of_annotation_signals(handle, annot_signals)
-    
+
 #FIXME need to make sure this gives the proper values for large values
 def tell(handle, edfsignal):
     """long long edftell(int handle, int edfsignal)"""
@@ -586,7 +593,7 @@ def tell(handle, edfsignal):
 def rewind(handle, edfsignal):
     """void edfrewind(int handle, int edfsignal)"""
     edfrewind(handle, edfsignal)
-    
+
 def set_gender(handle, gender):
     """int edf_set_gender(int handle, int gender)"""
     return edf_set_gender(handle, gender)
@@ -629,8 +636,8 @@ def set_datarecord_duration(handle, duration):
 #         int i, hdl, channel, n
 #         double *buf
 #         edf_hdr_struct hdr
-#         np.ndarray[np.float64_t, ndim=1] carr 
-        
+#         np.ndarray[np.float64_t, ndim=1] carr
+
 #     result = edfopen_file_readonly("test_generator.edf", &hdr, EDFLIB_READ_ALL_ANNOTATIONS)
 #     print("result:", result)
 #     check_open_ok(result, hdr.filetype)
@@ -726,10 +733,10 @@ cdef class CyEdfWriter:
     Note that edflib.c is encapsulated so there is no direct access to the file
     from here unless I add a raw interface or something
 
-    EDF/BDF+ files are arranged into N signals sampled at rate Fs. The data is 
+    EDF/BDF+ files are arranged into N signals sampled at rate Fs. The data is
     actually stored in chunks called  "datarecords" which have a file specific size.
 
-    I believe that the way the edflib.c is structured need to first define all the header 
+    I believe that the way the edflib.c is structured need to first define all the header
     information before writing any samples:
 
     *  Perhaps should use a flag to signal once samples have started to be written
@@ -748,7 +755,7 @@ cdef class CyEdfWriter:
         n_channels is the number of channels without the annotation channel
         """
         self.hdr.handle = -1 # initial invalid vlaue
-    
+
         self.hdr.handle = open_file_writeonly(file_name, file_type, n_channels)
 
 from datetime import datetime, date
@@ -813,7 +820,7 @@ class EdfWriter(object):
                                       'prefilter': 'pre1', 'transducer': 'trans1'})
 
                 self.sample_buffer.append([])
-                
+
         self.handle = open_file_writeonly(self.path, self.file_type, self.n_channels)
         if (self.handle < 0):
             raise IOError(write_errors[self.handle])
@@ -837,7 +844,7 @@ class EdfWriter(object):
             set_gender(self.handle, 1)
 
         set_datarecord_duration(self.handle, self.duration)
-        
+
         set_number_of_annotation_signals(self.handle, self.number_of_annotations)
         set_startdatetime(self.handle, self.recording_start_time.year, self.recording_start_time.month,
                           self.recording_start_time.day, self.recording_start_time.hour,
@@ -1321,12 +1328,12 @@ class EdfWriter(object):
         return blockwrite_physical_samples(self.handle, data)
 
     def blockWriteDigitalSamples(self, data):
-        """@data is int32 array 
+        """@data is int32 array
         I think with shape (nchan, num_samples_per_datarecord)"""
         return blockwrite_digital_samples(self.handle, data)
 
     def blockWriteDigitalShortSamples(self, data):
-        """@data is int16 array 
+        """@data is int16 array
         I think with shape (nchan, num_samples_per_datarecord)"""
 
         return blockwrite_digital_short_samples(self.handle, data)
@@ -1341,7 +1348,7 @@ class EdfWriter(object):
         is different, then sample_freq is a vector containing all the different
         samplefrequencys. The data is saved as list. Each list entry contains
         a vector with the data of one signal.
-        
+
         If digital is True, digital signals (as directly from the ADC) will be expected.
         (e.g. int16 from 0 to 2048)
 
@@ -1351,7 +1358,7 @@ class EdfWriter(object):
 
         if (len(data_list) != len(self.channels)):
             raise WrongInputSize(len(data_list))
-            
+
         if digital:
             if any([not np.issubdtype(a.dtype, np.integer) for a in data_list]):
                 raise TypeError('Digital = True requires all signals in int')
@@ -1383,10 +1390,10 @@ class EdfWriter(object):
                 ind[i] += sampleRates[i]
                 # dataOfOneSecondInd += sampleRates[i]
             if digital:
-                self.blockWriteDigitalSamples(dataOfOneSecond)   
+                self.blockWriteDigitalSamples(dataOfOneSecond)
             else:
                 self.blockWritePhysicalSamples(dataOfOneSecond)
-                
+
             for i in np.arange(len(data_list)):
                 if (np.size(data_list[i]) < ind[i] + sampleRates[i]):
                     notAtEnd = False
@@ -1401,7 +1408,7 @@ class EdfWriter(object):
                 # dataOfOneSecond[dataOfOneSecondInd:dataOfOneSecondInd+self.channels[i]['sample_rate']] = lastSamples
                 # dataOfOneSecondInd += self.channels[i]['sample_rate']
                 if digital:
-                    self.writeDigitalSamples(lastSamples)   
+                    self.writeDigitalSamples(lastSamples)
                 else:
                     self.writePhysicalSamples(lastSamples)
         # self.blockWritePhysicalSamples(dataOfOneSecond)
@@ -1427,8 +1434,3 @@ class EdfWriter(object):
         """
         close_file(self.handle)
         self.handle = -1
-
-
-
-
-

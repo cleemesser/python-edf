@@ -29,10 +29,10 @@ Status
 This is currently "research quality" code. I initially developed it for my
 limited purposes to read a few dozen EEGs for a research project. It is inching
 towards respectability as it is being updated as we have project that needs it to process
-through tens of thousands of edf files. 
+through tens of thousands of edf files.
 
 It still more needs tests, more refractoring to make a
-real pythonic api before heading to towards a polished package. 
+real pythonic api before heading to towards a polished package.
 
 I am currently updating edfwriter for 0.8 as I will be needing to use this functionality again.
 
@@ -77,7 +77,7 @@ and writer classes.
 
 Related Projects
 ----------------
-* `pyedf is a fork of this project with some nice work and documentation <https://github.com/holgern/pyedflib>`_.
+* `pyedflib is a fork of this project with some nice work and documentation <https://github.com/holgern/pyedflib>`_.
 * Robert Oostenveld wrote `bids-standard/pyedf <https://github.com/bids-standard/pyedf>`_, which is a pure python implementation of the standard.
 * Teuniz wrote his own python library as well at https://gitlab.com/Teuniz/EDFlib-Python
 
@@ -88,7 +88,7 @@ Change list
 2018-10-08 created mirror of code on github at https://github.com/cleemesser/python-edf
 2018-10-08 added wraps for writing shorts, bump edflib version to 116
 2018-02-15 noted that edflib.h not included in source package added to extension file list for 0.74
-2017-03-22 added bitbucket-piplines.yml and got integration tests running 
+2017-03-22 added bitbucket-piplines.yml and got integration tests running
 2017-03-22 update properties to modern (python 3) syntax in _edflib. Make distinction clear. Add tests.
 2017-03 tweaks to api, python 3 working: will try for dual compatible code python 2.7 + python 3.5+ support
 2015-06 update to edflib 1.11
@@ -100,17 +100,17 @@ I am currently working on using setuptools and the pyproject.toml file to make i
 Install/Packing Status:
 
 On ubuntu 20.04 with gcc installed:
-- pip install <path-to-cloned-git-repo>   # works with setuptools branch 
+- pip install <path-to-cloned-git-repo>   # works with setuptools branch
 
 - with pip 21.2.2  python=3.7; pip 21.2.4 python=3.8, python=3.9, python=3.10
 
   pip install edflib  # works to install edflib 0.84.1 from source distribution
 
 - windows install worked
-  
+
 To upload to pypi::
   python -m build
- 
+
   twine upload -r legacypypi dist/*   <- fix this>
 
 Todo:
@@ -126,7 +126,7 @@ Todo:
    - [x] set up continuous build/integration if possible - done on bitbucket for py 3.5 but not yet for github
    - [x] incorporate edflib code for utf-8 and short (int16) vs int (int32) digital writes
    - [ ] test edflib code for utf-8 and short (int16) vs int (int32) digital writes
-   - [x] create mirror on github 
+   - [x] create mirror on github
    - [ ] investigate manylinux solution to wheels. [PEP 513](https://www.python.org/dev/peps/pep-0513/) and
    - [/] fix python packaging problems so that pip installs work again
          - progress: as of 0.84 have sdist installs working on linux

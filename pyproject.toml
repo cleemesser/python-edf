@@ -20,17 +20,18 @@ description = "python edflib is a python package ot allow access to European Dat
 readme = "README.rst"
 dependencies = [
   "future",
-  "numpy>1.15",
+  "numpy>1.22",
 ]
-# url="https://github.com/cleemesser/python-edf"
-# download_url="https://github.com/cleemesser/python-edf/releases"
-requires-python = ">=2.7"
+
+requires-python = ">=3.9"
 
 [tool.setuptools.packages.find]
 include = ["edflib*"]
 
 # [tool.setuptools.extension] # use setup.py for dependent compilation
-
+[project.urls]
+Repository = "https://github.com/cleemesser/python-edf"
+DOWNLOAD = "https://github.com/cleemesser/python-edf/releases"
 
 [tool.ruff.lint]
 select = ["NPY201"]

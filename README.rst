@@ -31,7 +31,7 @@ limited purposes to read a few dozen EEGs for a research project. It is inching
 towards respectability as it is being updated as we have project that needs it to process
 through tens of thousands of edf files.
 
-It still more needs tests, more refractoring to make a
+It still needs more tests and refactoring to make a
 real pythonic api before heading to towards a polished package.
 
 I am currently updating edfwriter for 0.8 as I will be needing to use this functionality again.

@@ -1,7 +1,7 @@
 
 [build-system]
 #"setuptools-scm",
-requires = ["setuptools>45",  "wheel", "numpy>1.15", "future"]
+requires = ["setuptools>45",  "wheel", "numpy>1.22", "future"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -20,11 +20,11 @@ description = "python edflib is a python package ot allow access to European Dat
 readme = "README.rst"
 dependencies = [
   "future",
-  "numpy>1.15",
+  "numpy>1.22",
 ]
 # url="https://github.com/cleemesser/python-edf"
 # download_url="https://github.com/cleemesser/python-edf/releases"
-requires-python = ">=2.7"
+requires-python = ">=3.9"  # might work with 3.7, have not tested yet
 
 [tool.setuptools.packages.find]
 include = ["edflib*"]

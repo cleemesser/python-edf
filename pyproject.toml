@@ -1,7 +1,6 @@
 
 [build-system]
-#"setuptools-scm",
-requires = ["setuptools>45",  "wheel", "numpy>1.22", "future"]
+requires = ["setuptools>45",  "wheel", "numpy>1.22", "future"] # also require appropriate C compiler for system
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -34,3 +33,9 @@ include = ["edflib*"]
 
 [tool.ruff.lint]
 select = ["NPY201"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "cython>=3.0",
+]

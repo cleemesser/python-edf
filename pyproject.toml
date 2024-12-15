@@ -1,6 +1,6 @@
 
 [build-system]
-requires = ["setuptools>61",  "wheel", "numpy>1.22", "future"] # also require appropriate C compiler for system
+requires = ["setuptools>61",  "wheel", "numpy>1.22", "pytest", "future"] # also require appropriate C compiler for system
 build-backend = "setuptools.build_meta"
 
 [project]

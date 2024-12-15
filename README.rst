@@ -113,6 +113,11 @@ To upload to pypi::
 
   twine upload -r legacypypi dist/*   <- fix this>
 
+To source distribution upload to test pypi:
+   python -m twine upload --verbose --repository testpypi dist/*.tar.gz
+To test the upload to test.pypi
+
+   pip install --extra-index-url https://test.pypi.org/simple/ --no-deps "edflib==0.86.1"
 Todo:
 -----
 ::

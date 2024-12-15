@@ -14,7 +14,7 @@ version = "0.86.2"  # until get dynamic working need to update __init__.py to ma
 authors = [
   { name = "Chris Lee-Messer"}
 ]
-description = "python edflib is a python package ot allow access to European Data Format files (EDF for short). This is a standard for biological signals such as EEG, evoked potentials and EMG.  This module wraps Teunis van Beelen's edflib."
+description = "python edflib is a python package ot allow access to European Data Format files (EDF for short). This is a standard for biological signals such as EEG, evoked potentials and EMG.  This module wraps Teunis van Beelen's edflib. Unless you have good reason to use this package, you may want to use pyedflib instead as it is more actively and better maintained."
 
 readme = "README.rst"
 dependencies = [
@@ -39,6 +39,8 @@ dev = [
     "pytest",
     "cython>=3.0",
 ]
+
+test = ["pytest"]
 
 #[tool.cibuildwheel]
 #before-all = "uname -a" # at least on ubuntu 22 + podman-docker, this causes an error

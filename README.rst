@@ -109,15 +109,19 @@ On ubuntu 20.04 with gcc installed:
 - windows install worked
 
 To upload to pypi::
+
   python -m build
 
-  twine upload -r legacypypi dist/*   <- fix this>
+  twine upload  dist/*.tar.gz   # upload source dist
 
-To source distribution upload to test pypi:
+To source distribution upload to test pypi::
    python -m twine upload --verbose --repository testpypi dist/*.tar.gz
-To test the upload to test.pypi
 
-   pip install --extra-index-url https://test.pypi.org/simple/ --no-deps "edflib==0.86.1"
+To test the upload to test.pypi::
+
+   pip install --extra-index-url https://test.pypi.org/simple/ --no-deps edflib
+
+
 Todo:
 -----
 ::
@@ -127,13 +131,15 @@ Todo:
    - [/] test, tests, tests !!!
    - [x] inital port to python 3 (tested with 3.5+)
    - [ ] add new functions from version 1.10 of edflibX
-   - [ ] update cython interface to use typed memory views. This will be required for cython 3.0
-   - [x] set up continuous build/integration if possible - done on bitbucket for py 3.5 but not yet for github
+   - [x] 0.86 update cython interface to use typed memory views. This will be required for cython 3.0
+   - [ ] set up continuous build/integration if possible -
+         - [x] done on bitbucket for py 3.5 but not yet for github
+         - [/] 0.89.2 targetting cibuildwheel
    - [x] incorporate edflib code for utf-8 and short (int16) vs int (int32) digital writes
    - [ ] test edflib code for utf-8 and short (int16) vs int (int32) digital writes
    - [x] create mirror on github
-   - [ ] investigate manylinux solution to wheels. [PEP 513](https://www.python.org/dev/peps/pep-0513/) and
+   - [/] investigate manylinux solution to wheels. [PEP 513](https://www.python.org/dev/peps/pep-0513/) and
    - [x] fix python packaging problems so that pip installs work again
          - progress: as of 0.84 have sdist installs working on linux
          - as of 0.86 have pip install builds working on linux, mac, windows
-   - [ ] now restricted to using numpy < 2, add changes so it will work with numpy 2.x
+   - [x] added numpy 2.0.x compat with 0.86.x

@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "edflib"
-version = "0.86.1"  # until get dynamic working need to update __init__.py to match
+version = "0.86.2"  # until get dynamic working need to update __init__.py to match
 #dynamic = ["version"]
 
 # have not gotten this working yet
@@ -39,3 +39,6 @@ dev = [
     "pytest",
     "cython>=3.0",
 ]
+
+#[tool.cibuildwheel]
+#before-all = "uname -a" # at least on ubuntu 22 + podman-docker, this causes an error

@@ -133,6 +133,7 @@ Todo:
    - [ ] test edflib code for utf-8 and short (int16) vs int (int32) digital writes
    - [x] create mirror on github
    - [ ] investigate manylinux solution to wheels. [PEP 513](https://www.python.org/dev/peps/pep-0513/) and
-   - [/] fix python packaging problems so that pip installs work again
+   - [x] fix python packaging problems so that pip installs work again
          - progress: as of 0.84 have sdist installs working on linux
+         - as of 0.86 have pip install builds working on linux, mac, windows
    - [ ] now restricted to using numpy < 2, add changes so it will work with numpy 2.x

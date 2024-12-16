@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "edflib"
-version = "0.86.2"  # until get dynamic working need to update __init__.py to match
+version = "0.86.4"  # until get dynamic working need to update __init__.py to match
 #dynamic = ["version"]
 
 # have not gotten this working yet

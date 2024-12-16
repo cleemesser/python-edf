@@ -43,10 +43,16 @@ I continue to make it available in the hopes that it may be useful for others. A
 I need to use it, I may continue to improve and update it, but I can make no
 promises.
 
-installation
+Installation
 ------------
-the most reliable way to install edflib currently is to download the source (or git clone it).
-After unpacking the source, from the command line change to the directory::
+To install from pypi::
+  pip install edflib
+
+Many binary wheels are available for mac, windows and linux so you may not need a compiler to get this working now.
+
+If you have trouble or want to work on the code, the most reliable way to
+install edflib currently is to download the source (or git clone it).  After
+unpacking the source, from the command line change to the directory::
 
   python -m pip install .
 
@@ -57,15 +63,14 @@ Or, if you are doing development, you can do::
 This requires a working C compiler on your machine as well as the other build requirements such as cython, setuptools and numpy.
 
 
-
 python 3 compatibility
 ----------------------
+The package is now testsed to be compatible with python 3.9+ (as of 0.86). It is likely to work with early versions of python 3.5-3.7 and might be recompilable with python 2.7.
 
-The package is now compatible with python 3. The distinction between bytes and
-strings is now clear. For clarity all the cython and C code uses bytes only. The
-python code deals with decoding and encoding to either ascii or UTF-8 (for
-annotations) as described in the spec. In addition, I will accept UTF-8 on
-reading though it is outside of spec.
+The distinction between bytes and strings is now clear. For clarity all the
+cython and C code uses bytes only. The python code deals with decoding and
+encoding to either ascii or UTF-8 (for annotations) as described in the spec. In
+addition, I will accept UTF-8 on reading though it is outside of spec.
 
 Functions and properties with an 'underscore b' (_b) deal with bytes
 representation, while unadorned python functions return native python strings or
@@ -83,6 +88,9 @@ Related Projects
 
 Change list
 -----------
+2024-12-16 0.86 series with switch to memory views, numpy 2.0 compatibilty + packaging
+           This version passes tests but with the switch is more a beta
+
 2020-05-11 0.82 fix missing edf.pxi file in MANIFEST.in
 2020-05-11 0.81 transition to github given sunsetting of mercurial support on bithbucket
 2018-10-08 created mirror of code on github at https://github.com/cleemesser/python-edf
@@ -95,27 +103,26 @@ Change list
 
 packaging
 ---------
-I am currently working on using setuptools and the pyproject.toml file to make it so that you can at least do a pip install of the source distribution.
 
 Install/Packing Status:
 
-On ubuntu 20.04 with gcc installed:
-- pip install <path-to-cloned-git-repo>   # works with setuptools branch
-
-- with pip 21.2.2  python=3.7; pip 21.2.4 python=3.8, python=3.9, python=3.10
 
   pip install edflib  # works to install edflib 0.84.1 from source distribution
 
 - windows install worked
 
-To upload to pypi::
+To upload source dist to pypi::
 
   python -m build
+  twine  check <package or wheel paths>    # make sure the text renders
+  twine upload  <package or wheel paths>   # upload source dist
 
-  twine upload  dist/*.tar.gz   # upload source dist
+Wheels are generated on github, via .github/workflows/build_wheels.yml, but need
+to be manually uploaded at this point.
 
 To source distribution upload to test pypi::
-   python -m twine upload --verbose --repository testpypi dist/*.tar.gz
+
+  twine upload --verbose --repository testpypi <package or wheel paths>
 
 To test the upload to test.pypi::
 

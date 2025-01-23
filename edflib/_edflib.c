@@ -1520,7 +1520,7 @@ static const char *__pyx_filename;
 /* #### Code section: filename_table ### */
 
 static const char *__pyx_f[] = {
-  "edflib/_edflib.pyx",
+  "_edflib.pyx",
   "<stringsource>",
   "contextvars.pxd",
   "__init__.cython-30.pxd",
@@ -1672,7 +1672,7 @@ typedef struct {
 
 /* #### Code section: numeric_typedefs ### */
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":786
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":786
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1681,7 +1681,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":787
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":787
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1690,7 +1690,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":788
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":788
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1699,7 +1699,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":789
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":789
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1708,7 +1708,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":793
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":793
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1717,7 +1717,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":794
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":794
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1726,7 +1726,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":795
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":795
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1735,7 +1735,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":796
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":796
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1744,7 +1744,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":800
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":800
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1753,7 +1753,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":801
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":801
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1762,7 +1762,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":808
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":808
  * ctypedef double complex complex128_t
  * 
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -1771,7 +1771,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":809
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":809
  * 
  * ctypedef npy_longlong   longlong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -1780,7 +1780,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":811
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":811
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1789,7 +1789,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":812
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":812
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1798,7 +1798,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":814
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":814
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1807,7 +1807,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":815
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":815
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1816,7 +1816,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":816
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":816
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1898,7 +1898,7 @@ struct __pyx_opt_args_7cpython_11contextvars_get_value_no_default {
   PyObject *default_value;
 };
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1112
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1112
  * 
  * # Iterator API added in v1.6
  * ctypedef int (*NpyIter_IterNextFunc)(NpyIter* it) noexcept nogil             # <<<<<<<<<<<<<<
@@ -1907,7 +1907,7 @@ struct __pyx_opt_args_7cpython_11contextvars_get_value_no_default {
  */
 typedef int (*__pyx_t_5numpy_NpyIter_IterNextFunc)(NpyIter *);
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1113
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1113
  * # Iterator API added in v1.6
  * ctypedef int (*NpyIter_IterNextFunc)(NpyIter* it) noexcept nogil
  * ctypedef void (*NpyIter_GetMultiIndexFunc)(NpyIter* it, npy_intp* outcoords) noexcept nogil             # <<<<<<<<<<<<<<
@@ -3648,6 +3648,7 @@ static const char __pyx_k_offset[] = "offset";
 static const char __pyx_k_pickle[] = "pickle";
 static const char __pyx_k_reduce[] = "__reduce__";
 static const char __pyx_k_result[] = "result";
+static const char __pyx_k_return[] = "return";
 static const char __pyx_k_rewind[] = "rewind";
 static const char __pyx_k_second[] = "second";
 static const char __pyx_k_sigbuf[] = "sigbuf";
@@ -3722,6 +3723,7 @@ static const char __pyx_k_startdate[] = "startdate";
 static const char __pyx_k_IndexError[] = "IndexError";
 static const char __pyx_k_ValueError[] = "ValueError";
 static const char __pyx_k_close_file[] = "close_file";
+static const char __pyx_k_edflib_pyx[] = "_edflib.pyx";
 static const char __pyx_k_error_type[] = "error_type";
 static const char __pyx_k_fileHeader[] = "fileHeader";
 static const char __pyx_k_issubdtype[] = "issubdtype";
@@ -3849,7 +3851,6 @@ static const char __pyx_k_CyEdfReader__close[] = "CyEdfReader._close";
 static const char __pyx_k_EdfWriter_setLabel[] = "EdfWriter.setLabel";
 static const char __pyx_k_asyncio_coroutines[] = "asyncio.coroutines";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
-static const char __pyx_k_edflib__edflib_pyx[] = "edflib/_edflib.pyx";
 static const char __pyx_k_patient_additional[] = "patient_additional";
 static const char __pyx_k_physical_dimension[] = "physical_dimension";
 static const char __pyx_k_physmin_is_physmax[] = "physmin is physmax";
@@ -4560,7 +4561,7 @@ typedef struct {
   PyObject *__pyx_n_s_duration;
   PyObject *__pyx_n_s_duration_in_seconds;
   PyObject *__pyx_n_s_edflib__edflib;
-  PyObject *__pyx_kp_s_edflib__edflib_pyx;
+  PyObject *__pyx_kp_s_edflib_pyx;
   PyObject *__pyx_n_s_edfsignal;
   PyObject *__pyx_kp_u_enable;
   PyObject *__pyx_n_s_encode;
@@ -4709,6 +4710,7 @@ typedef struct {
   PyObject *__pyx_n_s_register;
   PyObject *__pyx_kp_u_requested;
   PyObject *__pyx_n_s_result;
+  PyObject *__pyx_n_s_return;
   PyObject *__pyx_n_s_rewind;
   PyObject *__pyx_n_s_round;
   PyObject *__pyx_n_s_s;
@@ -5358,7 +5360,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_duration);
   Py_CLEAR(clear_module_state->__pyx_n_s_duration_in_seconds);
   Py_CLEAR(clear_module_state->__pyx_n_s_edflib__edflib);
-  Py_CLEAR(clear_module_state->__pyx_kp_s_edflib__edflib_pyx);
+  Py_CLEAR(clear_module_state->__pyx_kp_s_edflib_pyx);
   Py_CLEAR(clear_module_state->__pyx_n_s_edfsignal);
   Py_CLEAR(clear_module_state->__pyx_kp_u_enable);
   Py_CLEAR(clear_module_state->__pyx_n_s_encode);
@@ -5507,6 +5509,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_register);
   Py_CLEAR(clear_module_state->__pyx_kp_u_requested);
   Py_CLEAR(clear_module_state->__pyx_n_s_result);
+  Py_CLEAR(clear_module_state->__pyx_n_s_return);
   Py_CLEAR(clear_module_state->__pyx_n_s_rewind);
   Py_CLEAR(clear_module_state->__pyx_n_s_round);
   Py_CLEAR(clear_module_state->__pyx_n_s_s);
@@ -6134,7 +6137,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_duration);
   Py_VISIT(traverse_module_state->__pyx_n_s_duration_in_seconds);
   Py_VISIT(traverse_module_state->__pyx_n_s_edflib__edflib);
-  Py_VISIT(traverse_module_state->__pyx_kp_s_edflib__edflib_pyx);
+  Py_VISIT(traverse_module_state->__pyx_kp_s_edflib_pyx);
   Py_VISIT(traverse_module_state->__pyx_n_s_edfsignal);
   Py_VISIT(traverse_module_state->__pyx_kp_u_enable);
   Py_VISIT(traverse_module_state->__pyx_n_s_encode);
@@ -6283,6 +6286,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_register);
   Py_VISIT(traverse_module_state->__pyx_kp_u_requested);
   Py_VISIT(traverse_module_state->__pyx_n_s_result);
+  Py_VISIT(traverse_module_state->__pyx_n_s_return);
   Py_VISIT(traverse_module_state->__pyx_n_s_rewind);
   Py_VISIT(traverse_module_state->__pyx_n_s_round);
   Py_VISIT(traverse_module_state->__pyx_n_s_s);
@@ -7010,7 +7014,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_duration __pyx_mstate_global->__pyx_n_s_duration
 #define __pyx_n_s_duration_in_seconds __pyx_mstate_global->__pyx_n_s_duration_in_seconds
 #define __pyx_n_s_edflib__edflib __pyx_mstate_global->__pyx_n_s_edflib__edflib
-#define __pyx_kp_s_edflib__edflib_pyx __pyx_mstate_global->__pyx_kp_s_edflib__edflib_pyx
+#define __pyx_kp_s_edflib_pyx __pyx_mstate_global->__pyx_kp_s_edflib_pyx
 #define __pyx_n_s_edfsignal __pyx_mstate_global->__pyx_n_s_edfsignal
 #define __pyx_kp_u_enable __pyx_mstate_global->__pyx_kp_u_enable
 #define __pyx_n_s_encode __pyx_mstate_global->__pyx_n_s_encode
@@ -7159,6 +7163,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_register __pyx_mstate_global->__pyx_n_s_register
 #define __pyx_kp_u_requested __pyx_mstate_global->__pyx_kp_u_requested
 #define __pyx_n_s_result __pyx_mstate_global->__pyx_n_s_result
+#define __pyx_n_s_return __pyx_mstate_global->__pyx_n_s_return
 #define __pyx_n_s_rewind __pyx_mstate_global->__pyx_n_s_rewind
 #define __pyx_n_s_round __pyx_mstate_global->__pyx_n_s_round
 #define __pyx_n_s_s __pyx_mstate_global->__pyx_n_s_s
@@ -21440,7 +21445,7 @@ static CYTHON_INLINE PyObject *__pyx_f_7cpython_11contextvars_get_value_no_defau
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":286
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":286
  * 
  *         @property
  *         cdef inline npy_intp itemsize(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21451,7 +21456,7 @@ static CYTHON_INLINE PyObject *__pyx_f_7cpython_11contextvars_get_value_no_defau
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_8itemsize_itemsize(PyArray_Descr *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":287
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":287
  *         @property
  *         cdef inline npy_intp itemsize(self) noexcept nogil:
  *             return PyDataType_ELSIZE(self)             # <<<<<<<<<<<<<<
@@ -21461,7 +21466,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_8itemsize_itemsize(PyArray_D
   __pyx_r = PyDataType_ELSIZE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":286
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":286
  * 
  *         @property
  *         cdef inline npy_intp itemsize(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21474,7 +21479,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_8itemsize_itemsize(PyArray_D
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":290
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":290
  * 
  *         @property
  *         cdef inline npy_intp alignment(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21485,7 +21490,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_8itemsize_itemsize(PyArray_D
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_9alignment_alignment(PyArray_Descr *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":291
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":291
  *         @property
  *         cdef inline npy_intp alignment(self) noexcept nogil:
  *             return PyDataType_ALIGNMENT(self)             # <<<<<<<<<<<<<<
@@ -21495,7 +21500,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_9alignment_alignment(PyArray
   __pyx_r = PyDataType_ALIGNMENT(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":290
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":290
  * 
  *         @property
  *         cdef inline npy_intp alignment(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21508,7 +21513,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_9alignment_alignment(PyArray
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":296
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":296
  *         # for this using PyDataType_HASFIELDS.
  *         @property
  *         cdef inline object fields(self):             # <<<<<<<<<<<<<<
@@ -21522,7 +21527,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_6fields_fields(PyArray_Desc
   PyObject *__pyx_t_1;
   __Pyx_RefNannySetupContext("fields", 1);
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":297
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":297
  *         @property
  *         cdef inline object fields(self):
  *             return <object>PyDataType_FIELDS(self)             # <<<<<<<<<<<<<<
@@ -21535,7 +21540,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_6fields_fields(PyArray_Desc
   __pyx_r = ((PyObject *)__pyx_t_1);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":296
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":296
  *         # for this using PyDataType_HASFIELDS.
  *         @property
  *         cdef inline object fields(self):             # <<<<<<<<<<<<<<
@@ -21550,7 +21555,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_6fields_fields(PyArray_Desc
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":300
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":300
  * 
  *         @property
  *         cdef inline tuple names(self):             # <<<<<<<<<<<<<<
@@ -21564,7 +21569,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_5names_names(PyArray_Descr 
   PyObject *__pyx_t_1;
   __Pyx_RefNannySetupContext("names", 1);
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":301
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":301
  *         @property
  *         cdef inline tuple names(self):
  *             return <tuple>PyDataType_NAMES(self)             # <<<<<<<<<<<<<<
@@ -21577,7 +21582,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_5names_names(PyArray_Descr 
   __pyx_r = ((PyObject*)__pyx_t_1);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":300
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":300
  * 
  *         @property
  *         cdef inline tuple names(self):             # <<<<<<<<<<<<<<
@@ -21592,7 +21597,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_5names_names(PyArray_Descr 
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":307
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":307
  *         # this field via the inline helper method PyDataType_SHAPE.
  *         @property
  *         cdef inline PyArray_ArrayDescr* subarray(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21603,7 +21608,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_5names_names(PyArray_Descr 
 static CYTHON_INLINE PyArray_ArrayDescr *__pyx_f_5numpy_5dtype_8subarray_subarray(PyArray_Descr *__pyx_v_self) {
   PyArray_ArrayDescr *__pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":308
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":308
  *         @property
  *         cdef inline PyArray_ArrayDescr* subarray(self) noexcept nogil:
  *             return PyDataType_SUBARRAY(self)             # <<<<<<<<<<<<<<
@@ -21613,7 +21618,7 @@ static CYTHON_INLINE PyArray_ArrayDescr *__pyx_f_5numpy_5dtype_8subarray_subarra
   __pyx_r = PyDataType_SUBARRAY(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":307
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":307
  *         # this field via the inline helper method PyDataType_SHAPE.
  *         @property
  *         cdef inline PyArray_ArrayDescr* subarray(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21626,7 +21631,7 @@ static CYTHON_INLINE PyArray_ArrayDescr *__pyx_f_5numpy_5dtype_8subarray_subarra
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":311
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":311
  * 
  *         @property
  *         cdef inline npy_uint64 flags(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21637,7 +21642,7 @@ static CYTHON_INLINE PyArray_ArrayDescr *__pyx_f_5numpy_5dtype_8subarray_subarra
 static CYTHON_INLINE npy_uint64 __pyx_f_5numpy_5dtype_5flags_flags(PyArray_Descr *__pyx_v_self) {
   npy_uint64 __pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":313
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":313
  *         cdef inline npy_uint64 flags(self) noexcept nogil:
  *             """The data types flags."""
  *             return PyDataType_FLAGS(self)             # <<<<<<<<<<<<<<
@@ -21647,7 +21652,7 @@ static CYTHON_INLINE npy_uint64 __pyx_f_5numpy_5dtype_5flags_flags(PyArray_Descr
   __pyx_r = PyDataType_FLAGS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":311
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":311
  * 
  *         @property
  *         cdef inline npy_uint64 flags(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21660,7 +21665,7 @@ static CYTHON_INLINE npy_uint64 __pyx_f_5numpy_5dtype_5flags_flags(PyArray_Descr
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":323
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":323
  * 
  *         @property
  *         cdef inline int numiter(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21671,7 +21676,7 @@ static CYTHON_INLINE npy_uint64 __pyx_f_5numpy_5dtype_5flags_flags(PyArray_Descr
 static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_7numiter_numiter(PyArrayMultiIterObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":325
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":325
  *         cdef inline int numiter(self) noexcept nogil:
  *             """The number of arrays that need to be broadcast to the same shape."""
  *             return PyArray_MultiIter_NUMITER(self)             # <<<<<<<<<<<<<<
@@ -21681,7 +21686,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_7numiter_numiter(PyArrayMulti
   __pyx_r = PyArray_MultiIter_NUMITER(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":323
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":323
  * 
  *         @property
  *         cdef inline int numiter(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21694,7 +21699,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_7numiter_numiter(PyArrayMulti
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":328
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":328
  * 
  *         @property
  *         cdef inline npy_intp size(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21705,7 +21710,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_7numiter_numiter(PyArrayMulti
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_4size_size(PyArrayMultiIterObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":330
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":330
  *         cdef inline npy_intp size(self) noexcept nogil:
  *             """The total broadcasted size."""
  *             return PyArray_MultiIter_SIZE(self)             # <<<<<<<<<<<<<<
@@ -21715,7 +21720,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_4size_size(PyArrayMultiI
   __pyx_r = PyArray_MultiIter_SIZE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":328
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":328
  * 
  *         @property
  *         cdef inline npy_intp size(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21728,7 +21733,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_4size_size(PyArrayMultiI
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":333
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":333
  * 
  *         @property
  *         cdef inline npy_intp index(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21739,7 +21744,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_4size_size(PyArrayMultiI
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_5index_index(PyArrayMultiIterObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":335
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":335
  *         cdef inline npy_intp index(self) noexcept nogil:
  *             """The current (1-d) index into the broadcasted result."""
  *             return PyArray_MultiIter_INDEX(self)             # <<<<<<<<<<<<<<
@@ -21749,7 +21754,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_5index_index(PyArrayMult
   __pyx_r = PyArray_MultiIter_INDEX(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":333
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":333
  * 
  *         @property
  *         cdef inline npy_intp index(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21762,7 +21767,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_5index_index(PyArrayMult
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":338
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":338
  * 
  *         @property
  *         cdef inline int nd(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21773,7 +21778,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_5index_index(PyArrayMult
 static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_2nd_nd(PyArrayMultiIterObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":340
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":340
  *         cdef inline int nd(self) noexcept nogil:
  *             """The number of dimensions in the broadcasted result."""
  *             return PyArray_MultiIter_NDIM(self)             # <<<<<<<<<<<<<<
@@ -21783,7 +21788,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_2nd_nd(PyArrayMultiIterObject
   __pyx_r = PyArray_MultiIter_NDIM(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":338
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":338
  * 
  *         @property
  *         cdef inline int nd(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21796,7 +21801,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_2nd_nd(PyArrayMultiIterObject
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":343
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":343
  * 
  *         @property
  *         cdef inline npy_intp* dimensions(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21807,7 +21812,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_2nd_nd(PyArrayMultiIterObject
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_9broadcast_10dimensions_dimensions(PyArrayMultiIterObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":345
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":345
  *         cdef inline npy_intp* dimensions(self) noexcept nogil:
  *             """The shape of the broadcasted result."""
  *             return PyArray_MultiIter_DIMS(self)             # <<<<<<<<<<<<<<
@@ -21817,7 +21822,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_9broadcast_10dimensions_dimensions
   __pyx_r = PyArray_MultiIter_DIMS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":343
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":343
  * 
  *         @property
  *         cdef inline npy_intp* dimensions(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21830,7 +21835,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_9broadcast_10dimensions_dimensions
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":348
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":348
  * 
  *         @property
  *         cdef inline void** iters(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21841,7 +21846,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_9broadcast_10dimensions_dimensions
 static CYTHON_INLINE void **__pyx_f_5numpy_9broadcast_5iters_iters(PyArrayMultiIterObject *__pyx_v_self) {
   void **__pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":351
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":351
  *             """An array of iterator objects that holds the iterators for the arrays to be broadcast together.
  *             On return, the iterators are adjusted for broadcasting."""
  *             return PyArray_MultiIter_ITERS(self)             # <<<<<<<<<<<<<<
@@ -21851,7 +21856,7 @@ static CYTHON_INLINE void **__pyx_f_5numpy_9broadcast_5iters_iters(PyArrayMultiI
   __pyx_r = PyArray_MultiIter_ITERS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":348
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":348
  * 
  *         @property
  *         cdef inline void** iters(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21864,7 +21869,7 @@ static CYTHON_INLINE void **__pyx_f_5numpy_9broadcast_5iters_iters(PyArrayMultiI
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":366
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":366
  * 
  *         @property
  *         cdef inline PyObject* base(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21875,7 +21880,7 @@ static CYTHON_INLINE void **__pyx_f_5numpy_9broadcast_5iters_iters(PyArrayMultiI
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject *__pyx_v_self) {
   PyObject *__pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":369
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":369
  *             """Returns a borrowed reference to the object owning the data/memory.
  *             """
  *             return PyArray_BASE(self)             # <<<<<<<<<<<<<<
@@ -21885,7 +21890,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   __pyx_r = PyArray_BASE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":366
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":366
  * 
  *         @property
  *         cdef inline PyObject* base(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21898,7 +21903,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":372
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":372
  * 
  *         @property
  *         cdef inline dtype descr(self):             # <<<<<<<<<<<<<<
@@ -21912,7 +21917,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   PyArray_Descr *__pyx_t_1;
   __Pyx_RefNannySetupContext("descr", 1);
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":375
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":375
  *             """Returns an owned reference to the dtype of the array.
  *             """
  *             return <dtype>PyArray_DESCR(self)             # <<<<<<<<<<<<<<
@@ -21925,7 +21930,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   __pyx_r = ((PyArray_Descr *)__pyx_t_1);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":372
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":372
  * 
  *         @property
  *         cdef inline dtype descr(self):             # <<<<<<<<<<<<<<
@@ -21940,7 +21945,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":378
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":378
  * 
  *         @property
  *         cdef inline int ndim(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21951,7 +21956,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
 static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":381
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":381
  *             """Returns the number of dimensions in the array.
  *             """
  *             return PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -21961,7 +21966,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   __pyx_r = PyArray_NDIM(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":378
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":378
  * 
  *         @property
  *         cdef inline int ndim(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21974,7 +21979,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":384
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":384
  * 
  *         @property
  *         cdef inline npy_intp *shape(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -21985,7 +21990,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":389
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":389
  *             Can return NULL for 0-dimensional arrays.
  *             """
  *             return PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -21995,7 +22000,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   __pyx_r = PyArray_DIMS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":384
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":384
  * 
  *         @property
  *         cdef inline npy_intp *shape(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -22008,7 +22013,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":392
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":392
  * 
  *         @property
  *         cdef inline npy_intp *strides(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -22019,7 +22024,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":396
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":396
  *             The number of elements matches the number of dimensions of the array (ndim).
  *             """
  *             return PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -22029,7 +22034,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   __pyx_r = PyArray_STRIDES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":392
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":392
  * 
  *         @property
  *         cdef inline npy_intp *strides(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -22042,7 +22047,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":399
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":399
  * 
  *         @property
  *         cdef inline npy_intp size(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -22053,7 +22058,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":402
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":402
  *             """Returns the total size (in number of elements) of the array.
  *             """
  *             return PyArray_SIZE(self)             # <<<<<<<<<<<<<<
@@ -22063,7 +22068,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   __pyx_r = PyArray_SIZE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":399
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":399
  * 
  *         @property
  *         cdef inline npy_intp size(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -22076,7 +22081,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":405
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":405
  * 
  *         @property
  *         cdef inline char* data(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -22087,7 +22092,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
 static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__pyx_v_self) {
   char *__pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":411
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":411
  *             of `PyArray_DATA()` instead, which returns a 'void*'.
  *             """
  *             return PyArray_BYTES(self)             # <<<<<<<<<<<<<<
@@ -22097,7 +22102,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   __pyx_r = PyArray_BYTES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":405
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":405
  * 
  *         @property
  *         cdef inline char* data(self) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -22110,7 +22115,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":823
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":823
  * ctypedef long double complex clongdouble_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -22127,7 +22132,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 1);
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":824
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":824
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -22141,7 +22146,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":823
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":823
  * ctypedef long double complex clongdouble_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -22160,7 +22165,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":826
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":826
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -22177,7 +22182,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 1);
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":827
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":827
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -22191,7 +22196,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":826
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":826
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -22210,7 +22215,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":829
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":829
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -22227,7 +22232,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 1);
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":830
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":830
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -22241,7 +22246,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":829
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":829
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -22260,7 +22265,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":832
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":832
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -22277,7 +22282,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 1);
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":833
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":833
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -22291,7 +22296,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":832
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":832
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -22310,7 +22315,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":835
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":835
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -22327,7 +22332,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 1);
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":836
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":836
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -22341,7 +22346,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":835
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":835
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -22360,7 +22365,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":838
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":838
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -22375,7 +22380,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   PyObject *__pyx_t_2;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 1);
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":839
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":839
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -22385,7 +22390,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = PyDataType_HASSUBARRAY(__pyx_v_d);
   if (__pyx_t_1) {
 
-    /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":840
+    /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":840
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -22398,7 +22403,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_t_2);
     goto __pyx_L0;
 
-    /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":839
+    /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":839
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -22407,7 +22412,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":842
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":842
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -22421,7 +22426,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":838
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":838
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -22436,7 +22441,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1026
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1026
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base) except *:             # <<<<<<<<<<<<<<
@@ -22450,7 +22455,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1027
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1027
  * 
  * cdef inline void set_array_base(ndarray arr, object base) except *:
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -22459,7 +22464,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1028
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1028
  * cdef inline void set_array_base(ndarray arr, object base) except *:
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
@@ -22468,7 +22473,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   __pyx_t_1 = PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base); if (unlikely(__pyx_t_1 == ((int)-1))) __PYX_ERR(3, 1028, __pyx_L1_error)
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1026
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1026
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base) except *:             # <<<<<<<<<<<<<<
@@ -22483,7 +22488,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __pyx_L0:;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1030
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1030
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -22498,7 +22503,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 1);
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1031
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1031
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -22507,7 +22512,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1032
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1032
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -22517,7 +22522,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = (__pyx_v_base == NULL);
   if (__pyx_t_1) {
 
-    /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1033
+    /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1033
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -22528,7 +22533,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1032
+    /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1032
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -22537,7 +22542,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1034
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1034
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -22549,7 +22554,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1030
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1030
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -22564,7 +22569,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1038
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1038
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -22588,7 +22593,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 1);
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -22604,7 +22609,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1040
+      /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1040
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
@@ -22613,7 +22618,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(3, 1040, __pyx_L3_error)
 
-      /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
+      /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -22627,7 +22632,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1041
+    /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1041
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -22642,7 +22647,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1042
+      /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1042
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy._core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -22657,7 +22662,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     }
     goto __pyx_L5_except_error;
 
-    /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
+    /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -22673,7 +22678,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1038
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1038
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -22696,7 +22701,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1044
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1044
  *         raise ImportError("numpy._core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -22720,7 +22725,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 1);
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1045
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1045
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -22736,7 +22741,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1046
+      /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1046
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -22745,7 +22750,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(3, 1046, __pyx_L3_error)
 
-      /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1045
+      /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1045
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -22759,7 +22764,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1047
+    /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1047
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -22774,7 +22779,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1048
+      /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1048
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy._core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -22789,7 +22794,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     }
     goto __pyx_L5_except_error;
 
-    /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1045
+    /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1045
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -22805,7 +22810,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1044
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1044
  *         raise ImportError("numpy._core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -22828,7 +22833,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1050
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1050
  *         raise ImportError("numpy._core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -22852,7 +22857,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 1);
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1051
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1051
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -22868,7 +22873,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1052
+      /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1052
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -22877,7 +22882,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(3, 1052, __pyx_L3_error)
 
-      /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1051
+      /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1051
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -22891,7 +22896,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1053
+    /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1053
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -22906,7 +22911,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1054
+      /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1054
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy._core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -22921,7 +22926,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     }
     goto __pyx_L5_except_error;
 
-    /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1051
+    /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1051
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -22937,7 +22942,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1050
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1050
  *         raise ImportError("numpy._core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -22960,7 +22965,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1057
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1057
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj) noexcept:             # <<<<<<<<<<<<<<
@@ -22971,7 +22976,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
 static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1069
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1069
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -22981,7 +22986,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1057
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1057
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj) noexcept:             # <<<<<<<<<<<<<<
@@ -22994,7 +22999,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1072
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1072
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj) noexcept:             # <<<<<<<<<<<<<<
@@ -23005,7 +23010,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
 static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1084
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1084
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -23015,7 +23020,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1072
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1072
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj) noexcept:             # <<<<<<<<<<<<<<
@@ -23028,7 +23033,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1087
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1087
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -23039,7 +23044,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *__pyx_v_obj) {
   npy_datetime __pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1094
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1094
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -23049,7 +23054,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1087
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1087
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -23062,7 +23067,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1097
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1097
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -23073,7 +23078,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject *__pyx_v_obj) {
   npy_timedelta __pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1101
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1101
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -23083,7 +23088,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1097
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1097
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -23096,7 +23101,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1104
+/* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1104
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -23107,7 +23112,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObject *__pyx_v_obj) {
   NPY_DATETIMEUNIT __pyx_r;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1108
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1108
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
@@ -23117,7 +23122,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1104
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1104
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -25280,7 +25285,7 @@ static PyObject *__pyx_pf_6edflib_7_edflib_11CyEdfReader_15signals_in_file___get
  *         return self.hdr.edfsignals
  * 
  *     @property             # <<<<<<<<<<<<<<
- *     def datarecords_in_file(self):
+ *     def datarecords_in_file(self) -> int:
  *         """number of data records type (long long int) """
  */
 
@@ -25309,7 +25314,7 @@ static PyObject *__pyx_pf_6edflib_7_edflib_11CyEdfReader_19datarecords_in_file__
   __Pyx_RefNannySetupContext("__get__", 1);
 
   /* "edflib/_edflib.pyx":225
- *     def datarecords_in_file(self):
+ *     def datarecords_in_file(self) -> int:
  *         """number of data records type (long long int) """
  *         return self.hdr.datarecords_in_file             # <<<<<<<<<<<<<<
  * 
@@ -25326,7 +25331,7 @@ static PyObject *__pyx_pf_6edflib_7_edflib_11CyEdfReader_19datarecords_in_file__
  *         return self.hdr.edfsignals
  * 
  *     @property             # <<<<<<<<<<<<<<
- *     def datarecords_in_file(self):
+ *     def datarecords_in_file(self) -> int:
  *         """number of data records type (long long int) """
  */
 
@@ -25345,7 +25350,7 @@ static PyObject *__pyx_pf_6edflib_7_edflib_11CyEdfReader_19datarecords_in_file__
  * 
  * 
  *     @property             # <<<<<<<<<<<<<<
- *     def file_duration_100ns(self):
+ *     def file_duration_100ns(self) -> int:
  *         """file duration in integer units of 100 nanoseconds"""
  */
 
@@ -25374,7 +25379,7 @@ static PyObject *__pyx_pf_6edflib_7_edflib_11CyEdfReader_19file_duration_100ns__
   __Pyx_RefNannySetupContext("__get__", 1);
 
   /* "edflib/_edflib.pyx":231
- *     def file_duration_100ns(self):
+ *     def file_duration_100ns(self) -> int:
  *         """file duration in integer units of 100 nanoseconds"""
  *         return self.hdr.file_duration             # <<<<<<<<<<<<<<
  * 
@@ -25391,7 +25396,7 @@ static PyObject *__pyx_pf_6edflib_7_edflib_11CyEdfReader_19file_duration_100ns__
  * 
  * 
  *     @property             # <<<<<<<<<<<<<<
- *     def file_duration_100ns(self):
+ *     def file_duration_100ns(self) -> int:
  *         """file duration in integer units of 100 nanoseconds"""
  */
 
@@ -27103,7 +27108,7 @@ static PyObject *__pyx_pf_6edflib_7_edflib_11CyEdfReader_18samples_in_file(struc
  *     def samples_in_file(self,channel):
  *         return self.hdr.signalparam[channel].smp_in_file             # <<<<<<<<<<<<<<
  * 
- *     def samples_in_datarecord(self, channel):
+ *     def samples_in_datarecord(self, channel) -> int:
  */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_1 = __Pyx_PyIndex_AsSsize_t(__pyx_v_channel); if (unlikely((__pyx_t_1 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 352, __pyx_L1_error)
@@ -27135,7 +27140,7 @@ static PyObject *__pyx_pf_6edflib_7_edflib_11CyEdfReader_18samples_in_file(struc
 /* "edflib/_edflib.pyx":354
  *         return self.hdr.signalparam[channel].smp_in_file
  * 
- *     def samples_in_datarecord(self, channel):             # <<<<<<<<<<<<<<
+ *     def samples_in_datarecord(self, channel) -> int:             # <<<<<<<<<<<<<<
  *         return self.hdr.signalparam[channel].smp_in_datarecord
  * 
  */
@@ -27248,7 +27253,7 @@ static PyObject *__pyx_pf_6edflib_7_edflib_11CyEdfReader_20samples_in_datarecord
 
   /* "edflib/_edflib.pyx":355
  * 
- *     def samples_in_datarecord(self, channel):
+ *     def samples_in_datarecord(self, channel) -> int:
  *         return self.hdr.signalparam[channel].smp_in_datarecord             # <<<<<<<<<<<<<<
  * 
  *     def physical_dimension_b(self, channel):
@@ -27257,14 +27262,15 @@ static PyObject *__pyx_pf_6edflib_7_edflib_11CyEdfReader_20samples_in_datarecord
   __pyx_t_1 = __Pyx_PyIndex_AsSsize_t(__pyx_v_channel); if (unlikely((__pyx_t_1 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 355, __pyx_L1_error)
   __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->hdr.signalparam[__pyx_t_1]).smp_in_datarecord); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 355, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_r = __pyx_t_2;
+  if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_t_2)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_2))) __PYX_ERR(0, 355, __pyx_L1_error)
+  __pyx_r = ((PyObject*)__pyx_t_2);
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
   /* "edflib/_edflib.pyx":354
  *         return self.hdr.signalparam[channel].smp_in_file
  * 
- *     def samples_in_datarecord(self, channel):             # <<<<<<<<<<<<<<
+ *     def samples_in_datarecord(self, channel) -> int:             # <<<<<<<<<<<<<<
  *         return self.hdr.signalparam[channel].smp_in_datarecord
  * 
  */
@@ -52820,7 +52826,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_duration, __pyx_k_duration, sizeof(__pyx_k_duration), 0, 0, 1, 1},
     {&__pyx_n_s_duration_in_seconds, __pyx_k_duration_in_seconds, sizeof(__pyx_k_duration_in_seconds), 0, 0, 1, 1},
     {&__pyx_n_s_edflib__edflib, __pyx_k_edflib__edflib, sizeof(__pyx_k_edflib__edflib), 0, 0, 1, 1},
-    {&__pyx_kp_s_edflib__edflib_pyx, __pyx_k_edflib__edflib_pyx, sizeof(__pyx_k_edflib__edflib_pyx), 0, 0, 1, 0},
+    {&__pyx_kp_s_edflib_pyx, __pyx_k_edflib_pyx, sizeof(__pyx_k_edflib_pyx), 0, 0, 1, 0},
     {&__pyx_n_s_edfsignal, __pyx_k_edfsignal, sizeof(__pyx_k_edfsignal), 0, 0, 1, 1},
     {&__pyx_kp_u_enable, __pyx_k_enable, sizeof(__pyx_k_enable), 0, 1, 0, 0},
     {&__pyx_n_s_encode, __pyx_k_encode, sizeof(__pyx_k_encode), 0, 0, 1, 1},
@@ -52969,6 +52975,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_register, __pyx_k_register, sizeof(__pyx_k_register), 0, 0, 1, 1},
     {&__pyx_kp_u_requested, __pyx_k_requested, sizeof(__pyx_k_requested), 0, 1, 0, 0},
     {&__pyx_n_s_result, __pyx_k_result, sizeof(__pyx_k_result), 0, 0, 1, 1},
+    {&__pyx_n_s_return, __pyx_k_return, sizeof(__pyx_k_return), 0, 0, 1, 1},
     {&__pyx_n_s_rewind, __pyx_k_rewind, sizeof(__pyx_k_rewind), 0, 0, 1, 1},
     {&__pyx_n_s_round, __pyx_k_round, sizeof(__pyx_k_round), 0, 0, 1, 1},
     {&__pyx_n_s_s, __pyx_k_s, sizeof(__pyx_k_s), 0, 0, 1, 1},
@@ -53162,7 +53169,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1042
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1042
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy._core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -53173,7 +53180,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "../../miniforge3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1048
+  /* "../../../anaconda3/envs/edfnp2/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1048
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy._core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -53317,7 +53324,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__26 = PyTuple_Pack(2, __pyx_n_s_result, __pyx_n_s_error_type); if (unlikely(!__pyx_tuple__26)) __PYX_ERR(0, 89, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__26);
   __Pyx_GIVEREF(__pyx_tuple__26);
-  __pyx_codeobj__27 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__26, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_check_open_ok, 89, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__27)) __PYX_ERR(0, 89, __pyx_L1_error)
+  __pyx_codeobj__27 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__26, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_check_open_ok, 89, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__27)) __PYX_ERR(0, 89, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":98
  * 
@@ -53326,7 +53333,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *     return edflib_version()
  * 
  */
-  __pyx_codeobj__28 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_lib_version, 98, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__28)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_codeobj__28 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_lib_version, 98, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__28)) __PYX_ERR(0, 98, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":136
  *             self.hdr.handle = -1
@@ -53338,7 +53345,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__29 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__29)) __PYX_ERR(0, 136, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__29);
   __Pyx_GIVEREF(__pyx_tuple__29);
-  __pyx_codeobj__30 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_enter, 136, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__30)) __PYX_ERR(0, 136, __pyx_L1_error)
+  __pyx_codeobj__30 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_enter, 136, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__30)) __PYX_ERR(0, 136, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":139
  *         return self
@@ -53350,7 +53357,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__31 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_exc_type, __pyx_n_s_exc_val, __pyx_n_s_ex_tb); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(0, 139, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__31);
   __Pyx_GIVEREF(__pyx_tuple__31);
-  __pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_exit, 139, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__32)) __PYX_ERR(0, 139, __pyx_L1_error)
+  __pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_exit, 139, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__32)) __PYX_ERR(0, 139, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":143
  * 
@@ -53362,7 +53369,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__33 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_tmp, __pyx_n_s_ii, __pyx_n_s_dbuffer); if (unlikely(!__pyx_tuple__33)) __PYX_ERR(0, 143, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__33);
   __Pyx_GIVEREF(__pyx_tuple__33);
-  __pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_make_phys_datarecord_buffer, 143, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__34)) __PYX_ERR(0, 143, __pyx_L1_error)
+  __pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_make_phys_datarecord_buffer, 143, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__34)) __PYX_ERR(0, 143, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":159
  *         return dbuffer
@@ -53374,7 +53381,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__35 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_file_name, __pyx_n_s_mode, __pyx_n_s_annotations_mode, __pyx_n_s_result); if (unlikely(!__pyx_tuple__35)) __PYX_ERR(0, 159, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__35);
   __Pyx_GIVEREF(__pyx_tuple__35);
-  __pyx_codeobj__36 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__35, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_open, 159, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__36)) __PYX_ERR(0, 159, __pyx_L1_error)
+  __pyx_codeobj__36 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__35, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_open, 159, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__36)) __PYX_ERR(0, 159, __pyx_L1_error)
   __pyx_tuple__37 = PyTuple_Pack(2, __pyx_n_u_r, __pyx_n_u_all); if (unlikely(!__pyx_tuple__37)) __PYX_ERR(0, 159, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__37);
   __Pyx_GIVEREF(__pyx_tuple__37);
@@ -53389,7 +53396,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__38 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_annot, __pyx_n_s_annotlist, __pyx_n_s_ii, __pyx_n_s_x); if (unlikely(!__pyx_tuple__38)) __PYX_ERR(0, 169, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__38);
   __Pyx_GIVEREF(__pyx_tuple__38);
-  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_read_annotations_b, 169, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) __PYX_ERR(0, 169, __pyx_L1_error)
+  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_read_annotations_b, 169, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) __PYX_ERR(0, 169, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":187
  * 
@@ -53398,7 +53405,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """
  *         return integer units of times of 100ns
  */
-  __pyx_codeobj__40 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_read_annotations_b_100ns_units, 187, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__40)) __PYX_ERR(0, 187, __pyx_L1_error)
+  __pyx_codeobj__40 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_read_annotations_b_100ns_units, 187, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__40)) __PYX_ERR(0, 187, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":348
  * 
@@ -53410,7 +53417,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__41 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_channel); if (unlikely(!__pyx_tuple__41)) __PYX_ERR(0, 348, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__41);
   __Pyx_GIVEREF(__pyx_tuple__41);
-  __pyx_codeobj__42 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_signal_label_b, 348, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__42)) __PYX_ERR(0, 348, __pyx_L1_error)
+  __pyx_codeobj__42 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_signal_label_b, 348, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__42)) __PYX_ERR(0, 348, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":351
  *         return self.hdr.signalparam[channel].label
@@ -53419,16 +53426,16 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         return self.hdr.signalparam[channel].smp_in_file
  * 
  */
-  __pyx_codeobj__43 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_samples_in_file, 351, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__43)) __PYX_ERR(0, 351, __pyx_L1_error)
+  __pyx_codeobj__43 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_samples_in_file, 351, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__43)) __PYX_ERR(0, 351, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":354
  *         return self.hdr.signalparam[channel].smp_in_file
  * 
- *     def samples_in_datarecord(self, channel):             # <<<<<<<<<<<<<<
+ *     def samples_in_datarecord(self, channel) -> int:             # <<<<<<<<<<<<<<
  *         return self.hdr.signalparam[channel].smp_in_datarecord
  * 
  */
-  __pyx_codeobj__44 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_samples_in_datarecord, 354, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__44)) __PYX_ERR(0, 354, __pyx_L1_error)
+  __pyx_codeobj__44 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_samples_in_datarecord, 354, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__44)) __PYX_ERR(0, 354, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":357
  *         return self.hdr.signalparam[channel].smp_in_datarecord
@@ -53437,7 +53444,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         return self.hdr.signalparam[channel].physdimension
  * 
  */
-  __pyx_codeobj__45 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_physical_dimension_b, 357, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__45)) __PYX_ERR(0, 357, __pyx_L1_error)
+  __pyx_codeobj__45 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_physical_dimension_b, 357, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__45)) __PYX_ERR(0, 357, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":360
  *         return self.hdr.signalparam[channel].physdimension
@@ -53446,7 +53453,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         return self.hdr.signalparam[channel].phys_max
  * 
  */
-  __pyx_codeobj__46 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_physical_max, 360, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__46)) __PYX_ERR(0, 360, __pyx_L1_error)
+  __pyx_codeobj__46 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_physical_max, 360, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__46)) __PYX_ERR(0, 360, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":363
  *         return self.hdr.signalparam[channel].phys_max
@@ -53455,7 +53462,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         return self.hdr.signalparam[channel].phys_min
  * 
  */
-  __pyx_codeobj__47 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_physical_min, 363, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__47)) __PYX_ERR(0, 363, __pyx_L1_error)
+  __pyx_codeobj__47 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_physical_min, 363, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__47)) __PYX_ERR(0, 363, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":366
  *         return self.hdr.signalparam[channel].phys_min
@@ -53464,7 +53471,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         return self.hdr.signalparam[channel].dig_max
  * 
  */
-  __pyx_codeobj__48 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_digital_max, 366, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__48)) __PYX_ERR(0, 366, __pyx_L1_error)
+  __pyx_codeobj__48 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_digital_max, 366, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__48)) __PYX_ERR(0, 366, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":369
  *         return self.hdr.signalparam[channel].dig_max
@@ -53473,7 +53480,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         return self.hdr.signalparam[channel].dig_min
  * 
  */
-  __pyx_codeobj__49 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_digital_min, 369, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__49)) __PYX_ERR(0, 369, __pyx_L1_error)
+  __pyx_codeobj__49 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_digital_min, 369, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__49)) __PYX_ERR(0, 369, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":372
  *         return self.hdr.signalparam[channel].dig_min
@@ -53482,7 +53489,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         return self.hdr.signalparam[channel].prefilter
  * 
  */
-  __pyx_codeobj__50 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_prefilter, 372, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__50)) __PYX_ERR(0, 372, __pyx_L1_error)
+  __pyx_codeobj__50 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_prefilter, 372, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__50)) __PYX_ERR(0, 372, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":375
  *         return self.hdr.signalparam[channel].prefilter
@@ -53491,7 +53498,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         return self.hdr.signalparam[channel].transducer
  * 
  */
-  __pyx_codeobj__51 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_transducer, 375, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__51)) __PYX_ERR(0, 375, __pyx_L1_error)
+  __pyx_codeobj__51 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_transducer, 375, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__51)) __PYX_ERR(0, 375, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":378
  *         return self.hdr.signalparam[channel].transducer
@@ -53500,7 +53507,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         return (<double>self.hdr.signalparam[channel].smp_in_datarecord / self.hdr.datarecord_duration) * EDFLIB_TIME_DIMENSION
  * 
  */
-  __pyx_codeobj__52 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_samplefrequency, 378, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__52)) __PYX_ERR(0, 378, __pyx_L1_error)
+  __pyx_codeobj__52 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_samplefrequency, 378, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__52)) __PYX_ERR(0, 378, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":394
  * 
@@ -53509,7 +53516,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         if self.hdr.handle >= 0:
  *             edfclose_file(self.hdr.handle)
  */
-  __pyx_codeobj__53 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_close, 394, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__53)) __PYX_ERR(0, 394, __pyx_L1_error)
+  __pyx_codeobj__53 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_close, 394, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__53)) __PYX_ERR(0, 394, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":399
  *         self.hdr.handle = -1
@@ -53521,7 +53528,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__54 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_signalnum, __pyx_n_s_start, __pyx_n_s_n, __pyx_n_s_sigbuf, __pyx_n_s_readn); if (unlikely(!__pyx_tuple__54)) __PYX_ERR(0, 399, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__54);
   __Pyx_GIVEREF(__pyx_tuple__54);
-  __pyx_codeobj__55 = (PyObject*)__Pyx_PyCode_New(5, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__54, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_read_digital_signal, 399, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__55)) __PYX_ERR(0, 399, __pyx_L1_error)
+  __pyx_codeobj__55 = (PyObject*)__Pyx_PyCode_New(5, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__54, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_read_digital_signal, 399, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__55)) __PYX_ERR(0, 399, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":410
  *            print("read %d, less than %d requested!!!" % (readn, n))
@@ -53530,7 +53537,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """
  *         read_phys_signal(self, signalnum, start, n, np.float64_t[:] sigbuf)
  */
-  __pyx_codeobj__56 = (PyObject*)__Pyx_PyCode_New(5, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__54, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_read_phys_signal, 410, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__56)) __PYX_ERR(0, 410, __pyx_L1_error)
+  __pyx_codeobj__56 = (PyObject*)__Pyx_PyCode_New(5, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__54, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_read_phys_signal, 410, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__56)) __PYX_ERR(0, 410, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":425
  * 
@@ -53542,7 +53549,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__57 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_db, __pyx_n_s_n, __pyx_n_s_offset, __pyx_n_s_ii, __pyx_n_s_readn); if (unlikely(!__pyx_tuple__57)) __PYX_ERR(0, 425, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__57);
   __Pyx_GIVEREF(__pyx_tuple__57);
-  __pyx_codeobj__58 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__57, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_load_phys_datarecord, 425, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__58)) __PYX_ERR(0, 425, __pyx_L1_error)
+  __pyx_codeobj__58 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__57, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_load_phys_datarecord, 425, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__58)) __PYX_ERR(0, 425, __pyx_L1_error)
   __pyx_tuple__59 = PyTuple_Pack(1, __pyx_int_0); if (unlikely(!__pyx_tuple__59)) __PYX_ERR(0, 425, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__59);
   __Pyx_GIVEREF(__pyx_tuple__59);
@@ -53575,7 +53582,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__63 = PyTuple_Pack(2, __pyx_n_s_handle, __pyx_n_s_technician); if (unlikely(!__pyx_tuple__63)) __PYX_ERR(0, 464, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__63);
   __Pyx_GIVEREF(__pyx_tuple__63);
-  __pyx_codeobj__64 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__63, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_technician, 464, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__64)) __PYX_ERR(0, 464, __pyx_L1_error)
+  __pyx_codeobj__64 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__63, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_technician, 464, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__64)) __PYX_ERR(0, 464, __pyx_L1_error)
 
   /* "(tree fragment)":1
  * def __reduce_cython__(self):             # <<<<<<<<<<<<<<
@@ -53602,7 +53609,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__67 = PyTuple_Pack(4, __pyx_n_s_handle, __pyx_n_s_edfsignal, __pyx_n_s_n, __pyx_n_s_buf); if (unlikely(!__pyx_tuple__67)) __PYX_ERR(0, 476, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__67);
   __Pyx_GIVEREF(__pyx_tuple__67);
-  __pyx_codeobj__68 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__67, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_read_int_samples, 476, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__68)) __PYX_ERR(0, 476, __pyx_L1_error)
+  __pyx_codeobj__68 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__67, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_read_int_samples, 476, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__68)) __PYX_ERR(0, 476, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":505
  *     return edf_blockwrite_physical_samples(handle, &buf[0])
@@ -53614,7 +53621,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__69 = PyTuple_Pack(2, __pyx_n_s_handle, __pyx_n_s_recording_additional); if (unlikely(!__pyx_tuple__69)) __PYX_ERR(0, 505, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__69);
   __Pyx_GIVEREF(__pyx_tuple__69);
-  __pyx_codeobj__70 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__69, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_recording_additional, 505, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__70)) __PYX_ERR(0, 505, __pyx_L1_error)
+  __pyx_codeobj__70 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__69, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_recording_additional, 505, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__70)) __PYX_ERR(0, 505, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":509
  * 
@@ -53626,7 +53633,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__71 = PyTuple_Pack(2, __pyx_n_s_handle, __pyx_n_s_buf); if (unlikely(!__pyx_tuple__71)) __PYX_ERR(0, 509, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__71);
   __Pyx_GIVEREF(__pyx_tuple__71);
-  __pyx_codeobj__72 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__71, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_write_physical_samples, 509, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__72)) __PYX_ERR(0, 509, __pyx_L1_error)
+  __pyx_codeobj__72 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__71, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_write_physical_samples, 509, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__72)) __PYX_ERR(0, 509, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":515
  * 
@@ -53638,7 +53645,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__73 = PyTuple_Pack(2, __pyx_n_s_handle, __pyx_n_s_name); if (unlikely(!__pyx_tuple__73)) __PYX_ERR(0, 515, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__73);
   __Pyx_GIVEREF(__pyx_tuple__73);
-  __pyx_codeobj__74 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__73, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_patientname, 515, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__74)) __PYX_ERR(0, 515, __pyx_L1_error)
+  __pyx_codeobj__74 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__73, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_patientname, 515, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__74)) __PYX_ERR(0, 515, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":519
  * 
@@ -53650,7 +53657,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__75 = PyTuple_Pack(3, __pyx_n_s_handle, __pyx_n_s_edfsignal, __pyx_n_s_phys_min); if (unlikely(!__pyx_tuple__75)) __PYX_ERR(0, 519, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__75);
   __Pyx_GIVEREF(__pyx_tuple__75);
-  __pyx_codeobj__76 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__75, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_physical_minimum, 519, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__76)) __PYX_ERR(0, 519, __pyx_L1_error)
+  __pyx_codeobj__76 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__75, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_physical_minimum, 519, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__76)) __PYX_ERR(0, 519, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":523
  * 
@@ -53659,7 +53666,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *                                 np.ndarray[np.float64_t] buf):
  *     return edfread_physical_samples(handle, edfsignal, n, &buf[0])
  */
-  __pyx_codeobj__77 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__67, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_read_physical_samples, 523, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__77)) __PYX_ERR(0, 523, __pyx_L1_error)
+  __pyx_codeobj__77 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__67, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_read_physical_samples, 523, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__77)) __PYX_ERR(0, 523, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":527
  *     return edfread_physical_samples(handle, edfsignal, n, &buf[0])
@@ -53671,7 +53678,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__78 = PyTuple_Pack(1, __pyx_n_s_handle); if (unlikely(!__pyx_tuple__78)) __PYX_ERR(0, 527, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__78);
   __Pyx_GIVEREF(__pyx_tuple__78);
-  __pyx_codeobj__79 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__78, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_close_file, 527, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__79)) __PYX_ERR(0, 527, __pyx_L1_error)
+  __pyx_codeobj__79 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__78, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_close_file, 527, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__79)) __PYX_ERR(0, 527, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":531
  * 
@@ -53683,7 +53690,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__80 = PyTuple_Pack(3, __pyx_n_s_handle, __pyx_n_s_edfsignal, __pyx_n_s_phys_max); if (unlikely(!__pyx_tuple__80)) __PYX_ERR(0, 531, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__80);
   __Pyx_GIVEREF(__pyx_tuple__80);
-  __pyx_codeobj__81 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__80, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_physical_maximum, 531, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__81)) __PYX_ERR(0, 531, __pyx_L1_error)
+  __pyx_codeobj__81 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__80, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_physical_maximum, 531, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__81)) __PYX_ERR(0, 531, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":534
  *     return edf_set_physical_maximum(handle, edfsignal, phys_max)
@@ -53695,7 +53702,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__82 = PyTuple_Pack(3, __pyx_n_s_path, __pyx_n_s_filetype, __pyx_n_s_number_of_signals); if (unlikely(!__pyx_tuple__82)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__82);
   __Pyx_GIVEREF(__pyx_tuple__82);
-  __pyx_codeobj__83 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__82, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_open_file_writeonly, 534, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__83)) __PYX_ERR(0, 534, __pyx_L1_error)
+  __pyx_codeobj__83 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__82, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_open_file_writeonly, 534, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__83)) __PYX_ERR(0, 534, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":538
  *     return edfopen_file_writeonly(path, filetype, number_of_signals)
@@ -53707,7 +53714,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__84 = PyTuple_Pack(2, __pyx_n_s_handle, __pyx_n_s_patient_additional); if (unlikely(!__pyx_tuple__84)) __PYX_ERR(0, 538, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__84);
   __Pyx_GIVEREF(__pyx_tuple__84);
-  __pyx_codeobj__85 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__84, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_patient_additional, 538, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__85)) __PYX_ERR(0, 538, __pyx_L1_error)
+  __pyx_codeobj__85 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__84, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_patient_additional, 538, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__85)) __PYX_ERR(0, 538, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":542
  *     return edf_set_patient_additional(handle, patient_additional)
@@ -53719,7 +53726,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__86 = PyTuple_Pack(3, __pyx_n_s_handle, __pyx_n_s_edfsignal, __pyx_n_s_dig_max); if (unlikely(!__pyx_tuple__86)) __PYX_ERR(0, 542, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__86);
   __Pyx_GIVEREF(__pyx_tuple__86);
-  __pyx_codeobj__87 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__86, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_digital_maximum, 542, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__87)) __PYX_ERR(0, 542, __pyx_L1_error)
+  __pyx_codeobj__87 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__86, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_digital_maximum, 542, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__87)) __PYX_ERR(0, 542, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":550
  * # int edfopen_file_readonly(const char *path, struct edf_hdr_struct *edfhdr, int read_annotations)
@@ -53731,7 +53738,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__88 = PyTuple_Pack(4, __pyx_n_s_handle, __pyx_n_s_birthdate_year, __pyx_n_s_birthdate_month, __pyx_n_s_birthdate_day); if (unlikely(!__pyx_tuple__88)) __PYX_ERR(0, 550, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__88);
   __Pyx_GIVEREF(__pyx_tuple__88);
-  __pyx_codeobj__89 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__88, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_birthdate, 550, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__89)) __PYX_ERR(0, 550, __pyx_L1_error)
+  __pyx_codeobj__89 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__88, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_birthdate, 550, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__89)) __PYX_ERR(0, 550, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":554
  *     return edf_set_birthdate(handle, birthdate_year,  birthdate_month, birthdate_day)
@@ -53743,7 +53750,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__90 = PyTuple_Pack(3, __pyx_n_s_handle, __pyx_n_s_edfsignal, __pyx_n_s_dig_min); if (unlikely(!__pyx_tuple__90)) __PYX_ERR(0, 554, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__90);
   __Pyx_GIVEREF(__pyx_tuple__90);
-  __pyx_codeobj__91 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__90, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_digital_minimum, 554, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__91)) __PYX_ERR(0, 554, __pyx_L1_error)
+  __pyx_codeobj__91 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__90, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_digital_minimum, 554, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__91)) __PYX_ERR(0, 554, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":558
  *     return edf_set_digital_minimum(handle,  edfsignal, dig_min)
@@ -53752,7 +53759,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *     """write_digital_samples(int handle, np.ndarray[np.int32_t] buf)
  *     call to
  */
-  __pyx_codeobj__92 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__71, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_write_digital_samples, 558, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__92)) __PYX_ERR(0, 558, __pyx_L1_error)
+  __pyx_codeobj__92 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__71, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_write_digital_samples, 558, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__92)) __PYX_ERR(0, 558, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":564
  *     return edfwrite_digital_samples(handle,<int*> &buf[0])
@@ -53761,7 +53768,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *     """int edfwrite_digital_short_samples(int handle, short *buf)"""
  *     return edfwrite_digital_short_samples(handle,<short*> &buf[0])
  */
-  __pyx_codeobj__93 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__71, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_write_digital_short_samples, 564, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__93)) __PYX_ERR(0, 564, __pyx_L1_error)
+  __pyx_codeobj__93 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__71, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_write_digital_short_samples, 564, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__93)) __PYX_ERR(0, 564, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":568
  *     return edfwrite_digital_short_samples(handle,<short*> &buf[0])
@@ -53773,7 +53780,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__94 = PyTuple_Pack(2, __pyx_n_s_handle, __pyx_n_s_equipment); if (unlikely(!__pyx_tuple__94)) __PYX_ERR(0, 568, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__94);
   __Pyx_GIVEREF(__pyx_tuple__94);
-  __pyx_codeobj__95 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__94, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_equipment, 568, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__95)) __PYX_ERR(0, 568, __pyx_L1_error)
+  __pyx_codeobj__95 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__94, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_equipment, 568, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__95)) __PYX_ERR(0, 568, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":572
  *     return edf_set_equipment(handle, equipment)
@@ -53785,7 +53792,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__96 = PyTuple_Pack(3, __pyx_n_s_handle, __pyx_n_s_edfsignal, __pyx_n_s_samplefrequency); if (unlikely(!__pyx_tuple__96)) __PYX_ERR(0, 572, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__96);
   __Pyx_GIVEREF(__pyx_tuple__96);
-  __pyx_codeobj__97 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__96, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_samplefrequency, 572, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__97)) __PYX_ERR(0, 572, __pyx_L1_error)
+  __pyx_codeobj__97 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__96, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_samplefrequency, 572, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__97)) __PYX_ERR(0, 572, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":576
  *     return edf_set_samplefrequency(handle, edfsignal, samplefrequency)
@@ -53797,7 +53804,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__98 = PyTuple_Pack(2, __pyx_n_s_handle, __pyx_n_s_admincode); if (unlikely(!__pyx_tuple__98)) __PYX_ERR(0, 576, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__98);
   __Pyx_GIVEREF(__pyx_tuple__98);
-  __pyx_codeobj__99 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__98, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_admincode, 576, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__99)) __PYX_ERR(0, 576, __pyx_L1_error)
+  __pyx_codeobj__99 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__98, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_admincode, 576, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__99)) __PYX_ERR(0, 576, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":580
  *     return edf_set_admincode(handle, admincode)
@@ -53809,7 +53816,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__100 = PyTuple_Pack(3, __pyx_n_s_handle, __pyx_n_s_edfsignal, __pyx_n_s_label); if (unlikely(!__pyx_tuple__100)) __PYX_ERR(0, 580, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__100);
   __Pyx_GIVEREF(__pyx_tuple__100);
-  __pyx_codeobj__101 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__100, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_label, 580, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__101)) __PYX_ERR(0, 580, __pyx_L1_error)
+  __pyx_codeobj__101 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__100, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_label, 580, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__101)) __PYX_ERR(0, 580, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":584
  *     return edf_set_label(handle, edfsignal, label)
@@ -53821,7 +53828,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__102 = PyTuple_Pack(2, __pyx_n_s_handle, __pyx_n_s_annot_signals); if (unlikely(!__pyx_tuple__102)) __PYX_ERR(0, 584, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__102);
   __Pyx_GIVEREF(__pyx_tuple__102);
-  __pyx_codeobj__103 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__102, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_number_of_annotation_signals, 584, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__103)) __PYX_ERR(0, 584, __pyx_L1_error)
+  __pyx_codeobj__103 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__102, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_number_of_annotation_signals, 584, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__103)) __PYX_ERR(0, 584, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":589
  * 
@@ -53833,7 +53840,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__104 = PyTuple_Pack(2, __pyx_n_s_handle, __pyx_n_s_edfsignal); if (unlikely(!__pyx_tuple__104)) __PYX_ERR(0, 589, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__104);
   __Pyx_GIVEREF(__pyx_tuple__104);
-  __pyx_codeobj__105 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__104, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_tell, 589, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__105)) __PYX_ERR(0, 589, __pyx_L1_error)
+  __pyx_codeobj__105 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__104, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_tell, 589, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__105)) __PYX_ERR(0, 589, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":593
  *     return edftell(handle,  edfsignal)
@@ -53842,7 +53849,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *     """void edfrewind(int handle, int edfsignal)"""
  *     edfrewind(handle, edfsignal)
  */
-  __pyx_codeobj__106 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__104, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_rewind, 593, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__106)) __PYX_ERR(0, 593, __pyx_L1_error)
+  __pyx_codeobj__106 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__104, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_rewind, 593, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__106)) __PYX_ERR(0, 593, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":597
  *     edfrewind(handle, edfsignal)
@@ -53854,7 +53861,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__107 = PyTuple_Pack(2, __pyx_n_s_handle, __pyx_n_s_gender); if (unlikely(!__pyx_tuple__107)) __PYX_ERR(0, 597, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__107);
   __Pyx_GIVEREF(__pyx_tuple__107);
-  __pyx_codeobj__108 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__107, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_gender, 597, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__108)) __PYX_ERR(0, 597, __pyx_L1_error)
+  __pyx_codeobj__108 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__107, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_gender, 597, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__108)) __PYX_ERR(0, 597, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":601
  *     return edf_set_gender(handle, gender)
@@ -53866,7 +53873,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__109 = PyTuple_Pack(3, __pyx_n_s_handle, __pyx_n_s_edfsignal, __pyx_n_s_phys_dim); if (unlikely(!__pyx_tuple__109)) __PYX_ERR(0, 601, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__109);
   __Pyx_GIVEREF(__pyx_tuple__109);
-  __pyx_codeobj__110 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__109, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_physical_dimension, 601, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__110)) __PYX_ERR(0, 601, __pyx_L1_error)
+  __pyx_codeobj__110 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__109, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_physical_dimension, 601, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__110)) __PYX_ERR(0, 601, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":605
  *     return edf_set_physical_dimension(handle, edfsignal, phys_dim)
@@ -53878,7 +53885,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__111 = PyTuple_Pack(3, __pyx_n_s_handle, __pyx_n_s_edfsignal, __pyx_n_s_transducer); if (unlikely(!__pyx_tuple__111)) __PYX_ERR(0, 605, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__111);
   __Pyx_GIVEREF(__pyx_tuple__111);
-  __pyx_codeobj__112 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__111, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_transducer, 605, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__112)) __PYX_ERR(0, 605, __pyx_L1_error)
+  __pyx_codeobj__112 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__111, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_transducer, 605, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__112)) __PYX_ERR(0, 605, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":609
  *     return edf_set_transducer(handle, edfsignal, transducer)
@@ -53890,7 +53897,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__113 = PyTuple_Pack(3, __pyx_n_s_handle, __pyx_n_s_edfsignal, __pyx_n_s_prefilter); if (unlikely(!__pyx_tuple__113)) __PYX_ERR(0, 609, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__113);
   __Pyx_GIVEREF(__pyx_tuple__113);
-  __pyx_codeobj__114 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__113, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_prefilter, 609, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__114)) __PYX_ERR(0, 609, __pyx_L1_error)
+  __pyx_codeobj__114 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__113, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_prefilter, 609, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__114)) __PYX_ERR(0, 609, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":613
  *     return edf_set_prefilter(handle, edfsignal, prefilter)
@@ -53902,7 +53909,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__115 = PyTuple_Pack(4, __pyx_n_s_handle, __pyx_n_s_edfsignal, __pyx_n_s_offset, __pyx_n_s_whence); if (unlikely(!__pyx_tuple__115)) __PYX_ERR(0, 613, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__115);
   __Pyx_GIVEREF(__pyx_tuple__115);
-  __pyx_codeobj__116 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__115, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_seek, 613, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__116)) __PYX_ERR(0, 613, __pyx_L1_error)
+  __pyx_codeobj__116 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__115, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_seek, 613, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__116)) __PYX_ERR(0, 613, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":617
  *     return edfseek(handle, edfsignal, offset, whence)
@@ -53914,7 +53921,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__117 = PyTuple_Pack(7, __pyx_n_s_handle, __pyx_n_s_startdate_year, __pyx_n_s_startdate_month, __pyx_n_s_startdate_day, __pyx_n_s_starttime_hour, __pyx_n_s_starttime_minute, __pyx_n_s_starttime_second); if (unlikely(!__pyx_tuple__117)) __PYX_ERR(0, 617, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__117);
   __Pyx_GIVEREF(__pyx_tuple__117);
-  __pyx_codeobj__118 = (PyObject*)__Pyx_PyCode_New(7, 0, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__117, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_startdatetime, 617, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__118)) __PYX_ERR(0, 617, __pyx_L1_error)
+  __pyx_codeobj__118 = (PyObject*)__Pyx_PyCode_New(7, 0, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__117, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_startdatetime, 617, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__118)) __PYX_ERR(0, 617, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":625
  * 
@@ -53926,7 +53933,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__119 = PyTuple_Pack(2, __pyx_n_s_handle, __pyx_n_s_duration); if (unlikely(!__pyx_tuple__119)) __PYX_ERR(0, 625, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__119);
   __Pyx_GIVEREF(__pyx_tuple__119);
-  __pyx_codeobj__120 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__119, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_datarecord_duration, 625, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__120)) __PYX_ERR(0, 625, __pyx_L1_error)
+  __pyx_codeobj__120 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__119, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_datarecord_duration, 625, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__120)) __PYX_ERR(0, 625, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":679
  * #     return array_list
@@ -53949,7 +53956,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__122 = PyTuple_Pack(1, __pyx_n_s_x); if (unlikely(!__pyx_tuple__122)) __PYX_ERR(0, 682, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__122);
   __Pyx_GIVEREF(__pyx_tuple__122);
-  __pyx_codeobj__123 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__122, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_u, 682, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__123)) __PYX_ERR(0, 682, __pyx_L1_error)
+  __pyx_codeobj__123 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__122, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_u, 682, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__123)) __PYX_ERR(0, 682, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":685
  *         return codecs.unicode_escape_decode(x)[0]
@@ -53958,7 +53965,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         if isinstance(x, unicode):
  *             return x.encode("utf-8")
  */
-  __pyx_codeobj__124 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__122, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_du, 685, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__124)) __PYX_ERR(0, 685, __pyx_L1_error)
+  __pyx_codeobj__124 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__122, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_du, 685, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__124)) __PYX_ERR(0, 685, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":691
  *             return x
@@ -53967,7 +53974,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         return x.decode("utf-8", "strict")
  * 
  */
-  __pyx_codeobj__125 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__122, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_u, 691, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__125)) __PYX_ERR(0, 691, __pyx_L1_error)
+  __pyx_codeobj__125 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__122, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_u, 691, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__125)) __PYX_ERR(0, 691, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":694
  *         return x.decode("utf-8", "strict")
@@ -53976,7 +53983,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         if isbytestr(x):
  *             return x
  */
-  __pyx_codeobj__126 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__122, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_du, 694, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__126)) __PYX_ERR(0, 694, __pyx_L1_error)
+  __pyx_codeobj__126 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__122, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_du, 694, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__126)) __PYX_ERR(0, 694, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":701
  * 
@@ -53988,7 +53995,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__127 = PyTuple_Pack(1, __pyx_n_s_s); if (unlikely(!__pyx_tuple__127)) __PYX_ERR(0, 701, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__127);
   __Pyx_GIVEREF(__pyx_tuple__127);
-  __pyx_codeobj__128 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__127, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_isstr, 701, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__128)) __PYX_ERR(0, 701, __pyx_L1_error)
+  __pyx_codeobj__128 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__127, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_isstr, 701, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__128)) __PYX_ERR(0, 701, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":708
  * 
@@ -53997,7 +54004,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *     return isinstance(s, bytes)
  * 
  */
-  __pyx_codeobj__129 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__127, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_isbytestr, 708, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__129)) __PYX_ERR(0, 708, __pyx_L1_error)
+  __pyx_codeobj__129 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__127, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_isbytestr, 708, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__129)) __PYX_ERR(0, 708, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":713
  * 
@@ -54009,7 +54016,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__130 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_value); if (unlikely(!__pyx_tuple__130)) __PYX_ERR(0, 713, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__130);
   __Pyx_GIVEREF(__pyx_tuple__130);
-  __pyx_codeobj__131 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__130, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_init, 713, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__131)) __PYX_ERR(0, 713, __pyx_L1_error)
+  __pyx_codeobj__131 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__130, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_init, 713, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__131)) __PYX_ERR(0, 713, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":716
  *         self.parameter = value
@@ -54018,7 +54025,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         return repr(self.parameter)
  * 
  */
-  __pyx_codeobj__132 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_str, 716, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__132)) __PYX_ERR(0, 716, __pyx_L1_error)
+  __pyx_codeobj__132 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_str, 716, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__132)) __PYX_ERR(0, 716, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":721
  * 
@@ -54027,7 +54034,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         self.parameter = value
  * 
  */
-  __pyx_codeobj__133 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__130, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_init, 721, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__133)) __PYX_ERR(0, 721, __pyx_L1_error)
+  __pyx_codeobj__133 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__130, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_init, 721, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__133)) __PYX_ERR(0, 721, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":724
  *         self.parameter = value
@@ -54036,7 +54043,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         return repr(self.parameter)
  * 
  */
-  __pyx_codeobj__134 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_str, 724, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__134)) __PYX_ERR(0, 724, __pyx_L1_error)
+  __pyx_codeobj__134 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_str, 724, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__134)) __PYX_ERR(0, 724, __pyx_L1_error)
 
   /* "(tree fragment)":1
  * def __reduce_cython__(self):             # <<<<<<<<<<<<<<
@@ -54074,7 +54081,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         self.close()  # cleanup the file
  * 
  */
-  __pyx_codeobj__139 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_exit, 764, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__139)) __PYX_ERR(0, 764, __pyx_L1_error)
+  __pyx_codeobj__139 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_exit, 764, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__139)) __PYX_ERR(0, 764, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":767
  *         self.close()  # cleanup the file
@@ -54083,7 +54090,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         return self
  * 
  */
-  __pyx_codeobj__140 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_enter, 767, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__140)) __PYX_ERR(0, 767, __pyx_L1_error)
+  __pyx_codeobj__140 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_enter, 767, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__140)) __PYX_ERR(0, 767, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":770
  *         return self
@@ -54092,7 +54099,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         self.close()
  * 
  */
-  __pyx_codeobj__141 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_del, 770, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__141)) __PYX_ERR(0, 770, __pyx_L1_error)
+  __pyx_codeobj__141 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_del, 770, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__141)) __PYX_ERR(0, 770, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":773
  *         self.close()
@@ -54104,7 +54111,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__142 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_file_name, __pyx_n_s_n_channels, __pyx_n_s_file_type, __pyx_n_s_ii); if (unlikely(!__pyx_tuple__142)) __PYX_ERR(0, 773, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__142);
   __Pyx_GIVEREF(__pyx_tuple__142);
-  __pyx_codeobj__143 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__142, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_init, 773, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__143)) __PYX_ERR(0, 773, __pyx_L1_error)
+  __pyx_codeobj__143 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__142, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_init, 773, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__143)) __PYX_ERR(0, 773, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":828
  *             raise IOError(write_errors[self.handle])
@@ -54116,7 +54123,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__144 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_birthday, __pyx_n_s_i); if (unlikely(!__pyx_tuple__144)) __PYX_ERR(0, 828, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__144);
   __Pyx_GIVEREF(__pyx_tuple__144);
-  __pyx_codeobj__145 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__144, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_update_header, 828, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__145)) __PYX_ERR(0, 828, __pyx_L1_error)
+  __pyx_codeobj__145 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__144, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_update_header, 828, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__145)) __PYX_ERR(0, 828, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":869
  *             set_prefilter(self.handle, i, du(self.channels[i]['prefilter']))
@@ -54128,7 +54135,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__146 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_fileHeader); if (unlikely(!__pyx_tuple__146)) __PYX_ERR(0, 869, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__146);
   __Pyx_GIVEREF(__pyx_tuple__146);
-  __pyx_codeobj__147 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__146, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setHeader, 869, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__147)) __PYX_ERR(0, 869, __pyx_L1_error)
+  __pyx_codeobj__147 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__146, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setHeader, 869, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__147)) __PYX_ERR(0, 869, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":885
  *         self.update_header()
@@ -54140,7 +54147,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__148 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_edfsignal, __pyx_n_s_channel_info); if (unlikely(!__pyx_tuple__148)) __PYX_ERR(0, 885, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__148);
   __Pyx_GIVEREF(__pyx_tuple__148);
-  __pyx_codeobj__149 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__148, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setSignalHeader, 885, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__149)) __PYX_ERR(0, 885, __pyx_L1_error)
+  __pyx_codeobj__149 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__148, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setSignalHeader, 885, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__149)) __PYX_ERR(0, 885, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":905
  *         self.update_header()
@@ -54152,7 +54159,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__150 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_signalHeaders, __pyx_n_s_edfsignal); if (unlikely(!__pyx_tuple__150)) __PYX_ERR(0, 905, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__150);
   __Pyx_GIVEREF(__pyx_tuple__150);
-  __pyx_codeobj__151 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__150, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setSignalHeaders, 905, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__151)) __PYX_ERR(0, 905, __pyx_L1_error)
+  __pyx_codeobj__151 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__150, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setSignalHeaders, 905, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__151)) __PYX_ERR(0, 905, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":932
  *         self.update_header()
@@ -54164,7 +54171,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__152 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_technician); if (unlikely(!__pyx_tuple__152)) __PYX_ERR(0, 932, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__152);
   __Pyx_GIVEREF(__pyx_tuple__152);
-  __pyx_codeobj__153 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__152, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setTechnician, 932, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__153)) __PYX_ERR(0, 932, __pyx_L1_error)
+  __pyx_codeobj__153 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__152, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setTechnician, 932, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__153)) __PYX_ERR(0, 932, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":943
  *         self.update_header()
@@ -54176,7 +54183,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__154 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_recording_additional); if (unlikely(!__pyx_tuple__154)) __PYX_ERR(0, 943, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__154);
   __Pyx_GIVEREF(__pyx_tuple__154);
-  __pyx_codeobj__155 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__154, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setRecordingAdditional, 943, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__155)) __PYX_ERR(0, 943, __pyx_L1_error)
+  __pyx_codeobj__155 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__154, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setRecordingAdditional, 943, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__155)) __PYX_ERR(0, 943, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":954
  *         self.update_header()
@@ -54188,7 +54195,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__156 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_patient_name); if (unlikely(!__pyx_tuple__156)) __PYX_ERR(0, 954, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__156);
   __Pyx_GIVEREF(__pyx_tuple__156);
-  __pyx_codeobj__157 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__156, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setPatientName, 954, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__157)) __PYX_ERR(0, 954, __pyx_L1_error)
+  __pyx_codeobj__157 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__156, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setPatientName, 954, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__157)) __PYX_ERR(0, 954, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":965
  *         self.update_header()
@@ -54200,7 +54207,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__158 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_patient_code); if (unlikely(!__pyx_tuple__158)) __PYX_ERR(0, 965, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__158);
   __Pyx_GIVEREF(__pyx_tuple__158);
-  __pyx_codeobj__159 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__158, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setPatientCode, 965, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__159)) __PYX_ERR(0, 965, __pyx_L1_error)
+  __pyx_codeobj__159 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__158, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setPatientCode, 965, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__159)) __PYX_ERR(0, 965, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":976
  *         self.update_header()
@@ -54212,7 +54219,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__160 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_patient_additional); if (unlikely(!__pyx_tuple__160)) __PYX_ERR(0, 976, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__160);
   __Pyx_GIVEREF(__pyx_tuple__160);
-  __pyx_codeobj__161 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__160, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setPatientAdditional, 976, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__161)) __PYX_ERR(0, 976, __pyx_L1_error)
+  __pyx_codeobj__161 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__160, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setPatientAdditional, 976, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__161)) __PYX_ERR(0, 976, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":987
  *         self.update_header()
@@ -54224,7 +54231,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__162 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_equipment); if (unlikely(!__pyx_tuple__162)) __PYX_ERR(0, 987, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__162);
   __Pyx_GIVEREF(__pyx_tuple__162);
-  __pyx_codeobj__163 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__162, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setEquipment, 987, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__163)) __PYX_ERR(0, 987, __pyx_L1_error)
+  __pyx_codeobj__163 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__162, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setEquipment, 987, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__163)) __PYX_ERR(0, 987, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1001
  *         self.update_header()
@@ -54236,7 +54243,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__164 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_admincode); if (unlikely(!__pyx_tuple__164)) __PYX_ERR(0, 1001, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__164);
   __Pyx_GIVEREF(__pyx_tuple__164);
-  __pyx_codeobj__165 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__164, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setAdmincode, 1001, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__165)) __PYX_ERR(0, 1001, __pyx_L1_error)
+  __pyx_codeobj__165 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__164, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setAdmincode, 1001, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__165)) __PYX_ERR(0, 1001, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1016
  *         self.update_header()
@@ -54248,7 +54255,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__166 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_gender); if (unlikely(!__pyx_tuple__166)) __PYX_ERR(0, 1016, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__166);
   __Pyx_GIVEREF(__pyx_tuple__166);
-  __pyx_codeobj__167 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__166, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setGender, 1016, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__167)) __PYX_ERR(0, 1016, __pyx_L1_error)
+  __pyx_codeobj__167 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__166, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setGender, 1016, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__167)) __PYX_ERR(0, 1016, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1029
  *         self.update_header()
@@ -54260,7 +54267,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__168 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_duration); if (unlikely(!__pyx_tuple__168)) __PYX_ERR(0, 1029, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__168);
   __Pyx_GIVEREF(__pyx_tuple__168);
-  __pyx_codeobj__169 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__168, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setDatarecordDuration, 1029, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__169)) __PYX_ERR(0, 1029, __pyx_L1_error)
+  __pyx_codeobj__169 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__168, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setDatarecordDuration, 1029, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__169)) __PYX_ERR(0, 1029, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1056
  *         self.update_header()
@@ -54272,7 +54279,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__170 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_number_of_annotations); if (unlikely(!__pyx_tuple__170)) __PYX_ERR(0, 1056, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__170);
   __Pyx_GIVEREF(__pyx_tuple__170);
-  __pyx_codeobj__171 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__170, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_set_number_of_annotation_signals, 1056, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__171)) __PYX_ERR(0, 1056, __pyx_L1_error)
+  __pyx_codeobj__171 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__170, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_set_number_of_annotation_signals, 1056, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__171)) __PYX_ERR(0, 1056, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1075
  *         self.update_header()
@@ -54284,7 +54291,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__172 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_recording_start_time); if (unlikely(!__pyx_tuple__172)) __PYX_ERR(0, 1075, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__172);
   __Pyx_GIVEREF(__pyx_tuple__172);
-  __pyx_codeobj__173 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__172, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setStartdatetime, 1075, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__173)) __PYX_ERR(0, 1075, __pyx_L1_error)
+  __pyx_codeobj__173 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__172, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setStartdatetime, 1075, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__173)) __PYX_ERR(0, 1075, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1090
  *         self.update_header()
@@ -54296,7 +54303,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__174 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_birthdate); if (unlikely(!__pyx_tuple__174)) __PYX_ERR(0, 1090, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__174);
   __Pyx_GIVEREF(__pyx_tuple__174);
-  __pyx_codeobj__175 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__174, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setBirthdate, 1090, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__175)) __PYX_ERR(0, 1090, __pyx_L1_error)
+  __pyx_codeobj__175 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__174, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setBirthdate, 1090, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__175)) __PYX_ERR(0, 1090, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1113
  *         self.update_header()
@@ -54308,7 +54315,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__176 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_edfsignal, __pyx_n_s_samplefrequency); if (unlikely(!__pyx_tuple__176)) __PYX_ERR(0, 1113, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__176);
   __Pyx_GIVEREF(__pyx_tuple__176);
-  __pyx_codeobj__177 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__176, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setSamplefrequency, 1113, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__177)) __PYX_ERR(0, 1113, __pyx_L1_error)
+  __pyx_codeobj__177 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__176, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setSamplefrequency, 1113, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__177)) __PYX_ERR(0, 1113, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1126
  *         self.update_header()
@@ -54320,7 +54327,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__178 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_edfsignal, __pyx_n_s_physical_maximum); if (unlikely(!__pyx_tuple__178)) __PYX_ERR(0, 1126, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__178);
   __Pyx_GIVEREF(__pyx_tuple__178);
-  __pyx_codeobj__179 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__178, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setPhysicalMaximum, 1126, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__179)) __PYX_ERR(0, 1126, __pyx_L1_error)
+  __pyx_codeobj__179 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__178, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setPhysicalMaximum, 1126, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__179)) __PYX_ERR(0, 1126, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1146
  *         self.update_header()
@@ -54332,7 +54339,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__180 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_edfsignal, __pyx_n_s_physical_minimum); if (unlikely(!__pyx_tuple__180)) __PYX_ERR(0, 1146, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__180);
   __Pyx_GIVEREF(__pyx_tuple__180);
-  __pyx_codeobj__181 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__180, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setPhysicalMinimum, 1146, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__181)) __PYX_ERR(0, 1146, __pyx_L1_error)
+  __pyx_codeobj__181 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__180, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setPhysicalMinimum, 1146, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__181)) __PYX_ERR(0, 1146, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1166
  *         self.update_header()
@@ -54344,7 +54351,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__182 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_edfsignal, __pyx_n_s_digital_maximum); if (unlikely(!__pyx_tuple__182)) __PYX_ERR(0, 1166, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__182);
   __Pyx_GIVEREF(__pyx_tuple__182);
-  __pyx_codeobj__183 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__182, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setDigitalMaximum, 1166, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__183)) __PYX_ERR(0, 1166, __pyx_L1_error)
+  __pyx_codeobj__183 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__182, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setDigitalMaximum, 1166, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__183)) __PYX_ERR(0, 1166, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1187
  *         self.update_header()
@@ -54356,7 +54363,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__184 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_edfsignal, __pyx_n_s_digital_minimum); if (unlikely(!__pyx_tuple__184)) __PYX_ERR(0, 1187, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__184);
   __Pyx_GIVEREF(__pyx_tuple__184);
-  __pyx_codeobj__185 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__184, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setDigitalMinimum, 1187, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__185)) __PYX_ERR(0, 1187, __pyx_L1_error)
+  __pyx_codeobj__185 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__184, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setDigitalMinimum, 1187, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__185)) __PYX_ERR(0, 1187, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1208
  *         self.update_header()
@@ -54368,7 +54375,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__186 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_edfsignal, __pyx_n_s_label); if (unlikely(!__pyx_tuple__186)) __PYX_ERR(0, 1208, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__186);
   __Pyx_GIVEREF(__pyx_tuple__186);
-  __pyx_codeobj__187 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__186, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setLabel, 1208, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__187)) __PYX_ERR(0, 1208, __pyx_L1_error)
+  __pyx_codeobj__187 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__186, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setLabel, 1208, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__187)) __PYX_ERR(0, 1208, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1228
  *         self.update_header()
@@ -54380,7 +54387,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__188 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_edfsignal, __pyx_n_s_physical_dimension); if (unlikely(!__pyx_tuple__188)) __PYX_ERR(0, 1228, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__188);
   __Pyx_GIVEREF(__pyx_tuple__188);
-  __pyx_codeobj__189 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__188, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setPhysicalDimension, 1228, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__189)) __PYX_ERR(0, 1228, __pyx_L1_error)
+  __pyx_codeobj__189 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__188, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setPhysicalDimension, 1228, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__189)) __PYX_ERR(0, 1228, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1244
  *         self.update_header()
@@ -54392,7 +54399,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__190 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_edfsignal, __pyx_n_s_transducer); if (unlikely(!__pyx_tuple__190)) __PYX_ERR(0, 1244, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__190);
   __Pyx_GIVEREF(__pyx_tuple__190);
-  __pyx_codeobj__191 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__190, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setTransducer, 1244, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__191)) __PYX_ERR(0, 1244, __pyx_L1_error)
+  __pyx_codeobj__191 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__190, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setTransducer, 1244, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__191)) __PYX_ERR(0, 1244, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1260
  *         self.update_header()
@@ -54404,7 +54411,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__192 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_edfsignal, __pyx_n_s_prefilter); if (unlikely(!__pyx_tuple__192)) __PYX_ERR(0, 1260, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__192);
   __Pyx_GIVEREF(__pyx_tuple__192);
-  __pyx_codeobj__193 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__192, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_setPrefilter, 1260, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__193)) __PYX_ERR(0, 1260, __pyx_L1_error)
+  __pyx_codeobj__193 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__192, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_setPrefilter, 1260, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__193)) __PYX_ERR(0, 1260, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1276
  *         self.update_header()
@@ -54416,7 +54423,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__194 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_data); if (unlikely(!__pyx_tuple__194)) __PYX_ERR(0, 1276, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__194);
   __Pyx_GIVEREF(__pyx_tuple__194);
-  __pyx_codeobj__195 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__194, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_writePhysicalSamples, 1276, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__195)) __PYX_ERR(0, 1276, __pyx_L1_error)
+  __pyx_codeobj__195 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__194, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_writePhysicalSamples, 1276, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__195)) __PYX_ERR(0, 1276, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1297
  *         return write_physical_samples(self.handle, data)
@@ -54425,7 +54432,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """writes int32 data to the file
  *         need to determine how this is set"""
  */
-  __pyx_codeobj__196 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__194, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_writeDigitalSamples, 1297, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__196)) __PYX_ERR(0, 1297, __pyx_L1_error)
+  __pyx_codeobj__196 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__194, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_writeDigitalSamples, 1297, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__196)) __PYX_ERR(0, 1297, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1302
  *         return write_digital_samples(self.handle, data)
@@ -54434,7 +54441,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """write int16 data"""
  *         return write_digital_short_samples(self.handle, data)
  */
-  __pyx_codeobj__197 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__194, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_writeDigitalShortSamples, 1302, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__197)) __PYX_ERR(0, 1302, __pyx_L1_error)
+  __pyx_codeobj__197 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__194, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_writeDigitalShortSamples, 1302, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__197)) __PYX_ERR(0, 1302, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1306
  *         return write_digital_short_samples(self.handle, data)
@@ -54443,7 +54450,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """
  *         Writes physical samples (uV, mA, Ohm)
  */
-  __pyx_codeobj__198 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__194, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_blockWritePhysicalSamples, 1306, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__198)) __PYX_ERR(0, 1306, __pyx_L1_error)
+  __pyx_codeobj__198 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__194, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_blockWritePhysicalSamples, 1306, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__198)) __PYX_ERR(0, 1306, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1330
  *         return blockwrite_physical_samples(self.handle, data)
@@ -54452,7 +54459,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """@data is int32 array
  *         I think with shape (nchan, num_samples_per_datarecord)"""
  */
-  __pyx_codeobj__199 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__194, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_blockWriteDigitalSamples, 1330, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__199)) __PYX_ERR(0, 1330, __pyx_L1_error)
+  __pyx_codeobj__199 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__194, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_blockWriteDigitalSamples, 1330, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__199)) __PYX_ERR(0, 1330, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1335
  *         return blockwrite_digital_samples(self.handle, data)
@@ -54461,7 +54468,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """@data is int16 array
  *         I think with shape (nchan, num_samples_per_datarecord)"""
  */
-  __pyx_codeobj__200 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__194, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_blockWriteDigitalShortSamples, 1335, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__200)) __PYX_ERR(0, 1335, __pyx_L1_error)
+  __pyx_codeobj__200 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__194, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_blockWriteDigitalShortSamples, 1335, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__200)) __PYX_ERR(0, 1335, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":1341
  *         return blockwrite_digital_short_samples(self.handle, data)
@@ -54473,7 +54480,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__201 = PyTuple_Pack(12, __pyx_n_s_self, __pyx_n_s_data_list, __pyx_n_s_digital, __pyx_n_s_ind, __pyx_n_s_notAtEnd, __pyx_n_s_i, __pyx_n_s_sampleLength, __pyx_n_s_sampleRates, __pyx_n_s_dataOfOneSecond, __pyx_n_s_lastSamples, __pyx_n_s_lastSampleInd, __pyx_n_s_a); if (unlikely(!__pyx_tuple__201)) __PYX_ERR(0, 1341, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__201);
   __Pyx_GIVEREF(__pyx_tuple__201);
-  __pyx_codeobj__202 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 12, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__201, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_writeSamples, 1341, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__202)) __PYX_ERR(0, 1341, __pyx_L1_error)
+  __pyx_codeobj__202 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 12, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__201, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_writeSamples, 1341, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__202)) __PYX_ERR(0, 1341, __pyx_L1_error)
   __pyx_tuple__203 = PyTuple_Pack(1, ((PyObject *)Py_False)); if (unlikely(!__pyx_tuple__203)) __PYX_ERR(0, 1341, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__203);
   __Pyx_GIVEREF(__pyx_tuple__203);
@@ -54488,7 +54495,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__204 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_onset_in_seconds, __pyx_n_s_duration_in_seconds, __pyx_n_s_description, __pyx_n_s_str_format); if (unlikely(!__pyx_tuple__204)) __PYX_ERR(0, 1416, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__204);
   __Pyx_GIVEREF(__pyx_tuple__204);
-  __pyx_codeobj__205 = (PyObject*)__Pyx_PyCode_New(5, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__204, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_writeAnnotation, 1416, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__205)) __PYX_ERR(0, 1416, __pyx_L1_error)
+  __pyx_codeobj__205 = (PyObject*)__Pyx_PyCode_New(5, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__204, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_writeAnnotation, 1416, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__205)) __PYX_ERR(0, 1416, __pyx_L1_error)
   __pyx_tuple__206 = PyTuple_Pack(1, ((PyObject*)__pyx_kp_u_utf_8)); if (unlikely(!__pyx_tuple__206)) __PYX_ERR(0, 1416, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__206);
   __Pyx_GIVEREF(__pyx_tuple__206);
@@ -54500,7 +54507,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """
  *         Closes the file.
  */
-  __pyx_codeobj__207 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib__edflib_pyx, __pyx_n_s_close_2, 1431, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__207)) __PYX_ERR(0, 1431, __pyx_L1_error)
+  __pyx_codeobj__207 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_edflib_pyx, __pyx_n_s_close_2, 1431, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__207)) __PYX_ERR(0, 1431, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -55975,14 +55982,19 @@ if (!__Pyx_RefNanny) {
   /* "edflib/_edflib.pyx":354
  *         return self.hdr.signalparam[channel].smp_in_file
  * 
- *     def samples_in_datarecord(self, channel):             # <<<<<<<<<<<<<<
+ *     def samples_in_datarecord(self, channel) -> int:             # <<<<<<<<<<<<<<
  *         return self.hdr.signalparam[channel].smp_in_datarecord
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_21samples_in_datarecord, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_samples_in_datarecor, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__44)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 354, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 354, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_samples_in_datarecord, __pyx_t_7) < 0) __PYX_ERR(0, 354, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_return, __pyx_n_s_int) < 0) __PYX_ERR(0, 354, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_21samples_in_datarecord, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_samples_in_datarecor, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__44)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 354, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_4, __pyx_t_7);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_samples_in_datarecord, __pyx_t_4) < 0) __PYX_ERR(0, 354, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   PyType_Modified(__pyx_ptype_6edflib_7_edflib_CyEdfReader);
 
   /* "edflib/_edflib.pyx":357
@@ -55992,10 +56004,10 @@ if (!__Pyx_RefNanny) {
  *         return self.hdr.signalparam[channel].physdimension
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_23physical_dimension_b, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_physical_dimension_b, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__45)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 357, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_physical_dimension_b, __pyx_t_7) < 0) __PYX_ERR(0, 357, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_23physical_dimension_b, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_physical_dimension_b, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__45)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 357, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_physical_dimension_b, __pyx_t_4) < 0) __PYX_ERR(0, 357, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   PyType_Modified(__pyx_ptype_6edflib_7_edflib_CyEdfReader);
 
   /* "edflib/_edflib.pyx":360
@@ -56005,10 +56017,10 @@ if (!__Pyx_RefNanny) {
  *         return self.hdr.signalparam[channel].phys_max
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_25physical_max, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_physical_max, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__46)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 360, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_physical_max, __pyx_t_7) < 0) __PYX_ERR(0, 360, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_25physical_max, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_physical_max, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__46)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 360, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_physical_max, __pyx_t_4) < 0) __PYX_ERR(0, 360, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   PyType_Modified(__pyx_ptype_6edflib_7_edflib_CyEdfReader);
 
   /* "edflib/_edflib.pyx":363
@@ -56018,10 +56030,10 @@ if (!__Pyx_RefNanny) {
  *         return self.hdr.signalparam[channel].phys_min
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_27physical_min, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_physical_min, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__47)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 363, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_physical_min, __pyx_t_7) < 0) __PYX_ERR(0, 363, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_27physical_min, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_physical_min, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__47)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 363, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_physical_min, __pyx_t_4) < 0) __PYX_ERR(0, 363, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   PyType_Modified(__pyx_ptype_6edflib_7_edflib_CyEdfReader);
 
   /* "edflib/_edflib.pyx":366
@@ -56031,10 +56043,10 @@ if (!__Pyx_RefNanny) {
  *         return self.hdr.signalparam[channel].dig_max
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_29digital_max, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_digital_max, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__48)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 366, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_digital_max, __pyx_t_7) < 0) __PYX_ERR(0, 366, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_29digital_max, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_digital_max, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__48)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 366, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_digital_max, __pyx_t_4) < 0) __PYX_ERR(0, 366, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   PyType_Modified(__pyx_ptype_6edflib_7_edflib_CyEdfReader);
 
   /* "edflib/_edflib.pyx":369
@@ -56044,10 +56056,10 @@ if (!__Pyx_RefNanny) {
  *         return self.hdr.signalparam[channel].dig_min
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_31digital_min, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_digital_min, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__49)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 369, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_digital_min, __pyx_t_7) < 0) __PYX_ERR(0, 369, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_31digital_min, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_digital_min, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__49)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 369, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_digital_min, __pyx_t_4) < 0) __PYX_ERR(0, 369, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   PyType_Modified(__pyx_ptype_6edflib_7_edflib_CyEdfReader);
 
   /* "edflib/_edflib.pyx":372
@@ -56057,10 +56069,10 @@ if (!__Pyx_RefNanny) {
  *         return self.hdr.signalparam[channel].prefilter
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_33prefilter, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_prefilter, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__50)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 372, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_prefilter, __pyx_t_7) < 0) __PYX_ERR(0, 372, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_33prefilter, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_prefilter, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__50)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 372, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_prefilter, __pyx_t_4) < 0) __PYX_ERR(0, 372, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   PyType_Modified(__pyx_ptype_6edflib_7_edflib_CyEdfReader);
 
   /* "edflib/_edflib.pyx":375
@@ -56070,10 +56082,10 @@ if (!__Pyx_RefNanny) {
  *         return self.hdr.signalparam[channel].transducer
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_35transducer, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_transducer, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__51)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 375, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_transducer, __pyx_t_7) < 0) __PYX_ERR(0, 375, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_35transducer, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_transducer, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__51)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 375, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_transducer, __pyx_t_4) < 0) __PYX_ERR(0, 375, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   PyType_Modified(__pyx_ptype_6edflib_7_edflib_CyEdfReader);
 
   /* "edflib/_edflib.pyx":378
@@ -56083,10 +56095,10 @@ if (!__Pyx_RefNanny) {
  *         return (<double>self.hdr.signalparam[channel].smp_in_datarecord / self.hdr.datarecord_duration) * EDFLIB_TIME_DIMENSION
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_37samplefrequency, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_samplefrequency, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__52)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 378, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_samplefrequency, __pyx_t_7) < 0) __PYX_ERR(0, 378, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_37samplefrequency, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_samplefrequency, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__52)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 378, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_samplefrequency, __pyx_t_4) < 0) __PYX_ERR(0, 378, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   PyType_Modified(__pyx_ptype_6edflib_7_edflib_CyEdfReader);
 
   /* "edflib/_edflib.pyx":394
@@ -56096,10 +56108,10 @@ if (!__Pyx_RefNanny) {
  *         if self.hdr.handle >= 0:
  *             edfclose_file(self.hdr.handle)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_39_close, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader__close, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__53)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 394, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_close, __pyx_t_7) < 0) __PYX_ERR(0, 394, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_39_close, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader__close, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__53)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 394, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_close, __pyx_t_4) < 0) __PYX_ERR(0, 394, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   PyType_Modified(__pyx_ptype_6edflib_7_edflib_CyEdfReader);
 
   /* "edflib/_edflib.pyx":399
@@ -56109,10 +56121,10 @@ if (!__Pyx_RefNanny) {
  *        """
  *        read_digital_signal(self, signalnum, start, n, np.int32_t[:] sigbuf)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_41read_digital_signal, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_read_digital_signal, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__55)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 399, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_read_digital_signal, __pyx_t_7) < 0) __PYX_ERR(0, 399, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_41read_digital_signal, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_read_digital_signal, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__55)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 399, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_read_digital_signal, __pyx_t_4) < 0) __PYX_ERR(0, 399, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   PyType_Modified(__pyx_ptype_6edflib_7_edflib_CyEdfReader);
 
   /* "edflib/_edflib.pyx":410
@@ -56122,10 +56134,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         read_phys_signal(self, signalnum, start, n, np.float64_t[:] sigbuf)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_43read_phys_signal, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_read_phys_signal, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__56)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 410, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_read_phys_signal, __pyx_t_7) < 0) __PYX_ERR(0, 410, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_43read_phys_signal, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_read_phys_signal, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__56)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 410, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_read_phys_signal, __pyx_t_4) < 0) __PYX_ERR(0, 410, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   PyType_Modified(__pyx_ptype_6edflib_7_edflib_CyEdfReader);
 
   /* "edflib/_edflib.pyx":425
@@ -56135,11 +56147,11 @@ if (!__Pyx_RefNanny) {
  *         """
  *         every edf file has a block size called a data record
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_45load_phys_datarecord, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_load_phys_datarecord, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__58)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 425, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_7, __pyx_tuple__59);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_load_phys_datarecord, __pyx_t_7) < 0) __PYX_ERR(0, 425, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_45load_phys_datarecord, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader_load_phys_datarecord, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__58)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 425, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_4, __pyx_tuple__59);
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_6edflib_7_edflib_CyEdfReader, __pyx_n_s_load_phys_datarecord, __pyx_t_4) < 0) __PYX_ERR(0, 425, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   PyType_Modified(__pyx_ptype_6edflib_7_edflib_CyEdfReader);
 
   /* "(tree fragment)":1
@@ -56147,10 +56159,10 @@ if (!__Pyx_RefNanny) {
  *     raise TypeError, "self.hdr cannot be converted to a Python object for pickling"
  * def __setstate_cython__(self, __pyx_state):
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_47__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader___reduce_cython, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__60)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_reduce_cython, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_47__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader___reduce_cython, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__60)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_reduce_cython, __pyx_t_4) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "(tree fragment)":3
  * def __reduce_cython__(self):
@@ -56158,10 +56170,10 @@ if (!__Pyx_RefNanny) {
  * def __setstate_cython__(self, __pyx_state):             # <<<<<<<<<<<<<<
  *     raise TypeError, "self.hdr cannot be converted to a Python object for pickling"
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_49__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader___setstate_cython, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__62)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 3, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_setstate_cython, __pyx_t_7) < 0) __PYX_ERR(1, 3, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11CyEdfReader_49__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyEdfReader___setstate_cython, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__62)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 3, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_setstate_cython, __pyx_t_4) < 0) __PYX_ERR(1, 3, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":464
  * 
@@ -56170,20 +56182,20 @@ if (!__Pyx_RefNanny) {
  *     return edf_set_technician(handle, technician)
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_5set_technician, 0, __pyx_n_s_set_technician, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__64)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 464, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_technician, __pyx_t_7) < 0) __PYX_ERR(0, 464, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_5set_technician, 0, __pyx_n_s_set_technician, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__64)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 464, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_technician, __pyx_t_4) < 0) __PYX_ERR(0, 464, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "(tree fragment)":1
  * def __reduce_cython__(self):             # <<<<<<<<<<<<<<
  *     raise TypeError, "Pickling of struct members such as self.annotation must be explicitly requested with @auto_pickle(True)"
  * def __setstate_cython__(self, __pyx_state):
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_13EdfAnnotation_1__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_EdfAnnotation___reduce_cython, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__65)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_reduce_cython, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_13EdfAnnotation_1__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_EdfAnnotation___reduce_cython, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__65)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_reduce_cython, __pyx_t_4) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "(tree fragment)":3
  * def __reduce_cython__(self):
@@ -56191,10 +56203,10 @@ if (!__Pyx_RefNanny) {
  * def __setstate_cython__(self, __pyx_state):             # <<<<<<<<<<<<<<
  *     raise TypeError, "Pickling of struct members such as self.annotation must be explicitly requested with @auto_pickle(True)"
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_13EdfAnnotation_3__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_EdfAnnotation___setstate_cython, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__66)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 3, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_setstate_cython, __pyx_t_7) < 0) __PYX_ERR(1, 3, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_13EdfAnnotation_3__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_EdfAnnotation___setstate_cython, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__66)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 3, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_setstate_cython, __pyx_t_4) < 0) __PYX_ERR(1, 3, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":476
  * # need to use npbuffers
@@ -56203,10 +56215,10 @@ if (!__Pyx_RefNanny) {
  *     """
  *     reads n samples from edfsignal, starting from the current sample position indicator, into buf (edfsignal starts at 0)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_7read_int_samples, 0, __pyx_n_s_read_int_samples, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__68)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 476, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_read_int_samples, __pyx_t_7) < 0) __PYX_ERR(0, 476, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_7read_int_samples, 0, __pyx_n_s_read_int_samples, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__68)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 476, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_read_int_samples, __pyx_t_4) < 0) __PYX_ERR(0, 476, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":505
  *     return edf_blockwrite_physical_samples(handle, &buf[0])
@@ -56215,10 +56227,10 @@ if (!__Pyx_RefNanny) {
  *     return edf_set_recording_additional(handle,recording_additional)
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9set_recording_additional, 0, __pyx_n_s_set_recording_additional, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__70)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 505, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_recording_additional, __pyx_t_7) < 0) __PYX_ERR(0, 505, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9set_recording_additional, 0, __pyx_n_s_set_recording_additional, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__70)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 505, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_recording_additional, __pyx_t_4) < 0) __PYX_ERR(0, 505, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":509
  * 
@@ -56227,10 +56239,10 @@ if (!__Pyx_RefNanny) {
  *     return edfwrite_physical_samples(handle, &buf[0])
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11write_physical_samples, 0, __pyx_n_s_write_physical_samples, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__72)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 509, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_write_physical_samples, __pyx_t_7) < 0) __PYX_ERR(0, 509, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_11write_physical_samples, 0, __pyx_n_s_write_physical_samples, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__72)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 509, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_write_physical_samples, __pyx_t_4) < 0) __PYX_ERR(0, 509, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":515
  * 
@@ -56239,10 +56251,10 @@ if (!__Pyx_RefNanny) {
  *     return edf_set_patientname(handle, name)
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_13set_patientname, 0, __pyx_n_s_set_patientname, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__74)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 515, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_patientname, __pyx_t_7) < 0) __PYX_ERR(0, 515, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_13set_patientname, 0, __pyx_n_s_set_patientname, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__74)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 515, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_patientname, __pyx_t_4) < 0) __PYX_ERR(0, 515, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":519
  * 
@@ -56251,10 +56263,10 @@ if (!__Pyx_RefNanny) {
  *     edf_set_physical_minimum(handle, edfsignal, phys_min)
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_15set_physical_minimum, 0, __pyx_n_s_set_physical_minimum, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__76)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 519, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_physical_minimum, __pyx_t_7) < 0) __PYX_ERR(0, 519, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_15set_physical_minimum, 0, __pyx_n_s_set_physical_minimum, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__76)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 519, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_physical_minimum, __pyx_t_4) < 0) __PYX_ERR(0, 519, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":523
  * 
@@ -56263,10 +56275,10 @@ if (!__Pyx_RefNanny) {
  *                                 np.ndarray[np.float64_t] buf):
  *     return edfread_physical_samples(handle, edfsignal, n, &buf[0])
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_17read_physical_samples, 0, __pyx_n_s_read_physical_samples, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__77)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 523, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_read_physical_samples, __pyx_t_7) < 0) __PYX_ERR(0, 523, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_17read_physical_samples, 0, __pyx_n_s_read_physical_samples, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__77)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 523, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_read_physical_samples, __pyx_t_4) < 0) __PYX_ERR(0, 523, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":527
  *     return edfread_physical_samples(handle, edfsignal, n, &buf[0])
@@ -56275,10 +56287,10 @@ if (!__Pyx_RefNanny) {
  *     return edfclose_file(handle)
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_19close_file, 0, __pyx_n_s_close_file, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__79)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 527, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_close_file, __pyx_t_7) < 0) __PYX_ERR(0, 527, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_19close_file, 0, __pyx_n_s_close_file, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__79)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 527, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_close_file, __pyx_t_4) < 0) __PYX_ERR(0, 527, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":531
  * 
@@ -56287,10 +56299,10 @@ if (!__Pyx_RefNanny) {
  *     return edf_set_physical_maximum(handle, edfsignal, phys_max)
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_21set_physical_maximum, 0, __pyx_n_s_set_physical_maximum, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__81)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 531, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_physical_maximum, __pyx_t_7) < 0) __PYX_ERR(0, 531, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_21set_physical_maximum, 0, __pyx_n_s_set_physical_maximum, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__81)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 531, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_physical_maximum, __pyx_t_4) < 0) __PYX_ERR(0, 531, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":534
  *     return edf_set_physical_maximum(handle, edfsignal, phys_max)
@@ -56299,10 +56311,10 @@ if (!__Pyx_RefNanny) {
  *     """int edfopen_file_writeonly(char *path, int filetype, int number_of_signals)"""
  *     return edfopen_file_writeonly(path, filetype, number_of_signals)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_23open_file_writeonly, 0, __pyx_n_s_open_file_writeonly, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__83)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 534, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_open_file_writeonly, __pyx_t_7) < 0) __PYX_ERR(0, 534, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_23open_file_writeonly, 0, __pyx_n_s_open_file_writeonly, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__83)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 534, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_open_file_writeonly, __pyx_t_4) < 0) __PYX_ERR(0, 534, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":538
  *     return edfopen_file_writeonly(path, filetype, number_of_signals)
@@ -56311,10 +56323,10 @@ if (!__Pyx_RefNanny) {
  *     """int edf_set_patient_additional(int handle, const char *patient_additional)"""
  *     return edf_set_patient_additional(handle, patient_additional)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_25set_patient_additional, 0, __pyx_n_s_set_patient_additional, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__85)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 538, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_patient_additional, __pyx_t_7) < 0) __PYX_ERR(0, 538, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_25set_patient_additional, 0, __pyx_n_s_set_patient_additional, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__85)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 538, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_patient_additional, __pyx_t_4) < 0) __PYX_ERR(0, 538, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":542
  *     return edf_set_patient_additional(handle, patient_additional)
@@ -56323,10 +56335,10 @@ if (!__Pyx_RefNanny) {
  *     "int edf_set_digital_maximum(int handle, int edfsignal, int dig_max)"
  *     return edf_set_digital_maximum(handle, edfsignal, dig_max)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_27set_digital_maximum, 0, __pyx_n_s_set_digital_maximum, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__87)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 542, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_digital_maximum, __pyx_t_7) < 0) __PYX_ERR(0, 542, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_27set_digital_maximum, 0, __pyx_n_s_set_digital_maximum, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__87)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 542, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_digital_maximum, __pyx_t_4) < 0) __PYX_ERR(0, 542, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":550
  * # int edfopen_file_readonly(const char *path, struct edf_hdr_struct *edfhdr, int read_annotations)
@@ -56335,10 +56347,10 @@ if (!__Pyx_RefNanny) {
  *     """int edf_set_birthdate(int handle, int birthdate_year, int birthdate_month, int birthdate_day)"""
  *     return edf_set_birthdate(handle, birthdate_year,  birthdate_month, birthdate_day)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_29set_birthdate, 0, __pyx_n_s_set_birthdate, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__89)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 550, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_birthdate, __pyx_t_7) < 0) __PYX_ERR(0, 550, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_29set_birthdate, 0, __pyx_n_s_set_birthdate, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__89)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 550, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_birthdate, __pyx_t_4) < 0) __PYX_ERR(0, 550, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":554
  *     return edf_set_birthdate(handle, birthdate_year,  birthdate_month, birthdate_day)
@@ -56347,10 +56359,10 @@ if (!__Pyx_RefNanny) {
  *     """int edf_set_digital_minimum(int handle, int edfsignal, int dig_min)"""
  *     return edf_set_digital_minimum(handle,  edfsignal, dig_min)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_31set_digital_minimum, 0, __pyx_n_s_set_digital_minimum, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__91)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 554, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_digital_minimum, __pyx_t_7) < 0) __PYX_ERR(0, 554, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_31set_digital_minimum, 0, __pyx_n_s_set_digital_minimum, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__91)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 554, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_digital_minimum, __pyx_t_4) < 0) __PYX_ERR(0, 554, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":558
  *     return edf_set_digital_minimum(handle,  edfsignal, dig_min)
@@ -56359,10 +56371,10 @@ if (!__Pyx_RefNanny) {
  *     """write_digital_samples(int handle, np.ndarray[np.int32_t] buf)
  *     call to
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_33write_digital_samples, 0, __pyx_n_s_write_digital_samples, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__92)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 558, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_write_digital_samples, __pyx_t_7) < 0) __PYX_ERR(0, 558, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_33write_digital_samples, 0, __pyx_n_s_write_digital_samples, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__92)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 558, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_write_digital_samples, __pyx_t_4) < 0) __PYX_ERR(0, 558, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":564
  *     return edfwrite_digital_samples(handle,<int*> &buf[0])
@@ -56371,10 +56383,10 @@ if (!__Pyx_RefNanny) {
  *     """int edfwrite_digital_short_samples(int handle, short *buf)"""
  *     return edfwrite_digital_short_samples(handle,<short*> &buf[0])
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_35write_digital_short_samples, 0, __pyx_n_s_write_digital_short_samples, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__93)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 564, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_write_digital_short_samples, __pyx_t_7) < 0) __PYX_ERR(0, 564, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_35write_digital_short_samples, 0, __pyx_n_s_write_digital_short_samples, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__93)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 564, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_write_digital_short_samples, __pyx_t_4) < 0) __PYX_ERR(0, 564, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":568
  *     return edfwrite_digital_short_samples(handle,<short*> &buf[0])
@@ -56383,10 +56395,10 @@ if (!__Pyx_RefNanny) {
  *     """int edf_set_equipment(int handle, const char *equipment)"""
  *     return edf_set_equipment(handle, equipment)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_37set_equipment, 0, __pyx_n_s_set_equipment, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__95)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 568, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_equipment, __pyx_t_7) < 0) __PYX_ERR(0, 568, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_37set_equipment, 0, __pyx_n_s_set_equipment, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__95)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 568, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_equipment, __pyx_t_4) < 0) __PYX_ERR(0, 568, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":572
  *     return edf_set_equipment(handle, equipment)
@@ -56395,10 +56407,10 @@ if (!__Pyx_RefNanny) {
  *     """int edf_set_samplefrequency(int handle, int edfsignal, int samplefrequency)"""
  *     return edf_set_samplefrequency(handle, edfsignal, samplefrequency)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_39set_samplefrequency, 0, __pyx_n_s_set_samplefrequency, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__97)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 572, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_samplefrequency, __pyx_t_7) < 0) __PYX_ERR(0, 572, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_39set_samplefrequency, 0, __pyx_n_s_set_samplefrequency, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__97)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 572, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_samplefrequency, __pyx_t_4) < 0) __PYX_ERR(0, 572, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":576
  *     return edf_set_samplefrequency(handle, edfsignal, samplefrequency)
@@ -56407,10 +56419,10 @@ if (!__Pyx_RefNanny) {
  *     """int edf_set_admincode(int handle, const char *admincode)"""
  *     return edf_set_admincode(handle, admincode)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_41set_admincode, 0, __pyx_n_s_set_admincode, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__99)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 576, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_admincode, __pyx_t_7) < 0) __PYX_ERR(0, 576, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_41set_admincode, 0, __pyx_n_s_set_admincode, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__99)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 576, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_admincode, __pyx_t_4) < 0) __PYX_ERR(0, 576, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":580
  *     return edf_set_admincode(handle, admincode)
@@ -56419,10 +56431,10 @@ if (!__Pyx_RefNanny) {
  *     """int edf_set_label(int handle, int edfsignal, const char *label)"""
  *     return edf_set_label(handle, edfsignal, label)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_43set_label, 0, __pyx_n_s_set_label, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__101)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 580, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_label, __pyx_t_7) < 0) __PYX_ERR(0, 580, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_43set_label, 0, __pyx_n_s_set_label, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__101)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 580, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_label, __pyx_t_4) < 0) __PYX_ERR(0, 580, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":584
  *     return edf_set_label(handle, edfsignal, label)
@@ -56431,10 +56443,10 @@ if (!__Pyx_RefNanny) {
  *     """int edf_set_number_of_annotation_signals(int handle, int annot_signals)"""
  *     return edf_set_number_of_annotation_signals(handle, annot_signals)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_45set_number_of_annotation_signals, 0, __pyx_n_s_set_number_of_annotation_signals, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__103)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 584, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_number_of_annotation_signals, __pyx_t_7) < 0) __PYX_ERR(0, 584, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_45set_number_of_annotation_signals, 0, __pyx_n_s_set_number_of_annotation_signals, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__103)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 584, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_number_of_annotation_signals, __pyx_t_4) < 0) __PYX_ERR(0, 584, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":589
  * 
@@ -56443,10 +56455,10 @@ if (!__Pyx_RefNanny) {
  *     """long long edftell(int handle, int edfsignal)"""
  *     return edftell(handle,  edfsignal)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_47tell, 0, __pyx_n_s_tell, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__105)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 589, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_tell, __pyx_t_7) < 0) __PYX_ERR(0, 589, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_47tell, 0, __pyx_n_s_tell, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__105)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 589, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_tell, __pyx_t_4) < 0) __PYX_ERR(0, 589, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":593
  *     return edftell(handle,  edfsignal)
@@ -56455,10 +56467,10 @@ if (!__Pyx_RefNanny) {
  *     """void edfrewind(int handle, int edfsignal)"""
  *     edfrewind(handle, edfsignal)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_49rewind, 0, __pyx_n_s_rewind, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__106)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 593, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_rewind, __pyx_t_7) < 0) __PYX_ERR(0, 593, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_49rewind, 0, __pyx_n_s_rewind, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__106)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 593, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_rewind, __pyx_t_4) < 0) __PYX_ERR(0, 593, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":597
  *     edfrewind(handle, edfsignal)
@@ -56467,10 +56479,10 @@ if (!__Pyx_RefNanny) {
  *     """int edf_set_gender(int handle, int gender)"""
  *     return edf_set_gender(handle, gender)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_51set_gender, 0, __pyx_n_s_set_gender, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__108)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 597, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_gender, __pyx_t_7) < 0) __PYX_ERR(0, 597, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_51set_gender, 0, __pyx_n_s_set_gender, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__108)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 597, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_gender, __pyx_t_4) < 0) __PYX_ERR(0, 597, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":601
  *     return edf_set_gender(handle, gender)
@@ -56479,10 +56491,10 @@ if (!__Pyx_RefNanny) {
  *     """int edf_set_physical_dimension(int handle, int edfsignal, const char *phys_dim)"""
  *     return edf_set_physical_dimension(handle, edfsignal, phys_dim)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_53set_physical_dimension, 0, __pyx_n_s_set_physical_dimension, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__110)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 601, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_physical_dimension, __pyx_t_7) < 0) __PYX_ERR(0, 601, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_53set_physical_dimension, 0, __pyx_n_s_set_physical_dimension, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__110)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 601, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_physical_dimension, __pyx_t_4) < 0) __PYX_ERR(0, 601, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":605
  *     return edf_set_physical_dimension(handle, edfsignal, phys_dim)
@@ -56491,10 +56503,10 @@ if (!__Pyx_RefNanny) {
  *     """int edf_set_transducer(int handle, int edfsignal, const char *transducer)"""
  *     return edf_set_transducer(handle, edfsignal, transducer)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_55set_transducer, 0, __pyx_n_s_set_transducer, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__112)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 605, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_transducer, __pyx_t_7) < 0) __PYX_ERR(0, 605, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_55set_transducer, 0, __pyx_n_s_set_transducer, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__112)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 605, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_transducer, __pyx_t_4) < 0) __PYX_ERR(0, 605, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":609
  *     return edf_set_transducer(handle, edfsignal, transducer)
@@ -56503,10 +56515,10 @@ if (!__Pyx_RefNanny) {
  *     """int edf_set_prefilter(int handle, int edfsignal, const char*prefilter)"""
  *     return edf_set_prefilter(handle, edfsignal, prefilter)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_57set_prefilter, 0, __pyx_n_s_set_prefilter, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__114)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 609, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_prefilter, __pyx_t_7) < 0) __PYX_ERR(0, 609, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_57set_prefilter, 0, __pyx_n_s_set_prefilter, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__114)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 609, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_prefilter, __pyx_t_4) < 0) __PYX_ERR(0, 609, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":613
  *     return edf_set_prefilter(handle, edfsignal, prefilter)
@@ -56515,10 +56527,10 @@ if (!__Pyx_RefNanny) {
  *     """long long edfseek(int handle, int edfsignal, long long offset, int whence)"""
  *     return edfseek(handle, edfsignal, offset, whence)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_59seek, 0, __pyx_n_s_seek, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__116)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 613, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_seek, __pyx_t_7) < 0) __PYX_ERR(0, 613, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_59seek, 0, __pyx_n_s_seek, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__116)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 613, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_seek, __pyx_t_4) < 0) __PYX_ERR(0, 613, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":617
  *     return edfseek(handle, edfsignal, offset, whence)
@@ -56527,10 +56539,10 @@ if (!__Pyx_RefNanny) {
  *                           starttime_hour, starttime_minute, starttime_second):
  *     """int edf_set_startdatetime(int handle, int startdate_year, int startdate_month, int startdate_day,
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_61set_startdatetime, 0, __pyx_n_s_set_startdatetime, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__118)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 617, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_startdatetime, __pyx_t_7) < 0) __PYX_ERR(0, 617, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_61set_startdatetime, 0, __pyx_n_s_set_startdatetime, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__118)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 617, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_startdatetime, __pyx_t_4) < 0) __PYX_ERR(0, 617, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":625
  * 
@@ -56539,10 +56551,10 @@ if (!__Pyx_RefNanny) {
  *     """int edf_set_datarecord_duration(int handle, int duration)"""
  *     return edf_set_datarecord_duration(handle, duration)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_63set_datarecord_duration, 0, __pyx_n_s_set_datarecord_duration, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__120)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 625, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_datarecord_duration, __pyx_t_7) < 0) __PYX_ERR(0, 625, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_63set_datarecord_duration, 0, __pyx_n_s_set_datarecord_duration, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__120)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 625, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_set_datarecord_duration, __pyx_t_4) < 0) __PYX_ERR(0, 625, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":679
  * #     return array_list
@@ -56551,15 +56563,15 @@ if (!__Pyx_RefNanny) {
  *     import codecs
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_sys); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 679, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_version_info); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 679, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_sys); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 679, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = PyObject_RichCompare(__pyx_t_4, __pyx_tuple__121, Py_LT); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 679, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_version_info); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 679, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely((__pyx_t_6 < 0))) __PYX_ERR(0, 679, __pyx_L1_error)
+  __pyx_t_4 = PyObject_RichCompare(__pyx_t_7, __pyx_tuple__121, Py_LT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 679, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_6 < 0))) __PYX_ERR(0, 679, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   if (__pyx_t_6) {
 
     /* "edflib/_edflib.pyx":680
@@ -56569,10 +56581,10 @@ if (!__Pyx_RefNanny) {
  * 
  *     def u(x):
  */
-    __pyx_t_7 = __Pyx_ImportDottedModule(__pyx_n_s_codecs, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 680, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    if (PyDict_SetItem(__pyx_d, __pyx_n_s_codecs, __pyx_t_7) < 0) __PYX_ERR(0, 680, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __pyx_t_4 = __Pyx_ImportDottedModule(__pyx_n_s_codecs, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 680, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    if (PyDict_SetItem(__pyx_d, __pyx_n_s_codecs, __pyx_t_4) < 0) __PYX_ERR(0, 680, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
     /* "edflib/_edflib.pyx":682
  *     import codecs
@@ -56581,10 +56593,10 @@ if (!__Pyx_RefNanny) {
  *         return codecs.unicode_escape_decode(x)[0]
  * 
  */
-    __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_65u, 0, __pyx_n_s_u, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__123)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 682, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    if (PyDict_SetItem(__pyx_d, __pyx_n_s_u, __pyx_t_7) < 0) __PYX_ERR(0, 682, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_65u, 0, __pyx_n_s_u, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__123)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 682, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    if (PyDict_SetItem(__pyx_d, __pyx_n_s_u, __pyx_t_4) < 0) __PYX_ERR(0, 682, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
     /* "edflib/_edflib.pyx":685
  *         return codecs.unicode_escape_decode(x)[0]
@@ -56593,10 +56605,10 @@ if (!__Pyx_RefNanny) {
  *         if isinstance(x, unicode):
  *             return x.encode("utf-8")
  */
-    __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_67du, 0, __pyx_n_s_du, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__124)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 685, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    if (PyDict_SetItem(__pyx_d, __pyx_n_s_du, __pyx_t_7) < 0) __PYX_ERR(0, 685, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_67du, 0, __pyx_n_s_du, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__124)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 685, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    if (PyDict_SetItem(__pyx_d, __pyx_n_s_du, __pyx_t_4) < 0) __PYX_ERR(0, 685, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
     /* "edflib/_edflib.pyx":679
  * #     return array_list
@@ -56616,10 +56628,10 @@ if (!__Pyx_RefNanny) {
  * 
  */
   /*else*/ {
-    __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_69u, 0, __pyx_n_s_u, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__125)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 691, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    if (PyDict_SetItem(__pyx_d, __pyx_n_s_u, __pyx_t_7) < 0) __PYX_ERR(0, 691, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_69u, 0, __pyx_n_s_u, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__125)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 691, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    if (PyDict_SetItem(__pyx_d, __pyx_n_s_u, __pyx_t_4) < 0) __PYX_ERR(0, 691, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
     /* "edflib/_edflib.pyx":694
  *         return x.decode("utf-8", "strict")
@@ -56628,10 +56640,10 @@ if (!__Pyx_RefNanny) {
  *         if isbytestr(x):
  *             return x
  */
-    __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_71du, 0, __pyx_n_s_du, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__126)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 694, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    if (PyDict_SetItem(__pyx_d, __pyx_n_s_du, __pyx_t_7) < 0) __PYX_ERR(0, 694, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_71du, 0, __pyx_n_s_du, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__126)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 694, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    if (PyDict_SetItem(__pyx_d, __pyx_n_s_du, __pyx_t_4) < 0) __PYX_ERR(0, 694, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   }
   __pyx_L30:;
 
@@ -56642,10 +56654,10 @@ if (!__Pyx_RefNanny) {
  *     try:
  *         return isinstance(s, basestring)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_73isstr, 0, __pyx_n_s_isstr, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__128)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 701, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_isstr, __pyx_t_7) < 0) __PYX_ERR(0, 701, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_73isstr, 0, __pyx_n_s_isstr, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__128)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 701, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_isstr, __pyx_t_4) < 0) __PYX_ERR(0, 701, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":708
  * 
@@ -56654,10 +56666,10 @@ if (!__Pyx_RefNanny) {
  *     return isinstance(s, bytes)
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_75isbytestr, 0, __pyx_n_s_isbytestr, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__129)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 708, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_isbytestr, __pyx_t_7) < 0) __PYX_ERR(0, 708, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_75isbytestr, 0, __pyx_n_s_isbytestr, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__129)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 708, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_isbytestr, __pyx_t_4) < 0) __PYX_ERR(0, 708, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":712
  * 
@@ -56666,21 +56678,21 @@ if (!__Pyx_RefNanny) {
  *     def __init__(self, value):
  *         self.parameter = value
  */
-  __pyx_t_7 = PyTuple_New(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 712, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 712, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
   __Pyx_INCREF((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0]));
   __Pyx_GIVEREF((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0]));
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_7, 0, ((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])))) __PYX_ERR(0, 712, __pyx_L1_error);
-  __pyx_t_4 = __Pyx_PEP560_update_bases(__pyx_t_7); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 712, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_CalculateMetaclass(NULL, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 712, __pyx_L1_error)
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_4, 0, ((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])))) __PYX_ERR(0, 712, __pyx_L1_error);
+  __pyx_t_7 = __Pyx_PEP560_update_bases(__pyx_t_4); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 712, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_5 = __Pyx_CalculateMetaclass(NULL, __pyx_t_7); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 712, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_9 = __Pyx_Py3MetaclassPrepare(__pyx_t_5, __pyx_t_4, __pyx_n_s_ChannelDoesNotExist, __pyx_n_s_ChannelDoesNotExist, (PyObject *) NULL, __pyx_n_s_edflib__edflib, (PyObject *) NULL); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 712, __pyx_L1_error)
+  __pyx_t_9 = __Pyx_Py3MetaclassPrepare(__pyx_t_5, __pyx_t_7, __pyx_n_s_ChannelDoesNotExist, __pyx_n_s_ChannelDoesNotExist, (PyObject *) NULL, __pyx_n_s_edflib__edflib, (PyObject *) NULL); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 712, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
-  if (__pyx_t_4 != __pyx_t_7) {
-    if (unlikely((PyDict_SetItemString(__pyx_t_9, "__orig_bases__", __pyx_t_7) < 0))) __PYX_ERR(0, 712, __pyx_L1_error)
+  if (__pyx_t_7 != __pyx_t_4) {
+    if (unlikely((PyDict_SetItemString(__pyx_t_9, "__orig_bases__", __pyx_t_4) < 0))) __PYX_ERR(0, 712, __pyx_L1_error)
   }
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":713
  * 
@@ -56689,10 +56701,10 @@ if (!__Pyx_RefNanny) {
  *         self.parameter = value
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_19ChannelDoesNotExist_1__init__, 0, __pyx_n_s_ChannelDoesNotExist___init, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__131)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 713, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetNameInClass(__pyx_t_9, __pyx_n_s_init, __pyx_t_7) < 0) __PYX_ERR(0, 713, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_19ChannelDoesNotExist_1__init__, 0, __pyx_n_s_ChannelDoesNotExist___init, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__131)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 713, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (__Pyx_SetNameInClass(__pyx_t_9, __pyx_n_s_init, __pyx_t_4) < 0) __PYX_ERR(0, 713, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":716
  *         self.parameter = value
@@ -56701,10 +56713,10 @@ if (!__Pyx_RefNanny) {
  *         return repr(self.parameter)
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_19ChannelDoesNotExist_3__str__, 0, __pyx_n_s_ChannelDoesNotExist___str, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__132)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 716, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetNameInClass(__pyx_t_9, __pyx_n_s_str, __pyx_t_7) < 0) __PYX_ERR(0, 716, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_19ChannelDoesNotExist_3__str__, 0, __pyx_n_s_ChannelDoesNotExist___str, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__132)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 716, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (__Pyx_SetNameInClass(__pyx_t_9, __pyx_n_s_str, __pyx_t_4) < 0) __PYX_ERR(0, 716, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "edflib/_edflib.pyx":712
  * 
@@ -56713,13 +56725,13 @@ if (!__Pyx_RefNanny) {
  *     def __init__(self, value):
  *         self.parameter = value
  */
-  __pyx_t_7 = __Pyx_Py3ClassCreate(__pyx_t_5, __pyx_n_s_ChannelDoesNotExist, __pyx_t_4, __pyx_t_9, NULL, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 712, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_ChannelDoesNotExist, __pyx_t_7) < 0) __PYX_ERR(0, 712, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_Py3ClassCreate(__pyx_t_5, __pyx_n_s_ChannelDoesNotExist, __pyx_t_7, __pyx_t_9, NULL, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 712, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_ChannelDoesNotExist, __pyx_t_4) < 0) __PYX_ERR(0, 712, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":720
  * 
@@ -56728,21 +56740,21 @@ if (!__Pyx_RefNanny) {
  *     def __init__(self, value):
  *         self.parameter = value
  */
-  __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 720, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
+  __pyx_t_7 = PyTuple_New(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 720, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
   __Pyx_INCREF((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0]));
   __Pyx_GIVEREF((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0]));
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_4, 0, ((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])))) __PYX_ERR(0, 720, __pyx_L1_error);
-  __pyx_t_5 = __Pyx_PEP560_update_bases(__pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 720, __pyx_L1_error)
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_7, 0, ((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])))) __PYX_ERR(0, 720, __pyx_L1_error);
+  __pyx_t_5 = __Pyx_PEP560_update_bases(__pyx_t_7); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 720, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __pyx_t_9 = __Pyx_CalculateMetaclass(NULL, __pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 720, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
-  __pyx_t_7 = __Pyx_Py3MetaclassPrepare(__pyx_t_9, __pyx_t_5, __pyx_n_s_WrongInputSize, __pyx_n_s_WrongInputSize, (PyObject *) NULL, __pyx_n_s_edflib__edflib, (PyObject *) NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 720, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (__pyx_t_5 != __pyx_t_4) {
-    if (unlikely((PyDict_SetItemString(__pyx_t_7, "__orig_bases__", __pyx_t_4) < 0))) __PYX_ERR(0, 720, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_Py3MetaclassPrepare(__pyx_t_9, __pyx_t_5, __pyx_n_s_WrongInputSize, __pyx_n_s_WrongInputSize, (PyObject *) NULL, __pyx_n_s_edflib__edflib, (PyObject *) NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 720, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (__pyx_t_5 != __pyx_t_7) {
+    if (unlikely((PyDict_SetItemString(__pyx_t_4, "__orig_bases__", __pyx_t_7) < 0))) __PYX_ERR(0, 720, __pyx_L1_error)
   }
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":721
  * 
@@ -56751,10 +56763,10 @@ if (!__Pyx_RefNanny) {
  *         self.parameter = value
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_14WrongInputSize_1__init__, 0, __pyx_n_s_WrongInputSize___init, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__133)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 721, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_init, __pyx_t_4) < 0) __PYX_ERR(0, 721, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_14WrongInputSize_1__init__, 0, __pyx_n_s_WrongInputSize___init, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__133)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 721, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_init, __pyx_t_7) < 0) __PYX_ERR(0, 721, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":724
  *         self.parameter = value
@@ -56763,10 +56775,10 @@ if (!__Pyx_RefNanny) {
  *         return repr(self.parameter)
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_14WrongInputSize_3__str__, 0, __pyx_n_s_WrongInputSize___str, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__134)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 724, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_str, __pyx_t_4) < 0) __PYX_ERR(0, 724, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_14WrongInputSize_3__str__, 0, __pyx_n_s_WrongInputSize___str, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__134)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 724, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_str, __pyx_t_7) < 0) __PYX_ERR(0, 724, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":720
  * 
@@ -56775,11 +56787,11 @@ if (!__Pyx_RefNanny) {
  *     def __init__(self, value):
  *         self.parameter = value
  */
-  __pyx_t_4 = __Pyx_Py3ClassCreate(__pyx_t_9, __pyx_n_s_WrongInputSize, __pyx_t_5, __pyx_t_7, NULL, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 720, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_WrongInputSize, __pyx_t_4) < 0) __PYX_ERR(0, 720, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_Py3ClassCreate(__pyx_t_9, __pyx_n_s_WrongInputSize, __pyx_t_5, __pyx_t_4, NULL, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 720, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_WrongInputSize, __pyx_t_7) < 0) __PYX_ERR(0, 720, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
@@ -56856,10 +56868,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_GOTREF(__pyx_t_9);
   __pyx_t_5 = __Pyx_CalculateMetaclass(NULL, __pyx_t_9); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 763, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_7 = __Pyx_Py3MetaclassPrepare(__pyx_t_5, __pyx_t_9, __pyx_n_s_EdfWriter, __pyx_n_s_EdfWriter, (PyObject *) NULL, __pyx_n_s_edflib__edflib, (PyObject *) NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 763, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_4 = __Pyx_Py3MetaclassPrepare(__pyx_t_5, __pyx_t_9, __pyx_n_s_EdfWriter, __pyx_n_s_EdfWriter, (PyObject *) NULL, __pyx_n_s_edflib__edflib, (PyObject *) NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 763, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
   if (__pyx_t_9 != __pyx_tuple__138) {
-    if (unlikely((PyDict_SetItemString(__pyx_t_7, "__orig_bases__", __pyx_tuple__138) < 0))) __PYX_ERR(0, 763, __pyx_L1_error)
+    if (unlikely((PyDict_SetItemString(__pyx_t_4, "__orig_bases__", __pyx_tuple__138) < 0))) __PYX_ERR(0, 763, __pyx_L1_error)
   }
 
   /* "edflib/_edflib.pyx":764
@@ -56869,10 +56881,10 @@ if (!__Pyx_RefNanny) {
  *         self.close()  # cleanup the file
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_1__exit__, 0, __pyx_n_s_EdfWriter___exit, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__139)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 764, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_exit, __pyx_t_4) < 0) __PYX_ERR(0, 764, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_1__exit__, 0, __pyx_n_s_EdfWriter___exit, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__139)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 764, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_exit, __pyx_t_7) < 0) __PYX_ERR(0, 764, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":767
  *         self.close()  # cleanup the file
@@ -56881,10 +56893,10 @@ if (!__Pyx_RefNanny) {
  *         return self
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_3__enter__, 0, __pyx_n_s_EdfWriter___enter, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__140)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 767, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_enter, __pyx_t_4) < 0) __PYX_ERR(0, 767, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_3__enter__, 0, __pyx_n_s_EdfWriter___enter, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__140)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 767, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_enter, __pyx_t_7) < 0) __PYX_ERR(0, 767, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":770
  *         return self
@@ -56893,10 +56905,10 @@ if (!__Pyx_RefNanny) {
  *         self.close()
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_5__del__, 0, __pyx_n_s_EdfWriter___del, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__141)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 770, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_del, __pyx_t_4) < 0) __PYX_ERR(0, 770, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_5__del__, 0, __pyx_n_s_EdfWriter___del, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__141)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 770, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_del, __pyx_t_7) < 0) __PYX_ERR(0, 770, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":773
  *         self.close()
@@ -56905,9 +56917,9 @@ if (!__Pyx_RefNanny) {
  *                  file_type=FILETYPE_EDFPLUS):
  *         """Initialises an EDF file at file_name.
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_7__init__, 0, __pyx_n_s_EdfWriter___init, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__143)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 773, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_4, sizeof(__pyx_defaults), 1)) __PYX_ERR(0, 773, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_7__init__, 0, __pyx_n_s_EdfWriter___init, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__143)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 773, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_7, sizeof(__pyx_defaults), 1)) __PYX_ERR(0, 773, __pyx_L1_error)
 
   /* "edflib/_edflib.pyx":774
  * 
@@ -56918,12 +56930,12 @@ if (!__Pyx_RefNanny) {
  */
   __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_FILETYPE_EDFPLUS); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 774, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
-  __Pyx_CyFunction_Defaults(__pyx_defaults, __pyx_t_4)->__pyx_arg_file_type = __pyx_t_10;
+  __Pyx_CyFunction_Defaults(__pyx_defaults, __pyx_t_7)->__pyx_arg_file_type = __pyx_t_10;
   __Pyx_GIVEREF(__pyx_t_10);
   __pyx_t_10 = 0;
-  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_4, __pyx_pf_6edflib_7_edflib_76__defaults__);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_init, __pyx_t_4) < 0) __PYX_ERR(0, 773, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_7, __pyx_pf_6edflib_7_edflib_76__defaults__);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_init, __pyx_t_7) < 0) __PYX_ERR(0, 773, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":828
  *             raise IOError(write_errors[self.handle])
@@ -56932,10 +56944,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Updates header to edffile struct
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_9update_header, 0, __pyx_n_s_EdfWriter_update_header, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__145)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 828, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_update_header, __pyx_t_4) < 0) __PYX_ERR(0, 828, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_9update_header, 0, __pyx_n_s_EdfWriter_update_header, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__145)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 828, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_update_header, __pyx_t_7) < 0) __PYX_ERR(0, 828, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":869
  *             set_prefilter(self.handle, i, du(self.channels[i]['prefilter']))
@@ -56944,10 +56956,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the file header based upon dictionary-like paramters in @fileHeader
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_11setHeader, 0, __pyx_n_s_EdfWriter_setHeader, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__147)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 869, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setHeader, __pyx_t_4) < 0) __PYX_ERR(0, 869, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_11setHeader, 0, __pyx_n_s_EdfWriter_setHeader, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__147)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 869, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setHeader, __pyx_t_7) < 0) __PYX_ERR(0, 869, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":885
  *         self.update_header()
@@ -56956,10 +56968,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the parameter for signal edfsignal.
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_13setSignalHeader, 0, __pyx_n_s_EdfWriter_setSignalHeader, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__149)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 885, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setSignalHeader, __pyx_t_4) < 0) __PYX_ERR(0, 885, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_13setSignalHeader, 0, __pyx_n_s_EdfWriter_setSignalHeader, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__149)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 885, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setSignalHeader, __pyx_t_7) < 0) __PYX_ERR(0, 885, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":905
  *         self.update_header()
@@ -56968,10 +56980,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the parameter for all signals
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_15setSignalHeaders, 0, __pyx_n_s_EdfWriter_setSignalHeaders, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__151)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 905, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setSignalHeaders, __pyx_t_4) < 0) __PYX_ERR(0, 905, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_15setSignalHeaders, 0, __pyx_n_s_EdfWriter_setSignalHeaders, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__151)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 905, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setSignalHeaders, __pyx_t_7) < 0) __PYX_ERR(0, 905, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":932
  *         self.update_header()
@@ -56980,10 +56992,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the technicians name to `technician`.
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_17setTechnician, 0, __pyx_n_s_EdfWriter_setTechnician, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__153)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 932, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setTechnician, __pyx_t_4) < 0) __PYX_ERR(0, 932, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_17setTechnician, 0, __pyx_n_s_EdfWriter_setTechnician, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__153)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 932, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setTechnician, __pyx_t_7) < 0) __PYX_ERR(0, 932, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":943
  *         self.update_header()
@@ -56992,10 +57004,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the additional recordinginfo
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_19setRecordingAdditional, 0, __pyx_n_s_EdfWriter_setRecordingAdditional, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__155)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 943, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setRecordingAdditional, __pyx_t_4) < 0) __PYX_ERR(0, 943, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_19setRecordingAdditional, 0, __pyx_n_s_EdfWriter_setRecordingAdditional, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__155)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 943, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setRecordingAdditional, __pyx_t_7) < 0) __PYX_ERR(0, 943, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":954
  *         self.update_header()
@@ -57004,10 +57016,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the patientname to `patient_name`.
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_21setPatientName, 0, __pyx_n_s_EdfWriter_setPatientName, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__157)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 954, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setPatientName, __pyx_t_4) < 0) __PYX_ERR(0, 954, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_21setPatientName, 0, __pyx_n_s_EdfWriter_setPatientName, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__157)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 954, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setPatientName, __pyx_t_7) < 0) __PYX_ERR(0, 954, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":965
  *         self.update_header()
@@ -57016,10 +57028,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the patientcode to `patient_code`.
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_23setPatientCode, 0, __pyx_n_s_EdfWriter_setPatientCode, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__159)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 965, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setPatientCode, __pyx_t_4) < 0) __PYX_ERR(0, 965, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_23setPatientCode, 0, __pyx_n_s_EdfWriter_setPatientCode, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__159)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 965, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setPatientCode, __pyx_t_7) < 0) __PYX_ERR(0, 965, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":976
  *         self.update_header()
@@ -57028,10 +57040,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the additional patientinfo to `patient_additional`.
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_25setPatientAdditional, 0, __pyx_n_s_EdfWriter_setPatientAdditional, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__161)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 976, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setPatientAdditional, __pyx_t_4) < 0) __PYX_ERR(0, 976, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_25setPatientAdditional, 0, __pyx_n_s_EdfWriter_setPatientAdditional, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__161)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 976, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setPatientAdditional, __pyx_t_7) < 0) __PYX_ERR(0, 976, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":987
  *         self.update_header()
@@ -57040,10 +57052,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the name of the param equipment used during the aquisition.
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_27setEquipment, 0, __pyx_n_s_EdfWriter_setEquipment, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__163)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 987, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setEquipment, __pyx_t_4) < 0) __PYX_ERR(0, 987, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_27setEquipment, 0, __pyx_n_s_EdfWriter_setEquipment, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__163)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 987, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setEquipment, __pyx_t_7) < 0) __PYX_ERR(0, 987, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1001
  *         self.update_header()
@@ -57052,10 +57064,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the admincode.
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_29setAdmincode, 0, __pyx_n_s_EdfWriter_setAdmincode, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__165)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1001, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setAdmincode, __pyx_t_4) < 0) __PYX_ERR(0, 1001, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_29setAdmincode, 0, __pyx_n_s_EdfWriter_setAdmincode, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__165)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1001, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setAdmincode, __pyx_t_7) < 0) __PYX_ERR(0, 1001, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1016
  *         self.update_header()
@@ -57064,10 +57076,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the gender.
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_31setGender, 0, __pyx_n_s_EdfWriter_setGender, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__167)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1016, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setGender, __pyx_t_4) < 0) __PYX_ERR(0, 1016, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_31setGender, 0, __pyx_n_s_EdfWriter_setGender, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__167)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1016, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setGender, __pyx_t_7) < 0) __PYX_ERR(0, 1016, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1029
  *         self.update_header()
@@ -57076,10 +57088,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the datarecord duration. The default value is 100000 which is 1 second.
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_33setDatarecordDuration, 0, __pyx_n_s_EdfWriter_setDatarecordDuration, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__169)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1029, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setDatarecordDuration, __pyx_t_4) < 0) __PYX_ERR(0, 1029, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_33setDatarecordDuration, 0, __pyx_n_s_EdfWriter_setDatarecordDuration, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__169)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1029, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setDatarecordDuration, __pyx_t_7) < 0) __PYX_ERR(0, 1029, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1056
  *         self.update_header()
@@ -57088,10 +57100,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the number of annotation signals. The default value is 1
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_35set_number_of_annotation_signals, 0, __pyx_n_s_EdfWriter_set_number_of_annotati, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__171)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1056, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_set_number_of_annotation_signals, __pyx_t_4) < 0) __PYX_ERR(0, 1056, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_35set_number_of_annotation_signals, 0, __pyx_n_s_EdfWriter_set_number_of_annotati, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__171)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1056, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_set_number_of_annotation_signals, __pyx_t_7) < 0) __PYX_ERR(0, 1056, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1075
  *         self.update_header()
@@ -57100,10 +57112,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the recording start Time
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_37setStartdatetime, 0, __pyx_n_s_EdfWriter_setStartdatetime, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__173)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1075, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setStartdatetime, __pyx_t_4) < 0) __PYX_ERR(0, 1075, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_37setStartdatetime, 0, __pyx_n_s_EdfWriter_setStartdatetime, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__173)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1075, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setStartdatetime, __pyx_t_7) < 0) __PYX_ERR(0, 1075, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1090
  *         self.update_header()
@@ -57112,10 +57124,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the birthdate.
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_39setBirthdate, 0, __pyx_n_s_EdfWriter_setBirthdate, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__175)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1090, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setBirthdate, __pyx_t_4) < 0) __PYX_ERR(0, 1090, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_39setBirthdate, 0, __pyx_n_s_EdfWriter_setBirthdate, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__175)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1090, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setBirthdate, __pyx_t_7) < 0) __PYX_ERR(0, 1090, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1113
  *         self.update_header()
@@ -57124,10 +57136,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the samplefrequency of signal edfsignal.
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_41setSamplefrequency, 0, __pyx_n_s_EdfWriter_setSamplefrequency, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__177)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1113, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setSamplefrequency, __pyx_t_4) < 0) __PYX_ERR(0, 1113, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_41setSamplefrequency, 0, __pyx_n_s_EdfWriter_setSamplefrequency, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__177)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1113, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setSamplefrequency, __pyx_t_7) < 0) __PYX_ERR(0, 1113, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1126
  *         self.update_header()
@@ -57136,10 +57148,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the physical_maximum of signal edfsignal.
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_43setPhysicalMaximum, 0, __pyx_n_s_EdfWriter_setPhysicalMaximum, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__179)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1126, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setPhysicalMaximum, __pyx_t_4) < 0) __PYX_ERR(0, 1126, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_43setPhysicalMaximum, 0, __pyx_n_s_EdfWriter_setPhysicalMaximum, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__179)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1126, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setPhysicalMaximum, __pyx_t_7) < 0) __PYX_ERR(0, 1126, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1146
  *         self.update_header()
@@ -57148,10 +57160,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the physical_minimum of signal edfsignal.
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_45setPhysicalMinimum, 0, __pyx_n_s_EdfWriter_setPhysicalMinimum, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__181)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1146, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setPhysicalMinimum, __pyx_t_4) < 0) __PYX_ERR(0, 1146, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_45setPhysicalMinimum, 0, __pyx_n_s_EdfWriter_setPhysicalMinimum, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__181)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1146, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setPhysicalMinimum, __pyx_t_7) < 0) __PYX_ERR(0, 1146, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1166
  *         self.update_header()
@@ -57160,10 +57172,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the samplefrequency of signal edfsignal.
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_47setDigitalMaximum, 0, __pyx_n_s_EdfWriter_setDigitalMaximum, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__183)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1166, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setDigitalMaximum, __pyx_t_4) < 0) __PYX_ERR(0, 1166, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_47setDigitalMaximum, 0, __pyx_n_s_EdfWriter_setDigitalMaximum, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__183)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1166, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setDigitalMaximum, __pyx_t_7) < 0) __PYX_ERR(0, 1166, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1187
  *         self.update_header()
@@ -57172,10 +57184,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the minimum digital value of signal edfsignal.
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_49setDigitalMinimum, 0, __pyx_n_s_EdfWriter_setDigitalMinimum, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__185)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1187, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setDigitalMinimum, __pyx_t_4) < 0) __PYX_ERR(0, 1187, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_49setDigitalMinimum, 0, __pyx_n_s_EdfWriter_setDigitalMinimum, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__185)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1187, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setDigitalMinimum, __pyx_t_7) < 0) __PYX_ERR(0, 1187, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1208
  *         self.update_header()
@@ -57184,10 +57196,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the label (name) of signal edfsignal ("FP1", "SaO2", etc.).
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_51setLabel, 0, __pyx_n_s_EdfWriter_setLabel, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__187)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1208, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setLabel, __pyx_t_4) < 0) __PYX_ERR(0, 1208, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_51setLabel, 0, __pyx_n_s_EdfWriter_setLabel, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__187)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1208, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setLabel, __pyx_t_7) < 0) __PYX_ERR(0, 1208, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1228
  *         self.update_header()
@@ -57196,10 +57208,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the physical dimension of signal edfsignal ("uV", "BPM", "mA", "Degr.", etc.)
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_53setPhysicalDimension, 0, __pyx_n_s_EdfWriter_setPhysicalDimension, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__189)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1228, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setPhysicalDimension, __pyx_t_4) < 0) __PYX_ERR(0, 1228, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_53setPhysicalDimension, 0, __pyx_n_s_EdfWriter_setPhysicalDimension, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__189)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1228, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setPhysicalDimension, __pyx_t_7) < 0) __PYX_ERR(0, 1228, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1244
  *         self.update_header()
@@ -57208,10 +57220,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the transducer of signal edfsignal
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_55setTransducer, 0, __pyx_n_s_EdfWriter_setTransducer, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__191)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1244, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setTransducer, __pyx_t_4) < 0) __PYX_ERR(0, 1244, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_55setTransducer, 0, __pyx_n_s_EdfWriter_setTransducer, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__191)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1244, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setTransducer, __pyx_t_7) < 0) __PYX_ERR(0, 1244, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1260
  *         self.update_header()
@@ -57220,10 +57232,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Sets the prefilter of signal edfsignal ("HP:0.1Hz", "LP:75Hz N:50Hz", etc.)
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_57setPrefilter, 0, __pyx_n_s_EdfWriter_setPrefilter, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__193)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1260, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_setPrefilter, __pyx_t_4) < 0) __PYX_ERR(0, 1260, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_57setPrefilter, 0, __pyx_n_s_EdfWriter_setPrefilter, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__193)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1260, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_setPrefilter, __pyx_t_7) < 0) __PYX_ERR(0, 1260, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1276
  *         self.update_header()
@@ -57232,10 +57244,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Writes n physical samples (uV, mA, Ohm) belonging to one signal where n
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_59writePhysicalSamples, 0, __pyx_n_s_EdfWriter_writePhysicalSamples, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__195)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1276, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_writePhysicalSamples, __pyx_t_4) < 0) __PYX_ERR(0, 1276, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_59writePhysicalSamples, 0, __pyx_n_s_EdfWriter_writePhysicalSamples, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__195)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1276, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_writePhysicalSamples, __pyx_t_7) < 0) __PYX_ERR(0, 1276, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1297
  *         return write_physical_samples(self.handle, data)
@@ -57244,10 +57256,10 @@ if (!__Pyx_RefNanny) {
  *         """writes int32 data to the file
  *         need to determine how this is set"""
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_61writeDigitalSamples, 0, __pyx_n_s_EdfWriter_writeDigitalSamples, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__196)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1297, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_writeDigitalSamples, __pyx_t_4) < 0) __PYX_ERR(0, 1297, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_61writeDigitalSamples, 0, __pyx_n_s_EdfWriter_writeDigitalSamples, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__196)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1297, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_writeDigitalSamples, __pyx_t_7) < 0) __PYX_ERR(0, 1297, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1302
  *         return write_digital_samples(self.handle, data)
@@ -57256,10 +57268,10 @@ if (!__Pyx_RefNanny) {
  *         """write int16 data"""
  *         return write_digital_short_samples(self.handle, data)
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_63writeDigitalShortSamples, 0, __pyx_n_s_EdfWriter_writeDigitalShortSampl, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__197)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1302, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_writeDigitalShortSamples, __pyx_t_4) < 0) __PYX_ERR(0, 1302, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_63writeDigitalShortSamples, 0, __pyx_n_s_EdfWriter_writeDigitalShortSampl, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__197)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1302, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_writeDigitalShortSamples, __pyx_t_7) < 0) __PYX_ERR(0, 1302, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1306
  *         return write_digital_short_samples(self.handle, data)
@@ -57268,10 +57280,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Writes physical samples (uV, mA, Ohm)
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_65blockWritePhysicalSamples, 0, __pyx_n_s_EdfWriter_blockWritePhysicalSamp, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__198)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1306, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_blockWritePhysicalSamples, __pyx_t_4) < 0) __PYX_ERR(0, 1306, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_65blockWritePhysicalSamples, 0, __pyx_n_s_EdfWriter_blockWritePhysicalSamp, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__198)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1306, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_blockWritePhysicalSamples, __pyx_t_7) < 0) __PYX_ERR(0, 1306, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1330
  *         return blockwrite_physical_samples(self.handle, data)
@@ -57280,10 +57292,10 @@ if (!__Pyx_RefNanny) {
  *         """@data is int32 array
  *         I think with shape (nchan, num_samples_per_datarecord)"""
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_67blockWriteDigitalSamples, 0, __pyx_n_s_EdfWriter_blockWriteDigitalSampl, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__199)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1330, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_blockWriteDigitalSamples, __pyx_t_4) < 0) __PYX_ERR(0, 1330, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_67blockWriteDigitalSamples, 0, __pyx_n_s_EdfWriter_blockWriteDigitalSampl, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__199)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1330, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_blockWriteDigitalSamples, __pyx_t_7) < 0) __PYX_ERR(0, 1330, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1335
  *         return blockwrite_digital_samples(self.handle, data)
@@ -57292,10 +57304,10 @@ if (!__Pyx_RefNanny) {
  *         """@data is int16 array
  *         I think with shape (nchan, num_samples_per_datarecord)"""
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_69blockWriteDigitalShortSamples, 0, __pyx_n_s_EdfWriter_blockWriteDigitalShort, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__200)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1335, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_blockWriteDigitalShortSamples, __pyx_t_4) < 0) __PYX_ERR(0, 1335, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_69blockWriteDigitalShortSamples, 0, __pyx_n_s_EdfWriter_blockWriteDigitalShort, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__200)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1335, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_blockWriteDigitalShortSamples, __pyx_t_7) < 0) __PYX_ERR(0, 1335, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1341
  *         return blockwrite_digital_short_samples(self.handle, data)
@@ -57304,11 +57316,11 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Writes physical samples (uV, mA, Ohm) from data belonging to all signals
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_71writeSamples, 0, __pyx_n_s_EdfWriter_writeSamples, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__202)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1341, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_4, __pyx_tuple__203);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_writeSamples, __pyx_t_4) < 0) __PYX_ERR(0, 1341, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_71writeSamples, 0, __pyx_n_s_EdfWriter_writeSamples, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__202)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1341, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_7, __pyx_tuple__203);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_writeSamples, __pyx_t_7) < 0) __PYX_ERR(0, 1341, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1416
  *         # self.blockWritePhysicalSamples(dataOfOneSecond)
@@ -57317,11 +57329,11 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Writes an annotation/event to the file
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_73writeAnnotation, 0, __pyx_n_s_EdfWriter_writeAnnotation, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__205)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1416, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_4, __pyx_tuple__206);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_writeAnnotation, __pyx_t_4) < 0) __PYX_ERR(0, 1416, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_73writeAnnotation, 0, __pyx_n_s_EdfWriter_writeAnnotation, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__205)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1416, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_7, __pyx_tuple__206);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_writeAnnotation, __pyx_t_7) < 0) __PYX_ERR(0, 1416, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":1431
  *                 return write_annotation_latin1(self.handle, np.round(onset_in_seconds*10000).astype(int), -1, u(description).encode('latin1'))
@@ -57330,10 +57342,10 @@ if (!__Pyx_RefNanny) {
  *         """
  *         Closes the file.
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_75close, 0, __pyx_n_s_EdfWriter_close, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__207)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1431, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_7, __pyx_n_s_close_2, __pyx_t_4) < 0) __PYX_ERR(0, 1431, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_6edflib_7_edflib_9EdfWriter_75close, 0, __pyx_n_s_EdfWriter_close, NULL, __pyx_n_s_edflib__edflib, __pyx_d, ((PyObject *)__pyx_codeobj__207)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1431, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_close_2, __pyx_t_7) < 0) __PYX_ERR(0, 1431, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "edflib/_edflib.pyx":763
  * from datetime import datetime, date
@@ -57342,11 +57354,11 @@ if (!__Pyx_RefNanny) {
  *     def __exit__(self, exc_type, exc_val, ex_tb):
  *         self.close()  # cleanup the file
  */
-  __pyx_t_4 = __Pyx_Py3ClassCreate(__pyx_t_5, __pyx_n_s_EdfWriter, __pyx_t_9, __pyx_t_7, NULL, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 763, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_EdfWriter, __pyx_t_4) < 0) __PYX_ERR(0, 763, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_7 = __Pyx_Py3ClassCreate(__pyx_t_5, __pyx_n_s_EdfWriter, __pyx_t_9, __pyx_t_4, NULL, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 763, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_EdfWriter, __pyx_t_7) < 0) __PYX_ERR(0, 763, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
 

@@ -36,7 +36,7 @@ compare = np.array(
 )
 
 
-def test_write_sine_file():
+def test_write_sine_file() -> None:
     # define two sine waves
 
     ch0 = {

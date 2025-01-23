@@ -37,7 +37,7 @@ compare = np.array(
 # FILE_NAME2 = "/Users/clee/code/eegml/nk_database_proj/private/lpch_edfs/XA2731AX_1-1+.edf"
 
 
-def test_make_buffer():
+def test_make_buffer() -> None:
     assert os.path.isfile(FILE_NAME)
     with edfreader.EdfReader(FILE_NAME) as ef:
         drecbuf = ef.make_phys_datarecord_buffer()
@@ -58,7 +58,7 @@ def test_make_buffer():
     return None
 
 
-def test_raw_properties(fn=FILE_NAME):
+def test_raw_properties(fn: str=FILE_NAME) -> None:
     assert os.path.isfile(fn)
     with edfreader.EdfReader(fn) as ef:
         true_birthdate = b"30 jun 1969"
@@ -133,7 +133,7 @@ def test_raw_properties(fn=FILE_NAME):
             assert ef.physical_dimension_b(ch) == b"uV      "
 
 
-def test_print_raw_properties(fn=FILE_NAME):
+def test_print_raw_properties(fn: str=FILE_NAME) -> None:
     assert os.path.isfile(fn)
     with edfreader.EdfReader(fn) as ef:
         true_birthdate = b"30 jun 1969"
@@ -201,10 +201,18 @@ def test_print_raw_properties(fn=FILE_NAME):
             print(ef.physical_dimension(ch), "<-", ef.physical_dimension_b(ch))
 
 
-def test_read_annotations():
+def test_read_annotations() -> None:
     assert os.path.isfile(FILE_NAME)
     with edfreader.EdfReader(FILE_NAME) as ef:
         pprint(ef.read_annotations())
+
+def test_get_samples_per_signal() -> None:
+    assert os.path.isfile(FILE_NAME)
+    with edfreader.EdfReader(FILE_NAME) as ef:
+        sps = ef.get_samples_per_signal()
+        pprint(sps)
+        pprint(sps.shape)
+        pprint(sps.dtype)
 
 
 # I am not sure how to write this yet, so removing
@@ -214,13 +222,14 @@ def test_read_annotations():
 #         pprint(ef.read_annotations_as_array_b())
 
 
-def test_get_signal_text_labels():
+def test_get_signal_text_labels() -> None:
     assert os.path.isfile(FILE_NAME)
     with edfreader.EdfReader(FILE_NAME) as ef:
         pprint(ef.get_signal_text_labels())
 
 
-def test_file_duration_seconds():
+
+def test_file_duration_seconds() -> None:
     assert os.path.isfile(FILE_NAME)
     with edfreader.EdfReader(FILE_NAME) as ef:
         file_duration = ef.file_duration_seconds

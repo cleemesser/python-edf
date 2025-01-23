@@ -220,13 +220,13 @@ cdef class CyEdfReader:
         return self.hdr.edfsignals
 
     @property
-    def datarecords_in_file(self):
+    def datarecords_in_file(self) -> int:
         """number of data records type (long long int) """
         return self.hdr.datarecords_in_file
 
 
     @property
-    def file_duration_100ns(self):
+    def file_duration_100ns(self) -> int:
         """file duration in integer units of 100 nanoseconds"""
         return self.hdr.file_duration
 
@@ -345,37 +345,40 @@ cdef class CyEdfReader:
 
 
     # signal parameters
-    def signal_label_b(self, channel):
+    def signal_label_b(self, channel) -> bytes:
         return self.hdr.signalparam[channel].label
 
-    def samples_in_file(self,channel):
+    def samples_in_file(self,channel) -> int:  # long long int smp_in_file
         return self.hdr.signalparam[channel].smp_in_file
 
-    def samples_in_datarecord(self, channel):
+    def samples_in_datarecord(self, channel) -> int:
         return self.hdr.signalparam[channel].smp_in_datarecord
 
-    def physical_dimension_b(self, channel):
+    def physical_dimension_b(self, channel) -> bytes:  # char physdimension[9]
         return self.hdr.signalparam[channel].physdimension
 
-    def physical_max(self, channel):
+    def physical_max(self, channel) -> float: # double
         return self.hdr.signalparam[channel].phys_max
 
-    def physical_min(self, channel):
+    def physical_min(self, channel) -> float:
         return self.hdr.signalparam[channel].phys_min
 
-    def digital_max(self, channel):
+    def digital_max(self, channel) -> int: # C int dig_max
         return self.hdr.signalparam[channel].dig_max
 
-    def digital_min(self, channel):
+    def digital_min(self, channel) -> int:
         return self.hdr.signalparam[channel].dig_min
 
-    def prefilter(self, channel):
+    def prefilter(self, channel) -> bytes: # char prefilter[81]
         return self.hdr.signalparam[channel].prefilter
 
-    def transducer(self, channel):
+    def transducer(self, channel) -> bytes: #char transducer[81]
         return self.hdr.signalparam[channel].transducer
 
-    def samplefrequency(self, channel):
+    def samplefrequency(self, channel) -> float:
+        """returns a floating point approximation to the sampling frequency
+        for more exact calculations instead using the number of samples per data record
+        and also get the length of time each data record occupies"""
         return (<double>self.hdr.signalparam[channel].smp_in_datarecord / self.hdr.datarecord_duration) * EDFLIB_TIME_DIMENSION
 
     # def _tryoffset0(self):
@@ -396,16 +399,24 @@ cdef class CyEdfReader:
             edfclose_file(self.hdr.handle)
         self.hdr.handle = -1
 
-    def read_digital_signal(self, signalnum, start, n, np.int32_t[:] sigbuf):
+    def read_digital_signal(self, signalnum, start, n, np.int32_t[:] sigbuf) -> int:
        """
        read_digital_signal(self, signalnum, start, n, np.int32_t[:] sigbuf)
        read @n number of samples from signal number @signum starting at @start
-          into numpy int32 array @sigbuf sigbuf must be at least n long
+          into preallocated numpy int32 array @sigbuf
+          - sigbuf must be at least n long
+
+       returns @readn number of samples actually read
        """
        edfseek(self.hdr.handle, signalnum, start, EDFSEEK_SET)
        readn = read_int_samples(self.hdr.handle, signalnum, n, sigbuf)
-       if readn != n:
-           print("read %d, less than %d requested!!!" % (readn, n))
+
+       # probably should handle this better as it is not abnormal to read the end
+       # of a record
+       # if want to alert
+       # if readn != n:
+       #     print("read %d, less than %d requested!!!" % (readn, n))
+       return readn
 
     def read_phys_signal(self, signalnum, start, n, np.float64_t[:] sigbuf):
         """
@@ -418,9 +429,10 @@ cdef class CyEdfReader:
         edfseek(self.hdr.handle, signalnum, start, EDFSEEK_SET)
         readn = edfread_physical_samples(self.hdr.handle, signalnum, n, &sigbuf[0])
         # print("read %d samples" % readn)
-        if readn != n:
-            print("read %d, less than %d requested!!!" % (readn, n) )
+        # if readn != n:
+        #    print("read %d, less than %d requested!!!" % (readn, n) )
 
+        return readn
 
     def load_phys_datarecord(self, np.float64_t[:] db, n=0):
         """

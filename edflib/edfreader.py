@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
 # , unicode_literals
 from __future__ import print_function, division, absolute_import
+from typing import TYPE_CHECKING, Any, Self
+from numpy.typing import NDArray
+if TYPE_CHECKING:
+    import numpy.dtypes
+    import jaxtyping
+from typing import Self
 
 import datetime
 from builtins import range, super, bytes
@@ -11,37 +17,37 @@ DEFAULT_TEXT_ENCODING = "UTF-8"
 
 
 class EdfReader(_edflib.CyEdfReader):
-    def __init__(self, file_name, annotations_mode="all"):
+    def __init__(self: Self, file_name: str, annotations_mode: str="all") -> None:
         bytes_file_name = bytes(
             file_name, DEFAULT_TEXT_ENCODING
         )  # technically might need to be ascii
         super().__init__(file_name=bytes_file_name, annotations_mode=annotations_mode)
 
-    def __enter__(self):
+    def __enter__(self: Self) -> Self:
         return self
 
-    def __exit__(self, exc_type, exc_val, ex_tb):
+    def __exit__(self: Self, exc_type: None, exc_val: None, ex_tb: None) -> None:
         self._close()  # cleanup the file
 
     def close(self):  # should this function exist?
         self._close()
 
     # per channel functions
-    def signal_label(self, channel):
+    def signal_label(self: Self, channel: int) -> str:
         return self.signal_label_b(channel).decode(DEFAULT_TEXT_ENCODING).strip()
 
-    def physical_dimension(self, channel):
+    def physical_dimension(self: Self, channel: int) -> str:
         return self.physical_dimension_b(channel).decode(DEFAULT_TEXT_ENCODING).strip()
 
     # return arrays
 
-    def get_samples_per_signal(self):
+    def get_samples_per_signal(self: Self) -> NDArray[np.int64]:
         """return a numpy array with number of samples for each signal in the edf file"""
         return np.array(
             [self.samples_in_file(chn) for chn in range(self.signals_in_file)]
         )
 
-    def read_annotations(self):
+    def read_annotations(self: Self) -> list[list[float]]:
         annot = self.read_annotations_b()
         for ii in range(len(annot)):
             floatstr = annot[ii][1]
@@ -69,7 +75,7 @@ class EdfReader(_edflib.CyEdfReader):
             [self.samplefrequency(chn) for chn in range(self.signals_in_file)]
         )
 
-    def get_signal_text_labels(self):
+    def get_signal_text_labels(self: Self) -> list[str]:
         """
         get_signal_text_labels(self)
         get a list holding all of the channel labels
@@ -102,11 +108,11 @@ class EdfReader(_edflib.CyEdfReader):
         return self.gender_b.decode(DEFAULT_TEXT_ENCODING)
 
     @property
-    def birthdate(self):
+    def birthdate(self: Self) -> str:
         return self.birthdate_b.decode(DEFAULT_TEXT_ENCODING)
 
     @property
-    def birthdate_date(self):
+    def birthdate_date(self: Self) -> datetime.date:
         """returns the birthdate as a datetime.date() object if possible this expects a
         specific format for the birthday ex '09 apr 1999' so may not be robust,
         could use dateutil.parser instead but slower and would introduce another
@@ -126,32 +132,32 @@ class EdfReader(_edflib.CyEdfReader):
             return bday  # None
 
     @property
-    def patient_name(self):
+    def patient_name(self: Self) -> str:
         return self.patient_name_b.decode(DEFAULT_TEXT_ENCODING)
 
     @property
-    def patient(self):
+    def patient(self: Self) -> str:
         "patient field char[81] null term string. Is always empty when filetype is EDF+/BDF+"
         return self.patient_b.decode(DEFAULT_TEXT_ENCODING)
 
     @property
-    def patient_additional(self):
+    def patient_additional(self: Self) -> str:
         return self.patient_additional_b.decode(DEFAULT_TEXT_ENCODING).strip()
 
     @property
-    def admincode(self):
+    def admincode(self: Self) -> str:
         return self.admincode_b.decode(DEFAULT_TEXT_ENCODING)
 
     @property
-    def technician(self):
+    def technician(self: Self) -> str:
         return self.technician_b.decode(DEFAULT_TEXT_ENCODING)
 
     @property
-    def equipment(self):
+    def equipment(self: Self) -> str:
         return self.equipment_b.decode(DEFAULT_TEXT_ENCODING)
 
     @property
-    def recording_additional(self):
+    def recording_additional(self: Self) -> str:
         return self.recording_additional_b.decode(DEFAULT_TEXT_ENCODING)
 
     @property

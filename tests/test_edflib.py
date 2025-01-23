@@ -22,7 +22,7 @@ FILE_NAME = os.path.join(TESTDIR, FILE_NAME)
 TEXT_ENCODING = "UTF-8"
 
 
-def fileinfo(edf):
+def fileinfo(edf: _edflib.CyEdfReader) -> tuple[list[bytes], list[int]]:
     signal_labels = []
     signal_nsamples = []
 
@@ -44,7 +44,7 @@ def fileinfo(edf):
     return signal_labels, signal_nsamples
 
 
-def test_edflibpyx():
+def test_edflibpyx() -> None:
     bfile_name = FILE_NAME.encode(TEXT_ENCODING)
     with _edflib.CyEdfReader(bfile_name, TEXT_ENCODING) as efc:
         signal_labels, signal_nsamples = fileinfo(efc)

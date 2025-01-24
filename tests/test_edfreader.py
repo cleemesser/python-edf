@@ -221,7 +221,7 @@ def test_get_samples_per_signal() -> None:
         pprint(sps.dtype)
         assert np.all(
             sps
-            == array(
+            == np.array(
                 [
                     120000,
                     120000,

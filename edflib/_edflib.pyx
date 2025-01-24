@@ -299,42 +299,42 @@ cdef class CyEdfReader:
 
 
     @property
-    def annotations_in_file(self):
+    def annotations_in_file(self) -> int:
         return self.hdr.annotations_in_file
 
 
     @property
-    def birthdate_b(self):
+    def birthdate_b(self) -> bytes:
         """null-terminated string, is always empty when filetype is EDF or BDF"""
         return self.hdr.birthdate
 
     @property
-    def patient_name_b(self):
+    def patient_name_b(self) -> bytes:
         return self.hdr.patient_name
 
     @property
-    def patient_additional_b(self):
+    def patient_additional_b(self) -> bytes:
         return self.hdr.patient_additional
 
 
     @property
-    def admincode_b(self):
+    def admincode_b(self) -> bytes:
         return self.hdr.admincode
 
     @property
-    def technician_b(self):
+    def technician_b(self) -> bytes:
         return self.hdr.technician
 
     @property
-    def equipment_b(self):
+    def equipment_b(self) -> bytes:
         return self.hdr.equipment
 
     @property
-    def recording_additional_b(self):
+    def recording_additional_b(self) -> bytes:
         return self.hdr.recording_additional
 
     @property
-    def datarecord_duration_seconds(self):
+    def datarecord_duration_seconds(self) -> float:
         "datarecord duration in seconds (as a double)"
         return (<double>self.hdr.datarecord_duration) / EDFLIB_TIME_DIMENSION
 
@@ -370,9 +370,11 @@ cdef class CyEdfReader:
         return self.hdr.signalparam[channel].dig_min
 
     def prefilter(self, channel) -> bytes: # char prefilter[81]
+        # maybe this should be renamed to end in _b
         return self.hdr.signalparam[channel].prefilter
 
     def transducer(self, channel) -> bytes: #char transducer[81]
+        # maybe this should be renamed to end in _b
         return self.hdr.signalparam[channel].transducer
 
     def samplefrequency(self, channel) -> float:
@@ -418,7 +420,7 @@ cdef class CyEdfReader:
        #     print("read %d, less than %d requested!!!" % (readn, n))
        return readn
 
-    def read_phys_signal(self, signalnum, start, n, np.float64_t[:] sigbuf):
+    def read_phys_signal(self, signalnum, start, n, np.float64_t[:] sigbuf) -> int:
         """
         read_phys_signal(self, signalnum, start, n, np.float64_t[:] sigbuf)
         read @n number of samples from signal number @signum starting at

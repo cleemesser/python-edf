@@ -58,7 +58,7 @@ def test_make_buffer() -> None:
     return None
 
 
-def test_raw_properties(fn: str=FILE_NAME) -> None:
+def test_raw_properties(fn: str = FILE_NAME) -> None:
     assert os.path.isfile(fn)
     with edfreader.EdfReader(fn) as ef:
         true_birthdate = b"30 jun 1969"
@@ -133,7 +133,7 @@ def test_raw_properties(fn: str=FILE_NAME) -> None:
             assert ef.physical_dimension_b(ch) == b"uV      "
 
 
-def test_print_raw_properties(fn: str=FILE_NAME) -> None:
+def test_print_raw_properties(fn: str = FILE_NAME) -> None:
     assert os.path.isfile(fn)
     with edfreader.EdfReader(fn) as ef:
         true_birthdate = b"30 jun 1969"
@@ -204,7 +204,13 @@ def test_print_raw_properties(fn: str=FILE_NAME) -> None:
 def test_read_annotations() -> None:
     assert os.path.isfile(FILE_NAME)
     with edfreader.EdfReader(FILE_NAME) as ef:
-        pprint(ef.read_annotations())
+        # pprint(ef.read_annotations())
+        annots = ef.read_annotations()
+        assert type(annots) == list
+        # [[0.0, 0.0, 'Recording starts'], [600.0, 0.0, 'Recording ends']]
+        assert annots[0] == [0.0, 0.0, "Recording starts"]
+        assert annots[-1] == [600.0, 0.0, "Recording ends"]
+
 
 def test_get_samples_per_signal() -> None:
     assert os.path.isfile(FILE_NAME)
@@ -213,6 +219,24 @@ def test_get_samples_per_signal() -> None:
         pprint(sps)
         pprint(sps.shape)
         pprint(sps.dtype)
+        assert np.all(
+            sps
+            == array(
+                [
+                    120000,
+                    120000,
+                    120000,
+                    120000,
+                    120000,
+                    120000,
+                    120000,
+                    120000,
+                    120000,
+                    120000,
+                    120000,
+                ]
+            )
+        )
 
 
 # I am not sure how to write this yet, so removing
@@ -228,7 +252,6 @@ def test_get_signal_text_labels() -> None:
         pprint(ef.get_signal_text_labels())
 
 
-
 def test_file_duration_seconds() -> None:
     assert os.path.isfile(FILE_NAME)
     with edfreader.EdfReader(FILE_NAME) as ef:
@@ -238,6 +261,18 @@ def test_file_duration_seconds() -> None:
         file_duration_100ns = ef.file_duration_100ns
         assert isinstance(file_duration_100ns, (int, long))
         assert file_duration_100ns / 10**7 == file_duration
+
+
+def test_annotations_in_file() -> None:
+    with edfreader.EdfReader(FILE_NAME) as ef:
+        assert type(ef.annotations_in_file) == int
+        assert ef.annotations_in_file == 2
+
+
+def test_patientcode() -> None:
+    with edfreader.EdfReader(FILE_NAME) as ef:
+        assert type(ef.patientcode) == str
+        assert ef.patientcode == "12345678"
 
 
 if __name__ == "__main__":

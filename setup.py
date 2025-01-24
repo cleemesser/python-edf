@@ -26,11 +26,11 @@ else:  # 'linux' or 'darwin'
     include_dirs = ["src", "edflib", numpy.get_include()]
 
 ext_modules_edflib = Extension(
-    "edflib._edflib", # name of module
-    ["edflib/_edflib.c", "src/edflib.c"], # source files
-    library_dirs=["src"], # where to find any files
+    "edflib._edflib",  # name of module
+    ["edflib/_edflib.c", "src/edflib.c"],  # source files
+    library_dirs=["src"],  # where to find any files
     include_dirs=include_dirs,
-    define_macros=defines +[("NPY_NO_DEPRECATED_API", "NPY_1_7_API_VERSION")],
+    define_macros=defines + [("NPY_NO_DEPRECATED_API", "NPY_1_7_API_VERSION")],
     # extra_compile_args = ['-O2'  ],
     # extra_compile_args = ['-g'],
     # libraries=['m']

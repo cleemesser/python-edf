@@ -101,6 +101,13 @@ Change list
 2017-03 tweaks to api, python 3 working: will try for dual compatible code python 2.7 + python 3.5+ support
 2015-06 update to edflib 1.11
 
+Development notes
+-----------------
+To run righttyper (helps creating type annotations):
+```
+python3 -m righttyper --output-files --overwrite --infer-shapes -m pytest
+```
+
 packaging
 ---------
 

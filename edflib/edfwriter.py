@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*
 from __future__ import print_function, division, absolute_import
 from typing import TYPE_CHECKING, Self
+
 if TYPE_CHECKING:
     import _cython_3_0_11
 from builtins import range
@@ -12,7 +13,7 @@ DEFAULT_TEXT_ENCODING = "UTF-8"
 
 
 class EdfWriter(object):
-    def tb(self: Self, x: int) -> bytes|int:
+    def tb(self: Self, x: int) -> bytes | int:
         "general to bytes function"
         if hasattr(x, "encode"):
             return x.encode(self.TEXT_ENCODING)
@@ -23,7 +24,11 @@ class EdfWriter(object):
         self.close()
 
     def __init__(
-        self: Self, file_name: str, channel_info: list[dict[str, int]], file_type: int=_edflib.FILETYPE_EDFPLUS, **kwargs: None
+        self: Self,
+        file_name: str,
+        channel_info: list[dict[str, int]],
+        file_type: int = _edflib.FILETYPE_EDFPLUS,
+        **kwargs: None,
     ) -> None:
         """Initialises an EDF file at @file_name.
         @file_type is one of
@@ -77,7 +82,9 @@ class EdfWriter(object):
             _edflib.close_file(self.handle)
 
     def _init_constants(self: Self, **kwargs: None) -> None:
-        def call_if_set(fn: "_cython_3_0_11.cython_function_or_method", kw_name: str) -> None:
+        def call_if_set(
+            fn: "_cython_3_0_11.cython_function_or_method", kw_name: str
+        ) -> None:
             item = kwargs.pop(kw_name, None)
             if item is not None:
                 fn(self.handle, item)
@@ -111,7 +118,11 @@ class EdfWriter(object):
 
         print("channels::\n", repr(channels))
 
-        def call_per_channel(fn: "_cython_3_0_11.cython_function_or_method", name: str, optional: bool=False) -> None:
+        def call_per_channel(
+            fn: "_cython_3_0_11.cython_function_or_method",
+            name: str,
+            optional: bool = False,
+        ) -> None:
             for i, c in enumerate(channels):
                 if optional and not name in c:
                     continue

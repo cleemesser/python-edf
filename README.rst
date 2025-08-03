@@ -88,24 +88,23 @@ Related Projects
 
 Change list
 -----------
-2024-12-16 0.86 series with switch to memory views, numpy 2.0 compatibilty + packaging
+- 2024-12-16 0.86 series with switch to memory views, numpy 2.0 compatibilty + packaging
            This version passes tests but with the switch is more a beta
 
-2020-05-11 0.82 fix missing edf.pxi file in MANIFEST.in
-2020-05-11 0.81 transition to github given sunsetting of mercurial support on bithbucket
-2018-10-08 created mirror of code on github at https://github.com/cleemesser/python-edf
-2018-10-08 added wraps for writing shorts, bump edflib version to 116
-2018-02-15 noted that edflib.h not included in source package added to extension file list for 0.74
-2017-03-22 added bitbucket-piplines.yml and got integration tests running
-2017-03-22 update properties to modern (python 3) syntax in _edflib. Make distinction clear. Add tests.
-2017-03 tweaks to api, python 3 working: will try for dual compatible code python 2.7 + python 3.5+ support
-2015-06 update to edflib 1.11
+- 2020-05-11 0.82 fix missing edf.pxi file in MANIFEST.in
+- 2020-05-11 0.81 transition to github given sunsetting of mercurial support on bithbucket
+- 2018-10-08 created mirror of code on github at https://github.com/cleemesser/python-edf
+- 2018-10-08 added wraps for writing shorts, bump edflib version to 116
+- 2018-02-15 noted that edflib.h not included in source package added to extension file list for 0.74
+- 2017-03-22 added bitbucket-piplines.yml and got integration tests running
+- 2017-03-22 update properties to modern (python 3) syntax in _edflib. Make distinction clear. Add tests.
+- 2017-03 tweaks to api, python 3 working: will try for dual compatible code python 2.7 + python 3.5+ support
+- 2015-06 update to edflib 1.11
 
 packaging
 ---------
 
 Install/Packing Status:
-
 
   pip install edflib  # works to install edflib 0.84.1 from source distribution
 
